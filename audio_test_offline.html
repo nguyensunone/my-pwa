@@ -146,8 +146,6 @@
 <button id="toggleModeButton" onclick="toggleMode()">Chế độ: Theo Thứ Tự</button>
 <button id="studyDifficultButton" onclick="studyDifficultWords()">Học câu khó</button>
 <button id="exportDifficultButton" onclick="exportDifficultWords()">Xuất câu khó</button>
-<button id="slowButton">Phát Chậm</button>
-<button id="normalButton">Phát Bình Thường</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
@@ -164,58 +162,6 @@
     let currentPronunciationText = '';
     let isRandomMode = false; // Mặc định là chế độ theo thứ tự
     let audioMapping = []; // Lưu trữ thông tin âm thanh từ file JSON
-    let audioContext;
-let source;
-let playbackRate = 1.0; // Tốc độ phát mặc định
-
-function playPronunciation(text) {
-    if (audio) {
-        audio.stop(); // Dừng âm thanh hiện tại nếu đang phát
-    }
-
-    const audioEntry = audioMapping.find(item => item.text === text);
-    if (audioEntry) {
-        // Tạo AudioContext nếu chưa có
-        if (!audioContext) {
-            audioContext = new (window.AudioContext || window.webkitAudioContext)();
-        }
-
-        // Tải file âm thanh
-        fetch(audioEntry.file)
-            .then(response => response.arrayBuffer())
-            .then(arrayBuffer => audioContext.decodeAudioData(arrayBuffer))
-            .then(audioBuffer => {
-                source = audioContext.createBufferSource();
-                source.buffer = audioBuffer;
-                source.playbackRate.value = playbackRate; // Đặt tốc độ phát
-                source.connect(audioContext.destination);
-                source.start(0);
-
-                // Lưu lại âm thanh hiện tại
-                currentPronunciationText = text;
-            })
-            .catch(error => console.error("Lỗi khi tải hoặc phát âm thanh:", error));
-    } else {
-        console.log("Không tìm thấy file âm thanh cho từ:", text);
-    }
-}
-
-// Hàm thay đổi tốc độ phát
-function setPlaybackRate(rate) {
-    playbackRate = rate;
-    if (source) {
-        source.playbackRate.value = playbackRate;
-    }
-}
-
-// Thêm nút để thay đổi tốc độ phát
-document.getElementById('slowButton').addEventListener('click', () => {
-    setPlaybackRate(0.75); // Phát chậm 75% tốc độ bình thường
-});
-
-document.getElementById('normalButton').addEventListener('click', () => {
-    setPlaybackRate(1.0); // Phát bình thường
-});
 
 // Đọc file audio_mapping.json khi trang được tải
 fetch('audio_mapping.json')
@@ -343,7 +289,36 @@ fetch('audio_mapping.json')
     }
     updateQuestionCounter(); // Cập nhật số câu hỏi mỗi lần hiển thị
 }
-    
+
+    function playPronunciation(text) {
+    currentPronunciationText = text; // Lưu lại câu vừa phát âm
+    if (audio) {
+        audio.stop(); // Dừng âm thanh nếu đang chơi
+    }
+
+    // Tìm file âm thanh tương ứng trong audioMapping
+    const audioEntry = audioMapping.find(item => item.text === text);
+    if (audioEntry) {
+        audio = new Howl({
+            src: [audioEntry.file],
+            html5: true,
+            onend: function () {
+                // Khi âm thanh đã hoàn thành
+                if (autoFlip) {
+                    autoFlipLogic();
+                }
+            },
+            onloaderror: function () {
+                console.log("Lỗi phát âm thanh từ file local.");
+            }
+        });
+
+        audio.play();
+    } else {
+        console.log("Không tìm thấy file âm thanh cho từ:", text);
+    }
+}
+
     function repeatPronunciation() {
     if (currentPronunciationText) {
         playPronunciation(currentPronunciationText);
