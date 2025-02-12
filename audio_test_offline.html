@@ -320,10 +320,15 @@ fetch('audio_mapping.json')
 }
 
     function repeatPronunciation() {
-        if (currentPronunciationText) {
-            playPronunciation(currentPronunciationText);
-        }
+    if (currentPronunciationText) {
+        playPronunciation(currentPronunciationText);
+    } else {
+        // Nếu không có âm thanh hiện tại, phát âm thanh của từ hoặc câu hiện tại
+        const word = vocabList[currentIndex];
+        const textToPlay = isFront ? word[0] : word[3];
+        playPronunciation(textToPlay);
     }
+}
 
     function autoFlipLogic() {
         autoFlipTimeout = setTimeout(() => {
@@ -365,9 +370,13 @@ fetch('audio_mapping.json')
     }
 
     function flipCard() {
-        isFront = !isFront;
-        displayWord();
-    }
+    isFront = !isFront;
+    displayWord();
+
+    // Cập nhật âm thanh hiện tại khi lật thẻ
+    const word = vocabList[currentIndex];
+    currentPronunciationText = isFront ? word[0] : word[3];
+}
 
     function flipCardToBack() {
         isFront = false; // Chuyển sang mặt sau
@@ -396,89 +405,78 @@ fetch('audio_mapping.json')
     }
 
     function checkAnswer() {
-        const userAnswer = removePunctuation(document.getElementById('answerInput').value.toString().trim().toLowerCase());
-        const word = vocabList[currentIndex];
-        const correctAnswer = removePunctuation((isFront ? word[0] : word[3]).toString().trim().toLowerCase());
+    const userAnswer = removePunctuation(document.getElementById('answerInput').value.toString().trim().toLowerCase());
+    const word = vocabList[currentIndex];
+    const correctAnswer = removePunctuation((isFront ? word[0] : word[3]).toString().trim().toLowerCase());
 
-        if (userAnswer === correctAnswer) {
-            showNotification("Đúng!", true);
-            if (isFront) {
-                flipCard();
-            } else {
-                nextWord();
-            }
+    if (userAnswer === correctAnswer) {
+        showNotification("Đúng!", true);
+        if (isFront) {
+            flipCard();
         } else {
-            showNotification("Sai!", false);
-            playPronunciation(correctAnswer);
-
-            // Tăng số lần sai của từ hiện tại
-            const currentWordKey = word.join('|'); // Tạo key duy nhất cho từ
-            mistakeCount[currentWordKey] = (mistakeCount[currentWordKey] || 0) + 1;
-
-            // Nếu số lần sai đạt ngưỡng (ví dụ: 2 lần), đánh dấu từ là khó
-            if (mistakeCount[currentWordKey] >= 2) {
-                markAsDifficult(word);
-            }
+            nextWord();
         }
+    } else {
+        showNotification("Sai!", false);
+        // Phát âm thanh của câu trả lời đúng khi trả lời sai
+        playPronunciation(correctAnswer);
 
-        // Xóa nội dung trong khung nhập liệu sau khi kiểm tra
-        document.getElementById('answerInput').value = '';
+        // Tăng số lần sai của từ hiện tại
+        const currentWordKey = word.join('|'); // Tạo key duy nhất cho từ
+        mistakeCount[currentWordKey] = (mistakeCount[currentWordKey] || 0) + 1;
+
+        // Nếu số lần sai đạt ngưỡng (ví dụ: 2 lần), đánh dấu từ là khó
+        if (mistakeCount[currentWordKey] >= 2) {
+            markAsDifficult(word);
+        }
     }
+
+    // Xóa nội dung trong khung nhập liệu sau khi kiểm tra
+    document.getElementById('answerInput').value = '';
+}
 
     function checkAnswerBack() {
-        const currentExample = removePunctuation(vocabList[currentIndex][3].toString().trim().toLowerCase());
-        const userAnswerBack = removePunctuation(document.getElementById("writingCheckBack").value.trim().toLowerCase());
+    const currentExample = removePunctuation(vocabList[currentIndex][3].toString().trim().toLowerCase());
+    const userAnswerBack = removePunctuation(document.getElementById("writingCheckBack").value.trim().toLowerCase());
 
-        document.getElementById("writingCheckBack").value = ""; // Xóa câu trả lời cũ
+    document.getElementById("writingCheckBack").value = ""; // Xóa câu trả lời cũ
 
-        if (userAnswerBack === currentExample) {
-            showNotification("Đúng!", true);
+    if (userAnswerBack === currentExample) {
+        showNotification("Đúng!", true);
 
-            // Hiển thị câu trả lời đúng
-            document.getElementById('vocabLabel').innerHTML = `
-                <div class="card">
-                    <span class="example">${vocabList[currentIndex][3]}</span><br>
-                    <span class="example_ipa">${vocabList[currentIndex][4]}</span><br>
-                    <span class="example_vi">${vocabList[currentIndex][5]}</span>
-                </div>
-            `;
+        // Hiển thị câu trả lời đúng
+        document.getElementById('vocabLabel').innerHTML = `
+            <div class="card">
+                <span class="example">${vocabList[currentIndex][3]}</span><br>
+                <span class="example_ipa">${vocabList[currentIndex][4]}</span><br>
+                <span class="example_vi">${vocabList[currentIndex][5]}</span>
+            </div>
+        `;
 
-            // Phát âm câu trả lời đúng
-            playPronunciation(vocabList[currentIndex][3]);
+        // Phát âm câu trả lời đúng
+        playPronunciation(vocabList[currentIndex][3]);
 
-            // Đợi 3 giây trước khi chuyển sang từ tiếp theo
-            setTimeout(() => {
-                nextWord();
-            }, 3000); // 3000 milliseconds = 3 giây
-        } else {
-            showNotification("Sai!", false);
-             // Hiển thị câu trả lời đúng
-            document.getElementById('vocabLabel').innerHTML = `
-                <div class="card">
-                    <span class="example">${vocabList[currentIndex][3]}</span><br>
-                    <span class="example_ipa">${vocabList[currentIndex][4]}</span><br>
-                    <span class="example_vi">${vocabList[currentIndex][5]}</span>
-                </div>
-            `;
+        // Đợi 3 giây trước khi chuyển sang từ tiếp theo
+        setTimeout(() => {
+            nextWord();
+        }, 3000); // 3000 milliseconds = 3 giây
+    } else {
+        showNotification("Sai!", false);
+        flipCardToBack(); // Hiển thị mặt sau nếu câu trả lời sai
 
-            // Phát âm câu trả lời đúng
-            playPronunciation(vocabList[currentIndex][3]);
+        // Phát âm thanh của câu trả lời đúng khi trả lời sai
+        playPronunciation(vocabList[currentIndex][3]);
 
-            // Đợi 3 giây trước khi chuyển sang từ tiếp theo
-            setTimeout(() => {
-                nextWord();
-            }, 3000); // 3000 milliseconds = 3 giây
+        // Tăng số lần sai của từ hiện tại (mặt sau)
+        const currentWordKey = vocabList[currentIndex].join('|'); // Tạo key duy nhất cho từ
+        mistakeCount[currentWordKey] = (mistakeCount[currentWordKey] || 0) + 1;
 
-            // Tăng số lần sai của từ hiện tại (mặt sau)
-            const currentWordKey = vocabList[currentIndex].join('|'); // Tạo key duy nhất cho từ
-            mistakeCount[currentWordKey] = (mistakeCount[currentWordKey] || 0) + 1;
-
-            // Nếu số lần sai đạt ngưỡng (ví dụ: 2 lần), đánh dấu từ là khó
-            if (mistakeCount[currentWordKey] >= 2) {
-                markAsDifficult(vocabList[currentIndex]);
-            }
+        // Nếu số lần sai đạt ngưỡng (ví dụ: 2 lần), đánh dấu từ là khó
+        if (mistakeCount[currentWordKey] >= 2) {
+            markAsDifficult(vocabList[currentIndex]);
         }
     }
+}
 
     function markAsDifficult(word) {
         if (!difficultWords.some(w => w.join('|') === word.join('|'))) {
