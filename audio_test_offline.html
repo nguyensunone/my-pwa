@@ -453,13 +453,7 @@ fetch('audio_mapping.json')
         } else {
             showNotification("Sai!", false);
             flipCardToBack(); // Hiển thị mặt sau nếu câu trả lời sai
-            // Phát âm câu trả lời đúng
-            playPronunciation(vocabList[currentIndex][3]);
-
-            // Đợi 3 giây trước khi chuyển sang từ tiếp theo
-            setTimeout(() => {
-                nextWord();
-            }, 3000); // 3000 milliseconds = 3 giây
+            playPronunciation(currentExample); // Phát âm thanh của câu trả lời đúng
 
             // Tăng số lần sai của từ hiện tại (mặt sau)
             const currentWordKey = vocabList[currentIndex].join('|'); // Tạo key duy nhất cho từ
