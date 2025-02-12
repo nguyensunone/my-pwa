@@ -4,12 +4,20 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/manifest.json',
-                '/service-worker.js',
-                '/audio_test_offline.html'  // Thêm tệp HTML của bạn vào danh sách cache
+                '/audio_test_offline.html',
+                '/audio_files/sample-audio.mp3',  // Thêm tất cả các tệp âm thanh cần thiết
+                '/audio_files/another-audio.mp3',
+                '/audio-mapping.json',  // Thêm tệp audio-mapping.json
+                // Thêm các tệp khác nếu cần thiết
             ]);
         })
     );
 });
 
-self
+self.addEventListener('fetch', function(event) {
+    event.respondWith(
+        caches.match(event.request).then(function(response) {
+            return response || fetch(event.request);
+        })
+    );
+});
