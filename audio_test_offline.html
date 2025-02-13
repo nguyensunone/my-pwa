@@ -163,6 +163,18 @@
     let isRandomMode = false; // Mặc định là chế độ theo thứ tự
     let audioMapping = []; // Lưu trữ thông tin âm thanh từ file JSON
 
+fetch('https://github.com/nguyensunone/my-pwa/blob/main/TQT_100.xlsx')
+  .then(response => response.arrayBuffer())
+  .then(data => {
+    var workbook = XLSX.read(data, { type: 'array' });
+    var sheetName = workbook.SheetNames[0];
+    var worksheet = workbook.Sheets[sheetName];
+    var jsonData = XLSX.utils.sheet_to_json(worksheet);
+    console.log(jsonData);
+    // Xử lý dữ liệu từ tệp Excel theo nhu cầu của bạn
+  })
+  .catch(error => console.error('Error fetching or processing Excel file:', error));
+
 // Đọc file audio_mapping.json khi trang được tải
 fetch('audio_mapping.json')
     .then(response => response.json())
