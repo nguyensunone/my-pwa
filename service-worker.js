@@ -8,6 +8,7 @@ self.addEventListener('install', function(event) {
                 '/audio_files/sample-audio.mp3',  // Thêm tất cả các tệp âm thanh cần thiết
                 '/audio_files/another-audio.mp3',
                 '/audio-mapping.json',  // Thêm tệp audio-mapping.json
+                '/TQT_100.xlsx' // Thêm tệp TQT_100.xlsx
                 // Thêm các tệp khác nếu cần thiết
             ]);
         })
