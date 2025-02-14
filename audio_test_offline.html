@@ -222,6 +222,9 @@
             case 'ArrowUp': // Space
                 repeatPronunciation();
                 break;
+            case 'End': // Phím End
+                startSpeechRecognition();
+                break;
             default:
                 break;
         }
@@ -599,7 +602,7 @@
         }
 
         recognition = new webkitSpeechRecognition();
-        recognition.lang = 'en-US'; // Đặt ngôn ngữ nhận diện là tiếng Việt
+        recognition.lang = 'en-US'; // Đặt ngôn ngữ nhận diện là tiếng Anh
         recognition.interimResults = false;
         recognition.maxAlternatives = 1;
 
@@ -628,24 +631,21 @@
 
     function checkSpeechAnswer(speechResult) {
         const word = vocabList[currentIndex];
-        const correctAnswer = removePunctuation((isFront ? word[0] : word[3]).toString().trim().toLowerCase());
+        const correctAnswer = removePunctuation(word[3].toString().trim().toLowerCase()); // Luôn so sánh với câu trả lời mặt sau
         const userAnswer = removePunctuation(speechResult.trim().toLowerCase());
 
         if (userAnswer === correctAnswer) {
             showNotification("Đúng!", true);
-            if (isFront) {
-                flipCard();
-            } else {
-                nextWord();
-            }
+            nextWord(); // Chuyển sang từ tiếp theo
         } else {
             showNotification("Sai!", false);
-            playPronunciation(correctAnswer);
+            playPronunciation(correctAnswer); // Phát âm thanh của câu trả lời đúng
 
             // Tăng số lần sai của từ hiện tại
             const currentWordKey = word.join('|');
             mistakeCount[currentWordKey] = (mistakeCount[currentWordKey] || 0) + 1;
 
+            // Nếu số lần sai đạt ngưỡng (ví dụ: 2 lần), đánh dấu từ là khó
             if (mistakeCount[currentWordKey] >= 2) {
                 markAsDifficult(word);
             }
