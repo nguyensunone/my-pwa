@@ -3,12 +3,12 @@ const CACHE_NAME = 'my-pwa-cache-v1';
 
 // Danh sách file cần cache
 const urlsToCache = [
-    'index.html',
-    'manifest.json',
-    'icon-192x192.png',
-    'audio_test_offline.html',
-    'audio_files/another-audio.mp3',
-    'audio-mapping.json'
+    './index.html',
+    './manifest.json',
+    './icon-192x192.png',
+    './audio_test_offline.html',
+    './audio_files/another-audio.mp3',
+    './audio-mapping.json'
 ];
 
 // Sự kiện cài đặt Service Worker
