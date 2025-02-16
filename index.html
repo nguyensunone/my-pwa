@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My PWA</title>
-
-    <!-- Link đến Manifest -->
-    <link rel="manifest" href="/nguyensunone.github.io/manifest.json">
-    
-    <!-- Link đến Favicon -->
-    <link rel="icon" href="/icon-192x192.png" type="image/png">
-
+    <link rel="manifest" href="manifest.json">
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
     </style>
@@ -19,13 +13,13 @@
     <h1>Welcome to My PWA</h1>
     <p>This is a simple Progressive Web App.</p>
     <a href="audio_test_offline.html">Go to Audio Test Page</a>
-
     <script>
-        // Kiểm tra và đăng ký Service Worker
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js')
-                .then(reg => console.log('Service Worker registered:', reg))
-                .catch(err => console.log('Service Worker registration failed:', err));
+            navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+                console.log('Service Worker registered with scope:', registration.scope);
+            }).catch(function(error) {
+                console.log('Service Worker registration failed:', error);
+            });
         }
     </script>
 </body>
