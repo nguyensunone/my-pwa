@@ -5,32 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My PWA</title>
 
-    <!-- PWA Manifest trực tiếp trong <script> -->
-    <script>
-        const manifest = {
-            "name": "My App",
-            "short_name": "App",
-            "start_url": "index.html",
-            "display": "standalone",
-            "background_color": "#ffffff",
-            "theme_color": "#000000",
-            "icons": [
-                {
-                    "src": "icon-192x192.png",
-                    "sizes": "192x192",
-                    "type": "image/png"
-                }
-            ]
-        };
-
-        // Tạo file manifest ngay trong trình duyệt
-        const blob = new Blob([JSON.stringify(manifest)], { type: "application/json" });
-        const manifestURL = URL.createObjectURL(blob);
-        const link = document.createElement("link");
-        link.rel = "manifest";
-        link.href = manifestURL;
-        document.head.appendChild(link);
-    </script>
+    <!-- Link đến Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Link đến Favicon (Icon hiển thị trên tab trình duyệt) -->
+    <link rel="icon" href="icon-192x192.png" type="image/png">
 
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
@@ -42,37 +21,9 @@
     <a href="audio_test_offline.html">Go to Audio Test Page</a>
 
     <script>
-        // Tích hợp Service Worker trực tiếp
-        const swScript = `
-            self.addEventListener('install', function(event) {  
-                event.waitUntil(  
-                    caches.open('my-pwa-cache').then(function(cache) {  
-                        return cache.addAll([
-                            'index.html',  
-                            'audio_test_offline.html',
-                            'icon-192x192.png',
-                            'audio_files/another-audio.mp3',
-                            'audio-mapping.json'
-                        ]);  
-                    })  
-                );  
-            });
-
-            self.addEventListener('fetch', function(event) {
-                event.respondWith(
-                    caches.match(event.request).then(function(response) {
-                        return response || fetch(event.request);
-                    })
-                );
-            });
-        `;
-
-        // Tạo và đăng ký service worker ngay trong trình duyệt
-        const blobSW = new Blob([swScript], { type: "text/javascript" });
-        const swURL = URL.createObjectURL(blobSW);
-
+        // Kiểm tra và đăng ký Service Worker
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register(swURL)
+            navigator.serviceWorker.register('service-worker.js')
                 .then(reg => console.log('Service Worker registered:', reg))
                 .catch(err => console.log('Service Worker registration failed:', err));
         }
