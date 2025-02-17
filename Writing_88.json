@@ -1,0 +1,794 @@
+[
+    [
+        "George Washington was the first President.",
+        "/ʤɔrʤ ˈwɑʃɪŋtən wəz ðə fɜrst ˈprɛzɪdənt./",
+        "George Washington là vị Tổng thống đầu tiên.",
+        "George Washington was the first President.",
+        "/ʤɔrʤ ˈwɑʃɪŋtən wəz ðə fɜrst ˈprɛzɪdənt./",
+        "George Washington là vị Tổng thống đầu tiên.",
+        1
+    ],
+    [
+        "The United States has 50 states.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ˈfɪf.ti steɪts./",
+        "Hoa Kỳ có 50 tiểu bang.",
+        "The United States has 50 states.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ˈfɪf.ti steɪts./",
+        "Hoa Kỳ có 50 tiểu bang.",
+        2
+    ],
+    [
+        "The American flag is red, white, and blue.",
+        "/ði əˈmɛr.ɪ.kən flæɡ ɪz rɛd, waɪt, ænd bluː./",
+        "Lá cờ Mỹ có màu đỏ, trắng và xanh dương.",
+        "The American flag is red, white, and blue.",
+        "/ði əˈmɛr.ɪ.kən flæɡ ɪz rɛd, waɪt, ænd bluː./",
+        "Lá cờ Mỹ có màu đỏ, trắng và xanh dương.",
+        3
+    ],
+    [
+        "The White House is in Washington, D.C.",
+        "/ðə waɪt haʊs ɪz ɪn ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Nhà Trắng nằm ở Washington, D.C.",
+        "The White House is in Washington, D.C.",
+        "/ðə waɪt haʊs ɪz ɪn ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Nhà Trắng nằm ở Washington, D.C.",
+        4
+    ],
+    [
+        "We pay taxes to the government.",
+        "/wi peɪ ˈtæksɪz tu ðə ˈɡʌvərnmənt./",
+        "Chúng ta nộp thuế cho chính phủ.",
+        "We pay taxes to the government.",
+        "/wi peɪ ˈtæksɪz tu ðə ˈɡʌvərnmənt./",
+        "Chúng ta nộp thuế cho chính phủ.",
+        5
+    ],
+    [
+        "Citizens can vote in elections.",
+        "/ˈsɪtɪzənz kæn voʊt ɪn ɪˈlɛkʃənz./",
+        "Công dân có thể bỏ phiếu trong các cuộc bầu cử.",
+        "Citizens can vote in elections.",
+        "/ˈsɪtɪzənz kæn voʊt ɪn ɪˈlɛkʃənz./",
+        "Công dân có thể bỏ phiếu trong các cuộc bầu cử.",
+        6
+    ],
+    [
+        "The President lives in the White House.",
+        "/ðə ˈprɛzɪdənt lɪvz ɪn ðə waɪt haʊs./",
+        "Tổng thống sống trong Nhà Trắng.",
+        "The President lives in the White House.",
+        "/ðə ˈprɛzɪdənt lɪvz ɪn ðə waɪt haʊs./",
+        "Tổng thống sống trong Nhà Trắng.",
+        7
+    ],
+    [
+        "Independence Day is in July.",
+        "/ˌɪndɪˈpɛndəns deɪ ɪz ɪn ʤuˈlaɪ./",
+        "Ngày Độc lập rơi vào tháng Bảy.",
+        "Independence Day is in July.",
+        "/ˌɪndɪˈpɛndəns deɪ ɪz ɪn ʤuˈlaɪ./",
+        "Ngày Độc lập rơi vào tháng Bảy.",
+        8
+    ],
+    [
+        "The United States is a democracy.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz ə dɪˈmɑː.krə.si./",
+        "Hoa Kỳ là một nền dân chủ.",
+        "The United States is a democracy.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz ə dɪˈmɑː.krə.si./",
+        "Hoa Kỳ là một nền dân chủ.",
+        9
+    ],
+    [
+        "The American flag has 50 stars.",
+        "/ði əˈmɛr.ɪ.kən flæɡ hæz ˈfɪf.ti stɑrz./",
+        "Lá cờ Mỹ có 50 ngôi sao.",
+        "The American flag has 50 stars.",
+        "/ði əˈmɛr.ɪ.kən flæɡ hæz ˈfɪf.ti stɑrz./",
+        "Lá cờ Mỹ có 50 ngôi sao.",
+        10
+    ],
+    [
+        "Thanksgiving is in November.",
+        "/ˌθæŋksˈɡɪvɪŋ ɪz ɪn noʊˈvɛmbər./",
+        "Lễ Tạ ơn rơi vào tháng Mười Một.",
+        "Thanksgiving is in November.",
+        "/ˌθæŋksˈɡɪvɪŋ ɪz ɪn noʊˈvɛmbər./",
+        "Lễ Tạ ơn rơi vào tháng Mười Một.",
+        11
+    ],
+    [
+        "The U.S. Constitution is the supreme law.",
+        "/ðə juːˈɛs ˌkɑnstɪˈtuːʃən ɪz ðə suːˈpriːm lɔ./",
+        "Hiến pháp Hoa Kỳ là luật tối cao.",
+        "The U.S. Constitution is the supreme law.",
+        "/ðə juːˈɛs ˌkɑnstɪˈtuːʃən ɪz ðə suːˈpriːm lɔ./",
+        "Hiến pháp Hoa Kỳ là luật tối cao.",
+        12
+    ],
+    [
+        "Freedom of speech is important.",
+        "/ˈfriː.dəm ʌv spiːʧ ɪz ɪmˈpɔr.tənt./",
+        "Tự do ngôn luận rất quan trọng.",
+        "Freedom of speech is important.",
+        "/ˈfriː.dəm ʌv spiːʧ ɪz ɪmˈpɔr.tənt./",
+        "Tự do ngôn luận rất quan trọng.",
+        13
+    ],
+    [
+        "The President is elected in November.",
+        "/ðə ˈprɛzɪdənt ɪz ɪˈlɛktɪd ɪn noʊˈvɛmbər./",
+        "Tổng thống được bầu vào tháng Mười Một.",
+        "The President is elected in November.",
+        "/ðə ˈprɛzɪdənt ɪz ɪˈlɛktɪd ɪn noʊˈvɛmbər./",
+        "Tổng thống được bầu vào tháng Mười Một.",
+        14
+    ],
+    [
+        "The United States has three branches of government.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz θri ˈbræn.tʃɪz ʌv ˈɡʌv.ərn.mənt./",
+        "Hoa Kỳ có ba nhánh chính phủ.",
+        "The United States has three branches of government.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz θri ˈbræn.tʃɪz ʌv ˈɡʌv.ərn.mənt./",
+        "Hoa Kỳ có ba nhánh chính phủ.",
+        15
+    ],
+    [
+        "The Declaration of Independence was written in 1776.",
+        "/ðə ˌdɛkləˈreɪ.ʃən ʌv ˌɪndɪˈpɛndəns wəz ˈrɪtən ɪn ˈsɛv.ənˌtiːn ˈsɛv.ən.tiː.sɪks./",
+        "Tuyên ngôn Độc lập được viết vào năm 1776.",
+        "The Declaration of Independence was written in 1776.",
+        "/ðə ˌdɛkləˈreɪ.ʃən ʌv ˌɪndɪˈpɛndəns wəz ˈrɪtən ɪn ˈsɛv.ənˌtiːn ˈsɛv.ən.tiː.sɪks./",
+        "Tuyên ngôn Độc lập được viết vào năm 1776.",
+        16
+    ],
+    [
+        "Abraham Lincoln freed the slaves.",
+        "/ˈeɪ.brəˌhæm ˈlɪŋ.kən frid ðə sleɪvz./",
+        "Abraham Lincoln đã giải phóng nô lệ.",
+        "Abraham Lincoln freed the slaves.",
+        "/ˈeɪ.brəˌhæm ˈlɪŋ.kən frid ðə sleɪvz./",
+        "Abraham Lincoln đã giải phóng nô lệ.",
+        17
+    ],
+    [
+        "The Civil War ended slavery.",
+        "/ðə ˈsɪv.əl wɔr ˈɛndɪd ˈsleɪ.vər.i./",
+        "Nội chiến đã chấm dứt chế độ nô lệ.",
+        "The Civil War ended slavery.",
+        "/ðə ˈsɪv.əl wɔr ˈɛndɪd ˈsleɪ.vər.i./",
+        "Nội chiến đã chấm dứt chế độ nô lệ.",
+        18
+    ],
+    [
+        "The Liberty Bell is in Philadelphia.",
+        "/ðə ˈlɪbərti bɛl ɪz ɪn ˌfɪləˈdɛlfiə./",
+        "Chuông Tự do nằm ở Philadelphia.",
+        "The Liberty Bell is in Philadelphia.",
+        "/ðə ˈlɪbərti bɛl ɪz ɪn ˌfɪləˈdɛlfiə./",
+        "Chuông Tự do nằm ở Philadelphia.",
+        19
+    ],
+    [
+        "Congress meets in Washington, D.C.",
+        "/ˈkɑːŋ.ɡrəs miːts ɪn ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Quốc hội họp tại Washington, D.C.",
+        "Congress meets in Washington, D.C.",
+        "/ˈkɑːŋ.ɡrəs miːts ɪn ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Quốc hội họp tại Washington, D.C.",
+        20
+    ],
+    [
+        "The U.S. flag has 13 stripes.",
+        "/ðə juːˈɛs flæɡ hæz ˈθɜːr.tiːn straɪps./",
+        "Lá cờ Mỹ có 13 sọc.",
+        "The U.S. flag has 13 stripes.",
+        "/ðə juːˈɛs flæɡ hæz ˈθɜːr.tiːn straɪps./",
+        "Lá cờ Mỹ có 13 sọc.",
+        21
+    ],
+    [
+        "We celebrate Independence Day in July.",
+        "/wi ˈsɛləˌbreɪt ˌɪndɪˈpɛndəns deɪ ɪn ʤuˈlaɪ./",
+        "Chúng ta kỷ niệm Ngày Độc lập vào tháng Bảy.",
+        "We celebrate Independence Day in July.",
+        "/wi ˈsɛləˌbreɪt ˌɪndɪˈpɛndəns deɪ ɪn ʤuˈlaɪ./",
+        "Chúng ta kỷ niệm Ngày Độc lập vào tháng Bảy.",
+        22
+    ],
+    [
+        "The United States is a country.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz ə ˈkʌn.tri./",
+        "Hoa Kỳ là một quốc gia.",
+        "The United States is a country.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz ə ˈkʌn.tri./",
+        "Hoa Kỳ là một quốc gia.",
+        23
+    ],
+    [
+        "The President works in the White House.",
+        "/ðə ˈprɛzɪdənt wɜrks ɪn ðə waɪt haʊs./",
+        "Tổng thống làm việc tại Nhà Trắng.",
+        "The President works in the White House.",
+        "/ðə ˈprɛzɪdənt wɜrks ɪn ðə waɪt haʊs./",
+        "Tổng thống làm việc tại Nhà Trắng.",
+        24
+    ],
+    [
+        "The people vote for the President.",
+        "/ðə ˈpiː.pəl voʊt fɔr ðə ˈprɛzɪdənt./",
+        "Người dân bầu Tổng thống.",
+        "The people vote for the President.",
+        "/ðə ˈpiː.pəl voʊt fɔr ðə ˈprɛzɪdənt./",
+        "Người dân bầu Tổng thống.",
+        25
+    ],
+    [
+        "The capital of the United States is Washington, D.C.",
+        "/ðə ˈkæp.ɪ.təl ʌv ðə juːˈnaɪ.t̬ɪd steɪts ɪz ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Thủ đô của Hoa Kỳ là Washington, D.C.",
+        "The capital of the United States is Washington, D.C.",
+        "/ðə ˈkæp.ɪ.təl ʌv ðə juːˈnaɪ.t̬ɪd steɪts ɪz ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Thủ đô của Hoa Kỳ là Washington, D.C.",
+        26
+    ],
+    [
+        "The United States has a Congress.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ə ˈkɑːŋ.ɡrəs./",
+        "Hoa Kỳ có một Quốc hội.",
+        "The United States has a Congress.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ə ˈkɑːŋ.ɡrəs./",
+        "Hoa Kỳ có một Quốc hội.",
+        27
+    ],
+    [
+        "People in the U.S. have freedom of speech.",
+        "/ˈpiː.pəl ɪn ðə juːˈɛs hæv ˈfriː.dəm ʌv spiːʧ./",
+        "Người dân Mỹ có quyền tự do ngôn luận.",
+        "People in the U.S. have freedom of speech.",
+        "/ˈpiː.pəl ɪn ðə juːˈɛs hæv ˈfriː.dəm ʌv spiːʧ./",
+        "Người dân Mỹ có quyền tự do ngôn luận.",
+        28
+    ],
+    [
+        "The first President was George Washington.",
+        "/ðə fɜrst ˈprɛzɪdənt wəz ʤɔrʤ ˈwɑʃɪŋtən./",
+        "Tổng thống đầu tiên là George Washington.",
+        "The first President was George Washington.",
+        "/ðə fɜrst ˈprɛzɪdənt wəz ʤɔrʤ ˈwɑʃɪŋtən./",
+        "Tổng thống đầu tiên là George Washington.",
+        29
+    ],
+    [
+        "We have a Bill of Rights.",
+        "/wi hæv ə bɪl ʌv raɪts./",
+        "Chúng ta có Tuyên ngôn Nhân quyền.",
+        "We have a Bill of Rights.",
+        "/wi hæv ə bɪl ʌv raɪts./",
+        "Chúng ta có Tuyên ngôn Nhân quyền.",
+        30
+    ],
+    [
+        "The U.S. Constitution was written in 1787.",
+        "/ðə juːˈɛs ˌkɑnstɪˈtuːʃən wəz ˈrɪtən ɪn ˈsɛv.ənˌtiːn ˈeɪ.t̬iː.sɛv.ən./",
+        "Hiến pháp Hoa Kỳ được viết vào năm 1787.",
+        "The U.S. Constitution was written in 1787.",
+        "/ðə juːˈɛs ˌkɑnstɪˈtuːʃən wəz ˈrɪtən ɪn ˈsɛv.ənˌtiːn ˈeɪ.t̬iː.sɛv.ən./",
+        "Hiến pháp Hoa Kỳ được viết vào năm 1787.",
+        31
+    ],
+    [
+        "The Supreme Court is the highest court.",
+        "/ðə suːˈpriːm kɔrt ɪz ðə ˈhaɪ.əst kɔrt./",
+        "Tòa án Tối cao là tòa án cao nhất.",
+        "The Supreme Court is the highest court.",
+        "/ðə suːˈpriːm kɔrt ɪz ðə ˈhaɪ.əst kɔrt./",
+        "Tòa án Tối cao là tòa án cao nhất.",
+        32
+    ],
+    [
+        "Congress makes federal laws.",
+        "/ˈkɑːŋ.ɡrəs meɪks ˈfɛd.ɚ.əl lɔz./",
+        "Quốc hội ban hành luật liên bang.",
+        "Congress makes federal laws.",
+        "/ˈkɑːŋ.ɡrəs meɪks ˈfɛd.ɚ.əl lɔz./",
+        "Quốc hội ban hành luật liên bang.",
+        33
+    ],
+    [
+        "The President signs bills into law.",
+        "/ðə ˈprɛzɪdənt saɪnz bɪlz ˈɪntu lɔ./",
+        "Tổng thống ký dự luật thành luật.",
+        "The President signs bills into law.",
+        "/ðə ˈprɛzɪdənt saɪnz bɪlz ˈɪntu lɔ./",
+        "Tổng thống ký dự luật thành luật.",
+        34
+    ],
+    [
+        "We pay taxes every year.",
+        "/wi peɪ ˈtæksɪz ˈɛv.ri jɪr./",
+        "Chúng ta đóng thuế mỗi năm.",
+        "We pay taxes every year.",
+        "/wi peɪ ˈtæksɪz ˈɛv.ri jɪr./",
+        "Chúng ta đóng thuế mỗi năm.",
+        35
+    ],
+    [
+        "The United States has a strong economy.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ə strɔŋ ɪˈkɑː.nə.mi./",
+        "Hoa Kỳ có một nền kinh tế mạnh.",
+        "The United States has a strong economy.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ə strɔŋ ɪˈkɑː.nə.mi./",
+        "Hoa Kỳ có một nền kinh tế mạnh.",
+        36
+    ],
+    [
+        "The military protects the country.",
+        "/ðə ˈmɪ.lɪˌtɛr.i prəˈtɛkts ðə ˈkʌn.tri./",
+        "Quân đội bảo vệ đất nước.",
+        "The military protects the country.",
+        "/ðə ˈmɪ.lɪˌtɛr.i prəˈtɛkts ðə ˈkʌn.tri./",
+        "Quân đội bảo vệ đất nước.",
+        37
+    ],
+    [
+        "The American flag stands for freedom.",
+        "/ði əˈmɛr.ɪ.kən flæɡ stændz fɔr ˈfriː.dəm./",
+        "Lá cờ Mỹ tượng trưng cho tự do.",
+        "The American flag stands for freedom.",
+        "/ði əˈmɛr.ɪ.kən flæɡ stændz fɔr ˈfriː.dəm./",
+        "Lá cờ Mỹ tượng trưng cho tự do.",
+        38
+    ],
+    [
+        "The government is elected by the people.",
+        "/ðə ˈɡʌv.ɚn.mənt ɪz ɪˈlɛk.tɪd baɪ ðə ˈpiː.pəl./",
+        "Chính phủ được bầu bởi người dân.",
+        "The government is elected by the people.",
+        "/ðə ˈɡʌv.ɚn.mənt ɪz ɪˈlɛk.tɪd baɪ ðə ˈpiː.pəl./",
+        "Chính phủ được bầu bởi người dân.",
+        39
+    ],
+    [
+        "The United States is one nation.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz wʌn ˈneɪ.ʃən./",
+        "Hoa Kỳ là một quốc gia.",
+        "The United States is one nation.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz wʌn ˈneɪ.ʃən./",
+        "Hoa Kỳ là một quốc gia.",
+        40
+    ],
+    [
+        "The American people elect Congress.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl ɪˈlɛkt ˈkɑːŋ.ɡrəs./",
+        "Người dân Mỹ bầu Quốc hội.",
+        "The American people elect Congress.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl ɪˈlɛkt ˈkɑːŋ.ɡrəs./",
+        "Người dân Mỹ bầu Quốc hội.",
+        41
+    ],
+    [
+        "The President lives in Washington, D.C.",
+        "/ðə ˈprɛzɪdənt lɪvz ɪn ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Tổng thống sống tại Washington, D.C.",
+        "The President lives in Washington, D.C.",
+        "/ðə ˈprɛzɪdənt lɪvz ɪn ˈwɑʃɪŋtən ˌdiːˈsiː./",
+        "Tổng thống sống tại Washington, D.C.",
+        42
+    ],
+    [
+        "Freedom of speech is a right.",
+        "/ˈfriː.dəm ʌv spiːʧ ɪz ə raɪt./",
+        "Tự do ngôn luận là một quyền lợi.",
+        "Freedom of speech is a right.",
+        "/ˈfriː.dəm ʌv spiːʧ ɪz ə raɪt./",
+        "Tự do ngôn luận là một quyền lợi.",
+        43
+    ],
+    [
+        "We have the right to vote.",
+        "/wi hæv ðə raɪt tu voʊt./",
+        "Chúng ta có quyền bầu cử.",
+        "We have the right to vote.",
+        "/wi hæv ðə raɪt tu voʊt./",
+        "Chúng ta có quyền bầu cử.",
+        44
+    ],
+    [
+        "The U.S. has a Constitution.",
+        "/ðə juːˈɛs hæz ə ˌkɑnstɪˈtuːʃən./",
+        "Hoa Kỳ có một Hiến pháp.",
+        "The U.S. has a Constitution.",
+        "/ðə juːˈɛs hæz ə ˌkɑnstɪˈtuːʃən./",
+        "Hoa Kỳ có một Hiến pháp.",
+        45
+    ],
+    [
+        "Congress meets in the Capitol.",
+        "/ˈkɑːŋ.ɡrəs miːts ɪn ðə ˈkæp.ɪ.t̬əl./",
+        "Quốc hội họp tại Tòa nhà Quốc hội.",
+        "Congress meets in the Capitol.",
+        "/ˈkɑːŋ.ɡrəs miːts ɪn ðə ˈkæp.ɪ.t̬əl./",
+        "Quốc hội họp tại Tòa nhà Quốc hội.",
+        46
+    ],
+    [
+        "The United States has a President.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ə ˈprɛzɪdənt./",
+        "Hoa Kỳ có một Tổng thống.",
+        "The United States has a President.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts hæz ə ˈprɛzɪdənt./",
+        "Hoa Kỳ có một Tổng thống.",
+        47
+    ],
+    [
+        "The Supreme Court is part of the government.",
+        "/ðə suːˈpriːm kɔrt ɪz pɑrt ʌv ðə ˈɡʌv.ɚn.mənt./",
+        "Tòa án Tối cao là một phần của chính phủ.",
+        "The Supreme Court is part of the government.",
+        "/ðə suːˈpriːm kɔrt ɪz pɑrt ʌv ðə ˈɡʌv.ɚn.mənt./",
+        "Tòa án Tối cao là một phần của chính phủ.",
+        48
+    ],
+    [
+        "The White House is where the President lives.",
+        "/ðə waɪt haʊs ɪz wɛr ðə ˈprɛzɪdənt lɪvz./",
+        "Nhà Trắng là nơi Tổng thống sinh sống.",
+        "The White House is where the President lives.",
+        "/ðə waɪt haʊs ɪz wɛr ðə ˈprɛzɪdənt lɪvz./",
+        "Nhà Trắng là nơi Tổng thống sinh sống.",
+        49
+    ],
+    [
+        "People pay taxes to the government.",
+        "/ˈpiː.pəl peɪ ˈtæksɪz tu ðə ˈɡʌvɚnmənt./",
+        "Người dân đóng thuế cho chính phủ.",
+        "People pay taxes to the government.",
+        "/ˈpiː.pəl peɪ ˈtæksɪz tu ðə ˈɡʌvɚnmənt./",
+        "Người dân đóng thuế cho chính phủ.",
+        50
+    ],
+    [
+        "The American flag has red and white stripes.",
+        "/ði əˈmɛr.ɪ.kən flæɡ hæz rɛd ænd waɪt straɪps./",
+        "Lá cờ Mỹ có sọc đỏ và trắng.",
+        "The American flag has red and white stripes.",
+        "/ði əˈmɛr.ɪ.kən flæɡ hæz rɛd ænd waɪt straɪps./",
+        "Lá cờ Mỹ có sọc đỏ và trắng.",
+        51
+    ],
+    [
+        "The President is the leader of the country.",
+        "/ðə ˈprɛzɪdənt ɪz ðə ˈliː.dɚ ʌv ðə ˈkʌn.tri./",
+        "Tổng thống là nhà lãnh đạo của đất nước.",
+        "The President is the leader of the country.",
+        "/ðə ˈprɛzɪdənt ɪz ðə ˈliː.dɚ ʌv ðə ˈkʌn.tri./",
+        "Tổng thống là nhà lãnh đạo của đất nước.",
+        52
+    ],
+    [
+        "We celebrate Presidents' Day in February.",
+        "/wi ˈsɛləˌbreɪt ˈprɛzɪdənts deɪ ɪn ˈfɛb.ruˌɛr.i./",
+        "Chúng ta kỷ niệm Ngày Tổng thống vào tháng Hai.",
+        "We celebrate Presidents' Day in February.",
+        "/wi ˈsɛləˌbreɪt ˈprɛzɪdənts deɪ ɪn ˈfɛb.ruˌɛr.i./",
+        "Chúng ta kỷ niệm Ngày Tổng thống vào tháng Hai.",
+        53
+    ],
+    [
+        "The American government has three branches.",
+        "/ði əˈmɛr.ɪ.kən ˈɡʌv.ɚn.mənt hæz θri ˈbræn.tʃɪz./",
+        "Chính phủ Hoa Kỳ có ba nhánh.",
+        "The American government has three branches.",
+        "/ði əˈmɛr.ɪ.kən ˈɡʌv.ɚn.mənt hæz θri ˈbræn.tʃɪz./",
+        "Chính phủ Hoa Kỳ có ba nhánh.",
+        54
+    ],
+    [
+        "The people elect their leaders.",
+        "/ðə ˈpiː.pəl ɪˈlɛkt ðɛr ˈliː.dɚz./",
+        "Người dân bầu chọn lãnh đạo của họ.",
+        "The people elect their leaders.",
+        "/ðə ˈpiː.pəl ɪˈlɛkt ðɛr ˈliː.dɚz./",
+        "Người dân bầu chọn lãnh đạo của họ.",
+        55
+    ],
+    [
+        "The United States is a free country.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz ə friː ˈkʌn.tri./",
+        "Hoa Kỳ là một quốc gia tự do.",
+        "The United States is a free country.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz ə friː ˈkʌn.tri./",
+        "Hoa Kỳ là một quốc gia tự do.",
+        56
+    ],
+    [
+        "The American flag is a symbol of freedom.",
+        "/ði əˈmɛr.ɪ.kən flæɡ ɪz ə ˈsɪm.bəl ʌv ˈfriː.dəm./",
+        "Lá cờ Mỹ là biểu tượng của tự do.",
+        "The American flag is a symbol of freedom.",
+        "/ði əˈmɛr.ɪ.kən flæɡ ɪz ə ˈsɪm.bəl ʌv ˈfriː.dəm./",
+        "Lá cờ Mỹ là biểu tượng của tự do.",
+        57
+    ],
+    [
+        "The military defends the country.",
+        "/ðə ˈmɪ.lɪˌtɛr.i dɪˈfɛndz ðə ˈkʌn.tri./",
+        "Quân đội bảo vệ đất nước.",
+        "The military defends the country.",
+        "/ðə ˈmɪ.lɪˌtɛr.i dɪˈfɛndz ðə ˈkʌn.tri./",
+        "Quân đội bảo vệ đất nước.",
+        58
+    ],
+    [
+        "The United States is called America.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz kɔld əˈmɛr.ɪ.kə./",
+        "Hoa Kỳ còn được gọi là nước Mỹ.",
+        "The United States is called America.",
+        "/ðə juːˈnaɪ.t̬ɪd steɪts ɪz kɔld əˈmɛr.ɪ.kə./",
+        "Hoa Kỳ còn được gọi là nước Mỹ.",
+        59
+    ],
+    [
+        "The President is elected every four years.",
+        "/ðə ˈprɛzɪdənt ɪz ɪˈlɛk.tɪd ˈɛv.ri fɔr jɪrz./",
+        "Tổng thống được bầu cứ bốn năm một lần.",
+        "The President is elected every four years.",
+        "/ðə ˈprɛzɪdənt ɪz ɪˈlɛk.tɪd ˈɛv.ri fɔr jɪrz./",
+        "Tổng thống được bầu cứ bốn năm một lần.",
+        60
+    ],
+    [
+        "Congress writes the laws.",
+        "/ˈkɑːŋ.ɡrəs raɪts ðə lɔz./",
+        "Quốc hội soạn thảo luật.",
+        "Congress writes the laws.",
+        "/ˈkɑːŋ.ɡrəs raɪts ðə lɔz./",
+        "Quốc hội soạn thảo luật.",
+        61
+    ],
+    [
+        "The Supreme Court has nine justices.",
+        "/ðə suːˈpriːm kɔrt hæz naɪn ˈʤʌs.tɪ.sɪz./",
+        "Tòa án Tối cao có chín thẩm phán.",
+        "The Supreme Court has nine justices.",
+        "/ðə suːˈpriːm kɔrt hæz naɪn ˈʤʌs.tɪ.sɪz./",
+        "Tòa án Tối cao có chín thẩm phán.",
+        62
+    ],
+    [
+        "Freedom of religion is important.",
+        "/ˈfriː.dəm ʌv rɪˈlɪʤ.ən ɪz ɪmˈpɔːr.tənt./",
+        "Tự do tôn giáo là điều quan trọng.",
+        "Freedom of religion is important.",
+        "/ˈfriː.dəm ʌv rɪˈlɪʤ.ən ɪz ɪmˈpɔːr.tənt./",
+        "Tự do tôn giáo là điều quan trọng.",
+        63
+    ],
+    [
+        "The American people vote for leaders.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl voʊt fɔr ˈliː.dɚz./",
+        "Người dân Mỹ bỏ phiếu bầu lãnh đạo.",
+        "The American people vote for leaders.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl voʊt fɔr ˈliː.dɚz./",
+        "Người dân Mỹ bỏ phiếu bầu lãnh đạo.",
+        64
+    ],
+    [
+        "The U.S. government has three parts.",
+        "/ðə juːˈɛs ˈɡʌv.ɚn.mənt hæz θri pɑrts./",
+        "Chính phủ Mỹ có ba phần.",
+        "The U.S. government has three parts.",
+        "/ðə juːˈɛs ˈɡʌv.ɚn.mənt hæz θri pɑrts./",
+        "Chính phủ Mỹ có ba phần.",
+        65
+    ],
+    [
+        "The Constitution is the supreme law.",
+        "/ðə ˌkɑnstɪˈtuːʃən ɪz ðə suːˈpriːm lɔ./",
+        "Hiến pháp là luật tối cao.",
+        "The Constitution is the supreme law.",
+        "/ðə ˌkɑnstɪˈtuːʃən ɪz ðə suːˈpriːm lɔ./",
+        "Hiến pháp là luật tối cao.",
+        66
+    ],
+    [
+        "The President is the Commander-in-Chief.",
+        "/ðə ˈprɛzɪdənt ɪz ðə kəˈmæn.dɚ ɪn ʧiːf./",
+        "Tổng thống là Tổng tư lệnh.",
+        "The President is the Commander-in-Chief.",
+        "/ðə ˈprɛzɪdənt ɪz ðə kəˈmæn.dɚ ɪn ʧiːf./",
+        "Tổng thống là Tổng tư lệnh.",
+        67
+    ],
+    [
+        "The government collects taxes.",
+        "/ðə ˈɡʌv.ɚn.mənt kəˈlɛkts ˈtæksɪz./",
+        "Chính phủ thu thuế.",
+        "The government collects taxes.",
+        "/ðə ˈɡʌv.ɚn.mənt kəˈlɛkts ˈtæksɪz./",
+        "Chính phủ thu thuế.",
+        68
+    ],
+    [
+        "The Vice President helps the President.",
+        "/ðə vaɪs ˈprɛzɪdənt hɛlps ðə ˈprɛzɪdənt./",
+        "Phó Tổng thống hỗ trợ Tổng thống.",
+        "The Vice President helps the President.",
+        "/ðə vaɪs ˈprɛzɪdənt hɛlps ðə ˈprɛzɪdənt./",
+        "Phó Tổng thống hỗ trợ Tổng thống.",
+        69
+    ],
+    [
+        "The American people have many rights.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl hæv ˈmɛ.ni raɪts./",
+        "Người dân Mỹ có nhiều quyền lợi.",
+        "The American people have many rights.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl hæv ˈmɛ.ni raɪts./",
+        "Người dân Mỹ có nhiều quyền lợi.",
+        70
+    ],
+    [
+        "The flag stands for the country.",
+        "/ðə flæɡ stændz fɔr ðə ˈkʌn.tri./",
+        "Lá cờ tượng trưng cho đất nước.",
+        "The flag stands for the country.",
+        "/ðə flæɡ stændz fɔr ðə ˈkʌn.tri./",
+        "Lá cờ tượng trưng cho đất nước.",
+        71
+    ],
+    [
+        "Washington was the first President.",
+        "/ˈwɑːʃɪŋtən wəz ðə fɜrst ˈprɛzɪdənt./",
+        "Washington là Tổng thống đầu tiên.",
+        "Washington was the first President.",
+        "/ˈwɑːʃɪŋtən wəz ðə fɜrst ˈprɛzɪdənt./",
+        "Washington là Tổng thống đầu tiên.",
+        72
+    ],
+    [
+        "The U.S. has a strong military.",
+        "/ðə juːˈɛs hæz ə strɔŋ ˈmɪ.lɪˌtɛr.i./",
+        "Hoa Kỳ có một quân đội mạnh.",
+        "The U.S. has a strong military.",
+        "/ðə juːˈɛs hæz ə strɔŋ ˈmɪ.lɪˌtɛr.i./",
+        "Hoa Kỳ có một quân đội mạnh.",
+        73
+    ],
+    [
+        "The American people respect the flag.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl rɪˈspɛkt ðə flæɡ./",
+        "Người dân Mỹ tôn trọng lá cờ.",
+        "The American people respect the flag.",
+        "/ði əˈmɛr.ɪ.kən ˈpiː.pəl rɪˈspɛkt ðə flæɡ./",
+        "Người dân Mỹ tôn trọng lá cờ.",
+        74
+    ],
+    [
+        "The government makes laws.",
+        "/ðə ˈɡʌv.ɚn.mənt meɪks lɔz./",
+        "Chính phủ ban hành luật.",
+        "The government makes laws.",
+        "/ðə ˈɡʌv.ɚn.mənt meɪks lɔz./",
+        "Chính phủ ban hành luật.",
+        75
+    ],
+    [
+        "We celebrate Memorial Day in May.",
+        "/wi ˈsɛləˌbreɪt məˈmɔːr.i.əl deɪ ɪn meɪ./",
+        "Chúng ta kỷ niệm Ngày Chiến sĩ Trận vong vào tháng Năm.",
+        "We celebrate Memorial Day in May.",
+        "/wi ˈsɛləˌbreɪt məˈmɔːr.i.əl deɪ ɪn meɪ./",
+        "Chúng ta kỷ niệm Ngày Chiến sĩ Trận vong vào tháng Năm.",
+        76
+    ],
+    [
+        "The American flag has red, white, and blue.",
+        "/ði əˈmɛrɪkən flæɡ hæz rɛd, waɪt, ænd bluː./",
+        "Lá cờ Mỹ có màu đỏ, trắng và xanh.",
+        "The American flag has red, white, and blue.",
+        "/ði əˈmɛrɪkən flæɡ hæz rɛd, waɪt, ænd bluː./",
+        "Lá cờ Mỹ có màu đỏ, trắng và xanh.",
+        77
+    ],
+    [
+        "The Constitution has laws.",
+        "/ðə ˌkɑnstɪˈtuːʃən hæz lɔz./",
+        "Hiến pháp có các điều luật.",
+        "The Constitution has laws.",
+        "/ðə ˌkɑnstɪˈtuːʃən hæz lɔz./",
+        "Hiến pháp có các điều luật.",
+        78
+    ],
+    [
+        "The United States is a big country.",
+        "/ðə juːˈnaɪtɪd steɪts ɪz ə bɪɡ ˈkʌntri./",
+        "Hoa Kỳ là một quốc gia rộng lớn.",
+        "The United States is a big country.",
+        "/ðə juːˈnaɪtɪd steɪts ɪz ə bɪɡ ˈkʌntri./",
+        "Hoa Kỳ là một quốc gia rộng lớn.",
+        79
+    ],
+    [
+        "The President and Congress make laws.",
+        "/ðə ˈprɛzɪdənt ænd ˈkɑŋɡrəs meɪk lɔz./",
+        "Tổng thống và Quốc hội ban hành luật.",
+        "The President and Congress make laws.",
+        "/ðə ˈprɛzɪdənt ænd ˈkɑŋɡrəs meɪk lɔz./",
+        "Tổng thống và Quốc hội ban hành luật.",
+        80
+    ],
+    [
+        "The government is for the people.",
+        "/ðə ˈɡʌvɚnmənt ɪz fɔr ðə ˈpiːpəl./",
+        "Chính phủ là của nhân dân.",
+        "The government is for the people.",
+        "/ðə ˈɡʌvɚnmənt ɪz fɔr ðə ˈpiːpəl./",
+        "Chính phủ là của nhân dân.",
+        81
+    ],
+    [
+        "The U.S. has fifty states.",
+        "/ðə juːˈɛs hæz ˈfɪfti steɪts./",
+        "Hoa Kỳ có 50 tiểu bang.",
+        "The U.S. has fifty states.",
+        "/ðə juːˈɛs hæz ˈfɪfti steɪts./",
+        "Hoa Kỳ có 50 tiểu bang.",
+        82
+    ],
+    [
+        "The President is elected by the people.",
+        "/ðə ˈprɛzɪdənt ɪz ɪˈlɛktɪd baɪ ðə ˈpiːpəl./",
+        "Tổng thống được bầu bởi nhân dân.",
+        "The President is elected by the people.",
+        "/ðə ˈprɛzɪdənt ɪz ɪˈlɛktɪd baɪ ðə ˈpiːpəl./",
+        "Tổng thống được bầu bởi nhân dân.",
+        83
+    ],
+    [
+        "The Supreme Court has nine judges.",
+        "/ðə suːˈpriːm kɔrt hæz naɪn ˈʤʌʤɪz./",
+        "Tòa án Tối cao có chín thẩm phán.",
+        "The Supreme Court has nine judges.",
+        "/ðə suːˈpriːm kɔrt hæz naɪn ˈʤʌʤɪz./",
+        "Tòa án Tối cao có chín thẩm phán.",
+        84
+    ],
+    [
+        "The flag is a symbol of the United States.",
+        "/ðə flæɡ ɪz ə ˈsɪmbəl ʌv ðə juːˈnaɪtɪd steɪts./",
+        "Lá cờ là biểu tượng của Hoa Kỳ.",
+        "The flag is a symbol of the United States.",
+        "/ðə flæɡ ɪz ə ˈsɪmbəl ʌv ðə juːˈnaɪtɪd steɪts./",
+        "Lá cờ là biểu tượng của Hoa Kỳ.",
+        85
+    ],
+    [
+        "People in America have freedom.",
+        "/ˈpiːpəl ɪn əˈmɛrɪkə hæv ˈfriːdəm./",
+        "Người dân ở Mỹ có tự do.",
+        "People in America have freedom.",
+        "/ˈpiːpəl ɪn əˈmɛrɪkə hæv ˈfriːdəm./",
+        "Người dân ở Mỹ có tự do.",
+        86
+    ],
+    [
+        "The government makes laws for the people.",
+        "/ðə ˈɡʌvɚnmənt meɪks lɔz fɔr ðə ˈpiːpəl./",
+        "Chính phủ ban hành luật cho nhân dân.",
+        "The government makes laws for the people.",
+        "/ðə ˈɡʌvɚnmənt meɪks lɔz fɔr ðə ˈpiːpəl./",
+        "Chính phủ ban hành luật cho nhân dân.",
+        87
+    ],
+    [
+        "The Bill of Rights is in the Constitution.",
+        "/ðə bɪl ʌv raɪts ɪz ɪn ðə ˌkɑnstɪˈtuːʃən./",
+        "Tuyên ngôn Nhân quyền nằm trong Hiến pháp.",
+        "The Bill of Rights is in the Constitution.",
+        "/ðə bɪl ʌv raɪts ɪz ɪn ðə ˌkɑnstɪˈtuːʃən./",
+        "Tuyên ngôn Nhân quyền nằm trong Hiến pháp.",
+        88
+    ]
+]
