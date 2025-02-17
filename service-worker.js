@@ -4,9 +4,16 @@ self.addEventListener('install', function(event) {
             return cache.addAll([  
                 '/',  
                 '/index.html',  
-                '/audio_test_offline.html',  
-                '/audio_files/another-audio.mp3',  
-                '/audio-mapping.json',  
+                '/json_test_offline.html',  
+                '/audio_Reading_90/another-audio.mp3',
+		'/audio_TQT_100/another-audio.mp3',
+		'/audio_Writing_88/another-audio.mp3',  
+                '/mapping_reading_90.json',
+		'/mapping_writing_88.json',
+		'/mapping_TQT_100.json',
+		'/Reading_90.json',
+		'/TQT_100.json',
+		'/Writing_88.json',  
                 // Có thể thêm các tài nguyên khác mà bạn cần cache ở đây  
             ]);  
         })  
