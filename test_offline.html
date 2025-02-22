@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -98,6 +97,7 @@
             color: #61dafb;
             resize: vertical;
             overflow-y: auto;
+            font-family: 'Arial', sans-serif; /* Thêm dòng này */
         }
         #vocabLabel {
             font-size: 24px;
@@ -188,8 +188,10 @@
 
 <!-- Nhóm các nút kiểm tra -->
 <div class="controls">
-    <button id="checkAnswerButton" onclick="checkAnswer()">Kiểm Tra</button><button id="checkAnswerBackButton" onclick="checkAnswerBack()">Kiểm Tra Mặt Sau</button>
-    <button id="speakCheckButton" onclick="startSpeechRecognition()">Kiểm Tra Nói</button>    
+    <button id="checkAnswerButton" onclick="checkAnswer()">Kiểm Tra Mặt Trước</button>
+    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">Kiểm Tra Mặt Sau</button>
+    <button id="speakCheckButton" onclick="startSpeechRecognition(true)">Kiểm Tra Nói Mặt Trước</button>
+    <button id="speakCheckBackButton" onclick="startSpeechRecognition(false)">Kiểm Tra Nói Mặt Sau</button>
 </div>
 <textarea id="writingCheckBack" placeholder="Nhập câu trả lời mặt sau..." onkeydown="handleKeyDownBack(event)"></textarea>
 
@@ -671,7 +673,7 @@ function updateQuestionCounter() {
     }
 
     // Chức năng Kiểm Tra Nói
-    function startSpeechRecognition() {
+    function startSpeechRecognition(isFront) {
         if (!('webkitSpeechRecognition' in window)) {
             alert("Trình duyệt của bạn không hỗ trợ nhận diện giọng nói.");
             return;
@@ -691,7 +693,7 @@ function updateQuestionCounter() {
             document.getElementById('speechResult').style.display = 'block';
 
             // Kiểm tra kết quả nhận diện giọng nói
-            checkSpeechAnswer(speechResult);
+            checkSpeechAnswer(speechResult, isFront);
         };
 
         recognition.onerror = function(event) {
@@ -705,23 +707,31 @@ function updateQuestionCounter() {
         };
     }
 
-    function checkSpeechAnswer(speechResult) {
+    function checkSpeechAnswer(speechResult, isFront) {
         const word = vocabList[currentIndex];
-        const correctAnswer = removePunctuation(word[3].toString().trim().toLowerCase()); // Luôn so sánh với câu trả lời mặt sau
+        const correctAnswer = removePunctuation((isFront ? word[0] : word[3]).toString().trim().toLowerCase());
         const userAnswer = removePunctuation(speechResult.trim().toLowerCase());
 
         if (userAnswer === correctAnswer) {
             showNotification("Đúng!", true);
             // Phát lại câu đúng khi nói đúng
-            playPronunciation(word[3]);
-            setTimeout(() => {
-                nextWord(); // Chuyển sang từ tiếp theo sau 3 giây
-            }, 3000); // Đợi 3 giây trước khi chuyển sang từ tiếp theo
+            playPronunciation(isFront ? word[0] : word[3]);
+            if (isFront) {
+                setTimeout(() => {
+                    flipCardToBack(); // Chuyển sang mặt sau để học tiếp
+                }, 3000); // Đợi 3 giây trước khi chuyển sang mặt sau
+            } else {
+                setTimeout(() => {
+                    nextWord(); // Chuyển sang từ tiếp theo sau 3 giây
+                }, 3000); // Đợi 3 giây trước khi chuyển sang từ tiếp theo
+            }
         } else {
             showNotification("Sai!", false);
-	    flipCardToBack(); // Hiển thị mặt sau nếu câu trả lời sai
             // Phát lại câu đúng khi nói sai
-            playPronunciation(word[3]);
+            playPronunciation(isFront ? word[0] : word[3]);
+            if (!isFront) {
+                flipCardToBack(); // Hiển thị mặt sau nếu kiểm tra mặt sau và câu trả lời sai
+            }
         }
     }
 </script>
