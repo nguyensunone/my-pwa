@@ -1,6 +1,6 @@
 [
     {
-        "text": "How’s it going?",
+        "text": "How's it going?",
         "file": "audio_US_dialog/audio_US_dialog_1_col0.mp3"
     },
     {
@@ -8,7 +8,7 @@
         "file": "audio_US_dialog/audio_US_dialog_1_col3.mp3"
     },
     {
-        "text": "What’s up?",
+        "text": "What's up?",
         "file": "audio_US_dialog/audio_US_dialog_2_col0.mp3"
     },
     {
@@ -36,7 +36,7 @@
         "file": "audio_US_dialog/audio_US_dialog_5_col0.mp3"
     },
     {
-        "text": "Yeah, what’s up?",
+        "text": "Yeah, what's up?",
         "file": "audio_US_dialog/audio_US_dialog_5_col3.mp3"
     },
     {
@@ -44,7 +44,7 @@
         "file": "audio_US_dialog/audio_US_dialog_6_col0.mp3"
     },
     {
-        "text": "I’m from New York.",
+        "text": "I'm from New York.",
         "file": "audio_US_dialog/audio_US_dialog_6_col3.mp3"
     },
     {
@@ -60,7 +60,7 @@
         "file": "audio_US_dialog/audio_US_dialog_8_col0.mp3"
     },
     {
-        "text": "I’m a teacher.",
+        "text": "I'm a teacher.",
         "file": "audio_US_dialog/audio_US_dialog_8_col3.mp3"
     },
     {
@@ -68,7 +68,7 @@
         "file": "audio_US_dialog/audio_US_dialog_9_col0.mp3"
     },
     {
-        "text": "Yeah, it’s nice!",
+        "text": "Yeah, it's nice!",
         "file": "audio_US_dialog/audio_US_dialog_9_col3.mp3"
     },
     {
@@ -76,7 +76,7 @@
         "file": "audio_US_dialog/audio_US_dialog_10_col0.mp3"
     },
     {
-        "text": "It’s 3 PM.",
+        "text": "It's 3 PM.",
         "file": "audio_US_dialog/audio_US_dialog_10_col3.mp3"
     },
     {
@@ -148,7 +148,7 @@
         "file": "audio_US_dialog/audio_US_dialog_19_col0.mp3"
     },
     {
-        "text": "No, it’s separate.",
+        "text": "No, it's separate.",
         "file": "audio_US_dialog/audio_US_dialog_19_col3.mp3"
     },
     {
@@ -172,7 +172,7 @@
         "file": "audio_US_dialog/audio_US_dialog_22_col0.mp3"
     },
     {
-        "text": "It’s $25.99.",
+        "text": "It's $25.99.",
         "file": "audio_US_dialog/audio_US_dialog_22_col3.mp3"
     },
     {
@@ -208,7 +208,7 @@
         "file": "audio_US_dialog/audio_US_dialog_26_col3.mp3"
     },
     {
-        "text": "Can I return this if it doesn’t fit?",
+        "text": "Can I return this if it doesn't fit?",
         "file": "audio_US_dialog/audio_US_dialog_27_col0.mp3"
     },
     {
@@ -232,7 +232,7 @@
         "file": "audio_US_dialog/audio_US_dialog_29_col3.mp3"
     },
     {
-        "text": "What’s your return policy?",
+        "text": "What's your return policy?",
         "file": "audio_US_dialog/audio_US_dialog_30_col0.mp3"
     },
     {
@@ -244,7 +244,7 @@
         "file": "audio_US_dialog/audio_US_dialog_31_col0.mp3"
     },
     {
-        "text": "It’s two blocks away.",
+        "text": "It's two blocks away.",
         "file": "audio_US_dialog/audio_US_dialog_31_col3.mp3"
     },
     {
@@ -256,7 +256,7 @@
         "file": "audio_US_dialog/audio_US_dialog_32_col3.mp3"
     },
     {
-        "text": "What’s the best way to get around?",
+        "text": "What's the best way to get around?",
         "file": "audio_US_dialog/audio_US_dialog_33_col0.mp3"
     },
     {
@@ -308,7 +308,7 @@
         "file": "audio_US_dialog/audio_US_dialog_39_col0.mp3"
     },
     {
-        "text": "It’s $10 per person.",
+        "text": "It's $10 per person.",
         "file": "audio_US_dialog/audio_US_dialog_39_col3.mp3"
     },
     {
@@ -324,7 +324,7 @@
         "file": "audio_US_dialog/audio_US_dialog_41_col0.mp3"
     },
     {
-        "text": "Sure! I’m Alex, a project manager.",
+        "text": "Sure! I'm Alex, a project manager.",
         "file": "audio_US_dialog/audio_US_dialog_41_col3.mp3"
     },
     {
@@ -340,7 +340,7 @@
         "file": "audio_US_dialog/audio_US_dialog_43_col0.mp3"
     },
     {
-        "text": "It’s due next Friday.",
+        "text": "It's due next Friday.",
         "file": "audio_US_dialog/audio_US_dialog_43_col3.mp3"
     },
     {
@@ -356,7 +356,7 @@
         "file": "audio_US_dialog/audio_US_dialog_45_col0.mp3"
     },
     {
-        "text": "You’ll report to the department manager.",
+        "text": "You'll report to the department manager.",
         "file": "audio_US_dialog/audio_US_dialog_45_col3.mp3"
     },
     {
@@ -364,7 +364,7 @@
         "file": "audio_US_dialog/audio_US_dialog_46_col0.mp3"
     },
     {
-        "text": "They’re on the company’s shared drive.",
+        "text": "They're on the company's shared drive.",
         "file": "audio_US_dialog/audio_US_dialog_46_col3.mp3"
     },
     {
@@ -376,7 +376,7 @@
         "file": "audio_US_dialog/audio_US_dialog_47_col3.mp3"
     },
     {
-        "text": "What’s the next step in this process?",
+        "text": "What's the next step in this process?",
         "file": "audio_US_dialog/audio_US_dialog_48_col0.mp3"
     },
     {
@@ -388,11 +388,11 @@
         "file": "audio_US_dialog/audio_US_dialog_49_col0.mp3"
     },
     {
-        "text": "Sure, I’ll email it to you now.",
+        "text": "Sure, I'll email it to you now.",
         "file": "audio_US_dialog/audio_US_dialog_49_col3.mp3"
     },
     {
-        "text": "How was the client’s feedback?",
+        "text": "How was the client's feedback?",
         "file": "audio_US_dialog/audio_US_dialog_50_col0.mp3"
     },
     {
@@ -452,7 +452,7 @@
         "file": "audio_US_dialog/audio_US_dialog_57_col0.mp3"
     },
     {
-        "text": "Of course! I’ll bring it right away.",
+        "text": "Of course! I'll bring it right away.",
         "file": "audio_US_dialog/audio_US_dialog_57_col3.mp3"
     },
     {
@@ -468,7 +468,7 @@
         "file": "audio_US_dialog/audio_US_dialog_59_col0.mp3"
     },
     {
-        "text": "Sure! I’ll bring one for you.",
+        "text": "Sure! I'll bring one for you.",
         "file": "audio_US_dialog/audio_US_dialog_59_col3.mp3"
     },
     {
@@ -476,7 +476,7 @@
         "file": "audio_US_dialog/audio_US_dialog_60_col0.mp3"
     },
     {
-        "text": "It’s not required, but appreciated.",
+        "text": "It's not required, but appreciated.",
         "file": "audio_US_dialog/audio_US_dialog_60_col3.mp3"
     },
     {
@@ -484,7 +484,7 @@
         "file": "audio_US_dialog/audio_US_dialog_61_col0.mp3"
     },
     {
-        "text": "Yes, what’s wrong?",
+        "text": "Yes, what's wrong?",
         "file": "audio_US_dialog/audio_US_dialog_61_col3.mp3"
     },
     {
@@ -500,7 +500,7 @@
         "file": "audio_US_dialog/audio_US_dialog_63_col0.mp3"
     },
     {
-        "text": "It’s two blocks away.",
+        "text": "It's two blocks away.",
         "file": "audio_US_dialog/audio_US_dialog_63_col3.mp3"
     },
     {
@@ -516,7 +516,7 @@
         "file": "audio_US_dialog/audio_US_dialog_65_col0.mp3"
     },
     {
-        "text": "Let’s call security.",
+        "text": "Let's call security.",
         "file": "audio_US_dialog/audio_US_dialog_65_col3.mp3"
     },
     {
@@ -524,7 +524,7 @@
         "file": "audio_US_dialog/audio_US_dialog_66_col0.mp3"
     },
     {
-        "text": "I’ll call 911 right now!",
+        "text": "I'll call 911 right now!",
         "file": "audio_US_dialog/audio_US_dialog_66_col3.mp3"
     },
     {
@@ -532,7 +532,7 @@
         "file": "audio_US_dialog/audio_US_dialog_67_col0.mp3"
     },
     {
-        "text": "Stay calm, I’ll get help!",
+        "text": "Stay calm, I'll get help!",
         "file": "audio_US_dialog/audio_US_dialog_67_col3.mp3"
     },
     {
@@ -540,7 +540,7 @@
         "file": "audio_US_dialog/audio_US_dialog_68_col0.mp3"
     },
     {
-        "text": "Yes, there’s one around the corner.",
+        "text": "Yes, there's one around the corner.",
         "file": "audio_US_dialog/audio_US_dialog_68_col3.mp3"
     },
     {
@@ -556,7 +556,7 @@
         "file": "audio_US_dialog/audio_US_dialog_70_col0.mp3"
     },
     {
-        "text": "It’s at the end of the hallway.",
+        "text": "It's at the end of the hallway.",
         "file": "audio_US_dialog/audio_US_dialog_70_col3.mp3"
     },
     {
@@ -564,7 +564,7 @@
         "file": "audio_US_dialog/audio_US_dialog_71_col0.mp3"
     },
     {
-        "text": "It’s $25.",
+        "text": "It's $25.",
         "file": "audio_US_dialog/audio_US_dialog_71_col3.mp3"
     },
     {
@@ -596,7 +596,7 @@
         "file": "audio_US_dialog/audio_US_dialog_75_col0.mp3"
     },
     {
-        "text": "Yes, it’s 20% off today.",
+        "text": "Yes, it's 20% off today.",
         "file": "audio_US_dialog/audio_US_dialog_75_col3.mp3"
     },
     {
@@ -608,7 +608,7 @@
         "file": "audio_US_dialog/audio_US_dialog_76_col3.mp3"
     },
     {
-        "text": "Can I return this if it doesn’t fit?",
+        "text": "Can I return this if it doesn't fit?",
         "file": "audio_US_dialog/audio_US_dialog_77_col0.mp3"
     },
     {
@@ -636,7 +636,7 @@
         "file": "audio_US_dialog/audio_US_dialog_80_col0.mp3"
     },
     {
-        "text": "We’re open from 9 AM to 9 PM.",
+        "text": "We're open from 9 AM to 9 PM.",
         "file": "audio_US_dialog/audio_US_dialog_80_col3.mp3"
     },
     {
@@ -644,7 +644,7 @@
         "file": "audio_US_dialog/audio_US_dialog_81_col0.mp3"
     },
     {
-        "text": "It’s two blocks away.",
+        "text": "It's two blocks away.",
         "file": "audio_US_dialog/audio_US_dialog_81_col3.mp3"
     },
     {
@@ -660,7 +660,7 @@
         "file": "audio_US_dialog/audio_US_dialog_83_col0.mp3"
     },
     {
-        "text": "It’s $80 per night.",
+        "text": "It's $80 per night.",
         "file": "audio_US_dialog/audio_US_dialog_83_col3.mp3"
     },
     {
@@ -684,7 +684,7 @@
         "file": "audio_US_dialog/audio_US_dialog_86_col0.mp3"
     },
     {
-        "text": "There’s a rental service nearby.",
+        "text": "There's a rental service nearby.",
         "file": "audio_US_dialog/audio_US_dialog_86_col3.mp3"
     },
     {
@@ -700,7 +700,7 @@
         "file": "audio_US_dialog/audio_US_dialog_88_col0.mp3"
     },
     {
-        "text": "Yes, there’s a subway nearby.",
+        "text": "Yes, there's a subway nearby.",
         "file": "audio_US_dialog/audio_US_dialog_88_col3.mp3"
     },
     {
@@ -708,7 +708,7 @@
         "file": "audio_US_dialog/audio_US_dialog_89_col0.mp3"
     },
     {
-        "text": "There’s a currency exchange at the mall.",
+        "text": "There's a currency exchange at the mall.",
         "file": "audio_US_dialog/audio_US_dialog_89_col3.mp3"
     },
     {
@@ -740,7 +740,7 @@
         "file": "audio_US_dialog/audio_US_dialog_93_col0.mp3"
     },
     {
-        "text": "No, I don’t have any.",
+        "text": "No, I don't have any.",
         "file": "audio_US_dialog/audio_US_dialog_93_col3.mp3"
     },
     {
@@ -756,7 +756,7 @@
         "file": "audio_US_dialog/audio_US_dialog_95_col0.mp3"
     },
     {
-        "text": "It’s a sharp pain in my stomach.",
+        "text": "It's a sharp pain in my stomach.",
         "file": "audio_US_dialog/audio_US_dialog_95_col3.mp3"
     },
     {
@@ -764,7 +764,7 @@
         "file": "audio_US_dialog/audio_US_dialog_96_col0.mp3"
     },
     {
-        "text": "Yes, you need a doctor’s prescription.",
+        "text": "Yes, you need a doctor's prescription.",
         "file": "audio_US_dialog/audio_US_dialog_96_col3.mp3"
     },
     {
