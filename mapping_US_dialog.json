@@ -1,0 +1,802 @@
+[
+    {
+        "text": "How’s it going?",
+        "file": "audio_US_dialog/audio_US_dialog_1_col0.mp3"
+    },
+    {
+        "text": "Pretty good!",
+        "file": "audio_US_dialog/audio_US_dialog_1_col3.mp3"
+    },
+    {
+        "text": "What’s up?",
+        "file": "audio_US_dialog/audio_US_dialog_2_col0.mp3"
+    },
+    {
+        "text": "Not much, you?",
+        "file": "audio_US_dialog/audio_US_dialog_2_col3.mp3"
+    },
+    {
+        "text": "How was your day?",
+        "file": "audio_US_dialog/audio_US_dialog_3_col0.mp3"
+    },
+    {
+        "text": "It was great!",
+        "file": "audio_US_dialog/audio_US_dialog_3_col3.mp3"
+    },
+    {
+        "text": "Can I get a coffee?",
+        "file": "audio_US_dialog/audio_US_dialog_4_col0.mp3"
+    },
+    {
+        "text": "Sure! What size?",
+        "file": "audio_US_dialog/audio_US_dialog_4_col3.mp3"
+    },
+    {
+        "text": "Do you have time to talk?",
+        "file": "audio_US_dialog/audio_US_dialog_5_col0.mp3"
+    },
+    {
+        "text": "Yeah, what’s up?",
+        "file": "audio_US_dialog/audio_US_dialog_5_col3.mp3"
+    },
+    {
+        "text": "Where are you from?",
+        "file": "audio_US_dialog/audio_US_dialog_6_col0.mp3"
+    },
+    {
+        "text": "I’m from New York.",
+        "file": "audio_US_dialog/audio_US_dialog_6_col3.mp3"
+    },
+    {
+        "text": "Can you help me?",
+        "file": "audio_US_dialog/audio_US_dialog_7_col0.mp3"
+    },
+    {
+        "text": "Of course!",
+        "file": "audio_US_dialog/audio_US_dialog_7_col3.mp3"
+    },
+    {
+        "text": "What do you do for work?",
+        "file": "audio_US_dialog/audio_US_dialog_8_col0.mp3"
+    },
+    {
+        "text": "I’m a teacher.",
+        "file": "audio_US_dialog/audio_US_dialog_8_col3.mp3"
+    },
+    {
+        "text": "Do you like it here?",
+        "file": "audio_US_dialog/audio_US_dialog_9_col0.mp3"
+    },
+    {
+        "text": "Yeah, it’s nice!",
+        "file": "audio_US_dialog/audio_US_dialog_9_col3.mp3"
+    },
+    {
+        "text": "What time is it?",
+        "file": "audio_US_dialog/audio_US_dialog_10_col0.mp3"
+    },
+    {
+        "text": "It’s 3 PM.",
+        "file": "audio_US_dialog/audio_US_dialog_10_col3.mp3"
+    },
+    {
+        "text": "Do you have a table for two?",
+        "file": "audio_US_dialog/audio_US_dialog_11_col0.mp3"
+    },
+    {
+        "text": "Yes, right this way.",
+        "file": "audio_US_dialog/audio_US_dialog_11_col3.mp3"
+    },
+    {
+        "text": "Can I see the menu?",
+        "file": "audio_US_dialog/audio_US_dialog_12_col0.mp3"
+    },
+    {
+        "text": "Here you go.",
+        "file": "audio_US_dialog/audio_US_dialog_12_col3.mp3"
+    },
+    {
+        "text": "What do you recommend?",
+        "file": "audio_US_dialog/audio_US_dialog_13_col0.mp3"
+    },
+    {
+        "text": "The steak is very popular.",
+        "file": "audio_US_dialog/audio_US_dialog_13_col3.mp3"
+    },
+    {
+        "text": "Can I get this without onions?",
+        "file": "audio_US_dialog/audio_US_dialog_14_col0.mp3"
+    },
+    {
+        "text": "Sure, no problem!",
+        "file": "audio_US_dialog/audio_US_dialog_14_col3.mp3"
+    },
+    {
+        "text": "How long will it take?",
+        "file": "audio_US_dialog/audio_US_dialog_15_col0.mp3"
+    },
+    {
+        "text": "About 15 minutes.",
+        "file": "audio_US_dialog/audio_US_dialog_15_col3.mp3"
+    },
+    {
+        "text": "Can I have the check, please?",
+        "file": "audio_US_dialog/audio_US_dialog_16_col0.mp3"
+    },
+    {
+        "text": "Of course!",
+        "file": "audio_US_dialog/audio_US_dialog_16_col3.mp3"
+    },
+    {
+        "text": "Do you accept credit cards?",
+        "file": "audio_US_dialog/audio_US_dialog_17_col0.mp3"
+    },
+    {
+        "text": "Yes, we do.",
+        "file": "audio_US_dialog/audio_US_dialog_17_col3.mp3"
+    },
+    {
+        "text": "Can I get a to-go box?",
+        "file": "audio_US_dialog/audio_US_dialog_18_col0.mp3"
+    },
+    {
+        "text": "Sure! Here you go.",
+        "file": "audio_US_dialog/audio_US_dialog_18_col3.mp3"
+    },
+    {
+        "text": "Is the tip included?",
+        "file": "audio_US_dialog/audio_US_dialog_19_col0.mp3"
+    },
+    {
+        "text": "No, it’s separate.",
+        "file": "audio_US_dialog/audio_US_dialog_19_col3.mp3"
+    },
+    {
+        "text": "Do you have vegetarian options?",
+        "file": "audio_US_dialog/audio_US_dialog_20_col0.mp3"
+    },
+    {
+        "text": "Yes, we do!",
+        "file": "audio_US_dialog/audio_US_dialog_20_col3.mp3"
+    },
+    {
+        "text": "Do you have this in a smaller size?",
+        "file": "audio_US_dialog/audio_US_dialog_21_col0.mp3"
+    },
+    {
+        "text": "Let me check for you.",
+        "file": "audio_US_dialog/audio_US_dialog_21_col3.mp3"
+    },
+    {
+        "text": "How much is this?",
+        "file": "audio_US_dialog/audio_US_dialog_22_col0.mp3"
+    },
+    {
+        "text": "It’s $25.99.",
+        "file": "audio_US_dialog/audio_US_dialog_22_col3.mp3"
+    },
+    {
+        "text": "Do you have any discounts?",
+        "file": "audio_US_dialog/audio_US_dialog_23_col0.mp3"
+    },
+    {
+        "text": "Yes, 10% off today!",
+        "file": "audio_US_dialog/audio_US_dialog_23_col3.mp3"
+    },
+    {
+        "text": "Can I try this on?",
+        "file": "audio_US_dialog/audio_US_dialog_24_col0.mp3"
+    },
+    {
+        "text": "Yes, the fitting room is over there.",
+        "file": "audio_US_dialog/audio_US_dialog_24_col3.mp3"
+    },
+    {
+        "text": "Do you have this in another color?",
+        "file": "audio_US_dialog/audio_US_dialog_25_col0.mp3"
+    },
+    {
+        "text": "Yes, we have it in black and blue.",
+        "file": "audio_US_dialog/audio_US_dialog_25_col3.mp3"
+    },
+    {
+        "text": "Is this on sale?",
+        "file": "audio_US_dialog/audio_US_dialog_26_col0.mp3"
+    },
+    {
+        "text": "No, but it will be next week.",
+        "file": "audio_US_dialog/audio_US_dialog_26_col3.mp3"
+    },
+    {
+        "text": "Can I return this if it doesn’t fit?",
+        "file": "audio_US_dialog/audio_US_dialog_27_col0.mp3"
+    },
+    {
+        "text": "Yes, within 14 days.",
+        "file": "audio_US_dialog/audio_US_dialog_27_col3.mp3"
+    },
+    {
+        "text": "Do you take cash or card?",
+        "file": "audio_US_dialog/audio_US_dialog_28_col0.mp3"
+    },
+    {
+        "text": "We accept both.",
+        "file": "audio_US_dialog/audio_US_dialog_28_col3.mp3"
+    },
+    {
+        "text": "Can I get a receipt?",
+        "file": "audio_US_dialog/audio_US_dialog_29_col0.mp3"
+    },
+    {
+        "text": "Sure! Here you go.",
+        "file": "audio_US_dialog/audio_US_dialog_29_col3.mp3"
+    },
+    {
+        "text": "What’s your return policy?",
+        "file": "audio_US_dialog/audio_US_dialog_30_col0.mp3"
+    },
+    {
+        "text": "You can return within 30 days.",
+        "file": "audio_US_dialog/audio_US_dialog_30_col3.mp3"
+    },
+    {
+        "text": "Where is the nearest hotel?",
+        "file": "audio_US_dialog/audio_US_dialog_31_col0.mp3"
+    },
+    {
+        "text": "It’s two blocks away.",
+        "file": "audio_US_dialog/audio_US_dialog_31_col3.mp3"
+    },
+    {
+        "text": "How do I get to the airport?",
+        "file": "audio_US_dialog/audio_US_dialog_32_col0.mp3"
+    },
+    {
+        "text": "You can take a taxi or a bus.",
+        "file": "audio_US_dialog/audio_US_dialog_32_col3.mp3"
+    },
+    {
+        "text": "What’s the best way to get around?",
+        "file": "audio_US_dialog/audio_US_dialog_33_col0.mp3"
+    },
+    {
+        "text": "Public transport is cheap and easy.",
+        "file": "audio_US_dialog/audio_US_dialog_33_col3.mp3"
+    },
+    {
+        "text": "Do you have a city map?",
+        "file": "audio_US_dialog/audio_US_dialog_34_col0.mp3"
+    },
+    {
+        "text": "Yes, here you go.",
+        "file": "audio_US_dialog/audio_US_dialog_34_col3.mp3"
+    },
+    {
+        "text": "Is it safe to walk around at night?",
+        "file": "audio_US_dialog/audio_US_dialog_35_col0.mp3"
+    },
+    {
+        "text": "Yes, but stay in well-lit areas.",
+        "file": "audio_US_dialog/audio_US_dialog_35_col3.mp3"
+    },
+    {
+        "text": "Where can I exchange money?",
+        "file": "audio_US_dialog/audio_US_dialog_36_col0.mp3"
+    },
+    {
+        "text": "At the bank or exchange office.",
+        "file": "audio_US_dialog/audio_US_dialog_36_col3.mp3"
+    },
+    {
+        "text": "What time does the museum open?",
+        "file": "audio_US_dialog/audio_US_dialog_37_col0.mp3"
+    },
+    {
+        "text": "At 9 AM.",
+        "file": "audio_US_dialog/audio_US_dialog_37_col3.mp3"
+    },
+    {
+        "text": "Can I book a tour here?",
+        "file": "audio_US_dialog/audio_US_dialog_38_col0.mp3"
+    },
+    {
+        "text": "Yes, we have several options.",
+        "file": "audio_US_dialog/audio_US_dialog_38_col3.mp3"
+    },
+    {
+        "text": "How much is the entrance fee?",
+        "file": "audio_US_dialog/audio_US_dialog_39_col0.mp3"
+    },
+    {
+        "text": "It’s $10 per person.",
+        "file": "audio_US_dialog/audio_US_dialog_39_col3.mp3"
+    },
+    {
+        "text": "Is there free Wi-Fi here?",
+        "file": "audio_US_dialog/audio_US_dialog_40_col0.mp3"
+    },
+    {
+        "text": "Yes, the password is at the counter.",
+        "file": "audio_US_dialog/audio_US_dialog_40_col3.mp3"
+    },
+    {
+        "text": "Could you introduce yourself?",
+        "file": "audio_US_dialog/audio_US_dialog_41_col0.mp3"
+    },
+    {
+        "text": "Sure! I’m Alex, a project manager.",
+        "file": "audio_US_dialog/audio_US_dialog_41_col3.mp3"
+    },
+    {
+        "text": "What are your responsibilities?",
+        "file": "audio_US_dialog/audio_US_dialog_42_col0.mp3"
+    },
+    {
+        "text": "I handle team coordination and deadlines.",
+        "file": "audio_US_dialog/audio_US_dialog_42_col3.mp3"
+    },
+    {
+        "text": "When is the deadline for this project?",
+        "file": "audio_US_dialog/audio_US_dialog_43_col0.mp3"
+    },
+    {
+        "text": "It’s due next Friday.",
+        "file": "audio_US_dialog/audio_US_dialog_43_col3.mp3"
+    },
+    {
+        "text": "Can we schedule a meeting?",
+        "file": "audio_US_dialog/audio_US_dialog_44_col0.mp3"
+    },
+    {
+        "text": "Yes, does 2 PM work for you?",
+        "file": "audio_US_dialog/audio_US_dialog_44_col3.mp3"
+    },
+    {
+        "text": "Who should I report to?",
+        "file": "audio_US_dialog/audio_US_dialog_45_col0.mp3"
+    },
+    {
+        "text": "You’ll report to the department manager.",
+        "file": "audio_US_dialog/audio_US_dialog_45_col3.mp3"
+    },
+    {
+        "text": "How can I access the documents?",
+        "file": "audio_US_dialog/audio_US_dialog_46_col0.mp3"
+    },
+    {
+        "text": "They’re on the company’s shared drive.",
+        "file": "audio_US_dialog/audio_US_dialog_46_col3.mp3"
+    },
+    {
+        "text": "Do you need any help with this task?",
+        "file": "audio_US_dialog/audio_US_dialog_47_col0.mp3"
+    },
+    {
+        "text": "Yes, that would be great!",
+        "file": "audio_US_dialog/audio_US_dialog_47_col3.mp3"
+    },
+    {
+        "text": "What’s the next step in this process?",
+        "file": "audio_US_dialog/audio_US_dialog_48_col0.mp3"
+    },
+    {
+        "text": "We need to review the reports.",
+        "file": "audio_US_dialog/audio_US_dialog_48_col3.mp3"
+    },
+    {
+        "text": "Could you send me the report?",
+        "file": "audio_US_dialog/audio_US_dialog_49_col0.mp3"
+    },
+    {
+        "text": "Sure, I’ll email it to you now.",
+        "file": "audio_US_dialog/audio_US_dialog_49_col3.mp3"
+    },
+    {
+        "text": "How was the client’s feedback?",
+        "file": "audio_US_dialog/audio_US_dialog_50_col0.mp3"
+    },
+    {
+        "text": "They were happy with the results.",
+        "file": "audio_US_dialog/audio_US_dialog_50_col3.mp3"
+    },
+    {
+        "text": "Do you have a table for two?",
+        "file": "audio_US_dialog/audio_US_dialog_51_col0.mp3"
+    },
+    {
+        "text": "Yes, right this way.",
+        "file": "audio_US_dialog/audio_US_dialog_51_col3.mp3"
+    },
+    {
+        "text": "Can I see the menu, please?",
+        "file": "audio_US_dialog/audio_US_dialog_52_col0.mp3"
+    },
+    {
+        "text": "Of course! Here you go.",
+        "file": "audio_US_dialog/audio_US_dialog_52_col3.mp3"
+    },
+    {
+        "text": "What do you recommend?",
+        "file": "audio_US_dialog/audio_US_dialog_53_col0.mp3"
+    },
+    {
+        "text": "The steak is very popular.",
+        "file": "audio_US_dialog/audio_US_dialog_53_col3.mp3"
+    },
+    {
+        "text": "Do you have any vegetarian options?",
+        "file": "audio_US_dialog/audio_US_dialog_54_col0.mp3"
+    },
+    {
+        "text": "Yes, we have a vegetable pasta.",
+        "file": "audio_US_dialog/audio_US_dialog_54_col3.mp3"
+    },
+    {
+        "text": "Can I have this without onions?",
+        "file": "audio_US_dialog/audio_US_dialog_55_col0.mp3"
+    },
+    {
+        "text": "Sure! We can make it without onions.",
+        "file": "audio_US_dialog/audio_US_dialog_55_col3.mp3"
+    },
+    {
+        "text": "How long will the food take?",
+        "file": "audio_US_dialog/audio_US_dialog_56_col0.mp3"
+    },
+    {
+        "text": "About 15 minutes.",
+        "file": "audio_US_dialog/audio_US_dialog_56_col3.mp3"
+    },
+    {
+        "text": "Can I get the check, please?",
+        "file": "audio_US_dialog/audio_US_dialog_57_col0.mp3"
+    },
+    {
+        "text": "Of course! I’ll bring it right away.",
+        "file": "audio_US_dialog/audio_US_dialog_57_col3.mp3"
+    },
+    {
+        "text": "Do you accept credit cards?",
+        "file": "audio_US_dialog/audio_US_dialog_58_col0.mp3"
+    },
+    {
+        "text": "Yes, we accept all major cards.",
+        "file": "audio_US_dialog/audio_US_dialog_58_col3.mp3"
+    },
+    {
+        "text": "Can I get a to-go box?",
+        "file": "audio_US_dialog/audio_US_dialog_59_col0.mp3"
+    },
+    {
+        "text": "Sure! I’ll bring one for you.",
+        "file": "audio_US_dialog/audio_US_dialog_59_col3.mp3"
+    },
+    {
+        "text": "Is tipping required here?",
+        "file": "audio_US_dialog/audio_US_dialog_60_col0.mp3"
+    },
+    {
+        "text": "It’s not required, but appreciated.",
+        "file": "audio_US_dialog/audio_US_dialog_60_col3.mp3"
+    },
+    {
+        "text": "Can you help me, please?",
+        "file": "audio_US_dialog/audio_US_dialog_61_col0.mp3"
+    },
+    {
+        "text": "Yes, what’s wrong?",
+        "file": "audio_US_dialog/audio_US_dialog_61_col3.mp3"
+    },
+    {
+        "text": "I need to call the police!",
+        "file": "audio_US_dialog/audio_US_dialog_62_col0.mp3"
+    },
+    {
+        "text": "Here, use my phone.",
+        "file": "audio_US_dialog/audio_US_dialog_62_col3.mp3"
+    },
+    {
+        "text": "Where is the nearest hospital?",
+        "file": "audio_US_dialog/audio_US_dialog_63_col0.mp3"
+    },
+    {
+        "text": "It’s two blocks away.",
+        "file": "audio_US_dialog/audio_US_dialog_63_col3.mp3"
+    },
+    {
+        "text": "I lost my wallet, what should I do?",
+        "file": "audio_US_dialog/audio_US_dialog_64_col0.mp3"
+    },
+    {
+        "text": "You should report it to the police.",
+        "file": "audio_US_dialog/audio_US_dialog_64_col3.mp3"
+    },
+    {
+        "text": "Someone stole my bag!",
+        "file": "audio_US_dialog/audio_US_dialog_65_col0.mp3"
+    },
+    {
+        "text": "Let’s call security.",
+        "file": "audio_US_dialog/audio_US_dialog_65_col3.mp3"
+    },
+    {
+        "text": "I need an ambulance!",
+        "file": "audio_US_dialog/audio_US_dialog_66_col0.mp3"
+    },
+    {
+        "text": "I’ll call 911 right now!",
+        "file": "audio_US_dialog/audio_US_dialog_66_col3.mp3"
+    },
+    {
+        "text": "My friend is unconscious!",
+        "file": "audio_US_dialog/audio_US_dialog_67_col0.mp3"
+    },
+    {
+        "text": "Stay calm, I’ll get help!",
+        "file": "audio_US_dialog/audio_US_dialog_67_col3.mp3"
+    },
+    {
+        "text": "Is there a pharmacy nearby?",
+        "file": "audio_US_dialog/audio_US_dialog_68_col0.mp3"
+    },
+    {
+        "text": "Yes, there’s one around the corner.",
+        "file": "audio_US_dialog/audio_US_dialog_68_col3.mp3"
+    },
+    {
+        "text": "I think I have food poisoning.",
+        "file": "audio_US_dialog/audio_US_dialog_69_col0.mp3"
+    },
+    {
+        "text": "You should see a doctor immediately.",
+        "file": "audio_US_dialog/audio_US_dialog_69_col3.mp3"
+    },
+    {
+        "text": "Where is the fire exit?",
+        "file": "audio_US_dialog/audio_US_dialog_70_col0.mp3"
+    },
+    {
+        "text": "It’s at the end of the hallway.",
+        "file": "audio_US_dialog/audio_US_dialog_70_col3.mp3"
+    },
+    {
+        "text": "How much is this?",
+        "file": "audio_US_dialog/audio_US_dialog_71_col0.mp3"
+    },
+    {
+        "text": "It’s $25.",
+        "file": "audio_US_dialog/audio_US_dialog_71_col3.mp3"
+    },
+    {
+        "text": "Do you have this in a different color?",
+        "file": "audio_US_dialog/audio_US_dialog_72_col0.mp3"
+    },
+    {
+        "text": "Yes, we have it in blue and red.",
+        "file": "audio_US_dialog/audio_US_dialog_72_col3.mp3"
+    },
+    {
+        "text": "Can I try this on?",
+        "file": "audio_US_dialog/audio_US_dialog_73_col0.mp3"
+    },
+    {
+        "text": "Sure, the fitting room is over there.",
+        "file": "audio_US_dialog/audio_US_dialog_73_col3.mp3"
+    },
+    {
+        "text": "Do you have this in size M?",
+        "file": "audio_US_dialog/audio_US_dialog_74_col0.mp3"
+    },
+    {
+        "text": "Let me check for you.",
+        "file": "audio_US_dialog/audio_US_dialog_74_col3.mp3"
+    },
+    {
+        "text": "Is there a discount on this item?",
+        "file": "audio_US_dialog/audio_US_dialog_75_col0.mp3"
+    },
+    {
+        "text": "Yes, it’s 20% off today.",
+        "file": "audio_US_dialog/audio_US_dialog_75_col3.mp3"
+    },
+    {
+        "text": "Do you accept cash only?",
+        "file": "audio_US_dialog/audio_US_dialog_76_col0.mp3"
+    },
+    {
+        "text": "No, we take credit cards too.",
+        "file": "audio_US_dialog/audio_US_dialog_76_col3.mp3"
+    },
+    {
+        "text": "Can I return this if it doesn’t fit?",
+        "file": "audio_US_dialog/audio_US_dialog_77_col0.mp3"
+    },
+    {
+        "text": "Yes, within 7 days with a receipt.",
+        "file": "audio_US_dialog/audio_US_dialog_77_col3.mp3"
+    },
+    {
+        "text": "Do you have a loyalty program?",
+        "file": "audio_US_dialog/audio_US_dialog_78_col0.mp3"
+    },
+    {
+        "text": "Yes, you can sign up for free.",
+        "file": "audio_US_dialog/audio_US_dialog_78_col3.mp3"
+    },
+    {
+        "text": "Can I get a receipt, please?",
+        "file": "audio_US_dialog/audio_US_dialog_79_col0.mp3"
+    },
+    {
+        "text": "Of course! Here it is.",
+        "file": "audio_US_dialog/audio_US_dialog_79_col3.mp3"
+    },
+    {
+        "text": "What are your store hours?",
+        "file": "audio_US_dialog/audio_US_dialog_80_col0.mp3"
+    },
+    {
+        "text": "We’re open from 9 AM to 9 PM.",
+        "file": "audio_US_dialog/audio_US_dialog_80_col3.mp3"
+    },
+    {
+        "text": "Where is the nearest hotel?",
+        "file": "audio_US_dialog/audio_US_dialog_81_col0.mp3"
+    },
+    {
+        "text": "It’s two blocks away.",
+        "file": "audio_US_dialog/audio_US_dialog_81_col3.mp3"
+    },
+    {
+        "text": "Do you have any rooms available?",
+        "file": "audio_US_dialog/audio_US_dialog_82_col0.mp3"
+    },
+    {
+        "text": "Yes, we have a few left.",
+        "file": "audio_US_dialog/audio_US_dialog_82_col3.mp3"
+    },
+    {
+        "text": "How much is a room per night?",
+        "file": "audio_US_dialog/audio_US_dialog_83_col0.mp3"
+    },
+    {
+        "text": "It’s $80 per night.",
+        "file": "audio_US_dialog/audio_US_dialog_83_col3.mp3"
+    },
+    {
+        "text": "What time is check-in?",
+        "file": "audio_US_dialog/audio_US_dialog_84_col0.mp3"
+    },
+    {
+        "text": "Check-in is at 3 PM.",
+        "file": "audio_US_dialog/audio_US_dialog_84_col3.mp3"
+    },
+    {
+        "text": "Can I get a late check-out?",
+        "file": "audio_US_dialog/audio_US_dialog_85_col0.mp3"
+    },
+    {
+        "text": "Yes, until 1 PM for free.",
+        "file": "audio_US_dialog/audio_US_dialog_85_col3.mp3"
+    },
+    {
+        "text": "Where can I rent a car?",
+        "file": "audio_US_dialog/audio_US_dialog_86_col0.mp3"
+    },
+    {
+        "text": "There’s a rental service nearby.",
+        "file": "audio_US_dialog/audio_US_dialog_86_col3.mp3"
+    },
+    {
+        "text": "How do I get to the airport?",
+        "file": "audio_US_dialog/audio_US_dialog_87_col0.mp3"
+    },
+    {
+        "text": "You can take a taxi or a bus.",
+        "file": "audio_US_dialog/audio_US_dialog_87_col3.mp3"
+    },
+    {
+        "text": "Is there public transportation here?",
+        "file": "audio_US_dialog/audio_US_dialog_88_col0.mp3"
+    },
+    {
+        "text": "Yes, there’s a subway nearby.",
+        "file": "audio_US_dialog/audio_US_dialog_88_col3.mp3"
+    },
+    {
+        "text": "Where can I exchange money?",
+        "file": "audio_US_dialog/audio_US_dialog_89_col0.mp3"
+    },
+    {
+        "text": "There’s a currency exchange at the mall.",
+        "file": "audio_US_dialog/audio_US_dialog_89_col3.mp3"
+    },
+    {
+        "text": "Is it safe to walk around at night?",
+        "file": "audio_US_dialog/audio_US_dialog_90_col0.mp3"
+    },
+    {
+        "text": "Yes, but stay in well-lit areas.",
+        "file": "audio_US_dialog/audio_US_dialog_90_col3.mp3"
+    },
+    {
+        "text": "What seems to be the problem?",
+        "file": "audio_US_dialog/audio_US_dialog_91_col0.mp3"
+    },
+    {
+        "text": "I have a fever and a sore throat.",
+        "file": "audio_US_dialog/audio_US_dialog_91_col3.mp3"
+    },
+    {
+        "text": "How long have you been feeling this way?",
+        "file": "audio_US_dialog/audio_US_dialog_92_col0.mp3"
+    },
+    {
+        "text": "Since yesterday morning.",
+        "file": "audio_US_dialog/audio_US_dialog_92_col3.mp3"
+    },
+    {
+        "text": "Do you have any allergies?",
+        "file": "audio_US_dialog/audio_US_dialog_93_col0.mp3"
+    },
+    {
+        "text": "No, I don’t have any.",
+        "file": "audio_US_dialog/audio_US_dialog_93_col3.mp3"
+    },
+    {
+        "text": "Are you taking any medications?",
+        "file": "audio_US_dialog/audio_US_dialog_94_col0.mp3"
+    },
+    {
+        "text": "Yes, I take medicine for high blood pressure.",
+        "file": "audio_US_dialog/audio_US_dialog_94_col3.mp3"
+    },
+    {
+        "text": "Can you describe the pain?",
+        "file": "audio_US_dialog/audio_US_dialog_95_col0.mp3"
+    },
+    {
+        "text": "It’s a sharp pain in my stomach.",
+        "file": "audio_US_dialog/audio_US_dialog_95_col3.mp3"
+    },
+    {
+        "text": "Do I need a prescription for this?",
+        "file": "audio_US_dialog/audio_US_dialog_96_col0.mp3"
+    },
+    {
+        "text": "Yes, you need a doctor’s prescription.",
+        "file": "audio_US_dialog/audio_US_dialog_96_col3.mp3"
+    },
+    {
+        "text": "How long will it take to recover?",
+        "file": "audio_US_dialog/audio_US_dialog_97_col0.mp3"
+    },
+    {
+        "text": "About a week with proper rest.",
+        "file": "audio_US_dialog/audio_US_dialog_97_col3.mp3"
+    },
+    {
+        "text": "Can I go back to work tomorrow?",
+        "file": "audio_US_dialog/audio_US_dialog_98_col0.mp3"
+    },
+    {
+        "text": "I recommend resting for a few more days.",
+        "file": "audio_US_dialog/audio_US_dialog_98_col3.mp3"
+    },
+    {
+        "text": "Is this contagious?",
+        "file": "audio_US_dialog/audio_US_dialog_99_col0.mp3"
+    },
+    {
+        "text": "Yes, so avoid close contact with others.",
+        "file": "audio_US_dialog/audio_US_dialog_99_col3.mp3"
+    },
+    {
+        "text": "What should I eat while recovering?",
+        "file": "audio_US_dialog/audio_US_dialog_100_col0.mp3"
+    },
+    {
+        "text": "Eat light, nutritious food and drink plenty of water.",
+        "file": "audio_US_dialog/audio_US_dialog_100_col3.mp3"
+    }
+]
