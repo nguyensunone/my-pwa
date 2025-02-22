@@ -1,0 +1,82 @@
+[
+    {
+        "text": "book",
+        "file": "audio_En_US_Term/audio_En_US_Term_1_col0.mp3"
+    },
+    {
+        "text": "I read a book every day.",
+        "file": "audio_En_US_Term/audio_En_US_Term_1_col3.mp3"
+    },
+    {
+        "text": "apple",
+        "file": "audio_En_US_Term/audio_En_US_Term_2_col0.mp3"
+    },
+    {
+        "text": "She eats an apple daily.",
+        "file": "audio_En_US_Term/audio_En_US_Term_2_col3.mp3"
+    },
+    {
+        "text": "cat",
+        "file": "audio_En_US_Term/audio_En_US_Term_3_col0.mp3"
+    },
+    {
+        "text": "The cat is on the bed.",
+        "file": "audio_En_US_Term/audio_En_US_Term_3_col3.mp3"
+    },
+    {
+        "text": "dog",
+        "file": "audio_En_US_Term/audio_En_US_Term_4_col0.mp3"
+    },
+    {
+        "text": "I have a small dog.",
+        "file": "audio_En_US_Term/audio_En_US_Term_4_col3.mp3"
+    },
+    {
+        "text": "house",
+        "file": "audio_En_US_Term/audio_En_US_Term_5_col0.mp3"
+    },
+    {
+        "text": "This is my house.",
+        "file": "audio_En_US_Term/audio_En_US_Term_5_col3.mp3"
+    },
+    {
+        "text": "car",
+        "file": "audio_En_US_Term/audio_En_US_Term_6_col0.mp3"
+    },
+    {
+        "text": "The car is red.",
+        "file": "audio_En_US_Term/audio_En_US_Term_6_col3.mp3"
+    },
+    {
+        "text": "pen",
+        "file": "audio_En_US_Term/audio_En_US_Term_7_col0.mp3"
+    },
+    {
+        "text": "I write with a pen.",
+        "file": "audio_En_US_Term/audio_En_US_Term_7_col3.mp3"
+    },
+    {
+        "text": "table",
+        "file": "audio_En_US_Term/audio_En_US_Term_8_col0.mp3"
+    },
+    {
+        "text": "The book is on the table.",
+        "file": "audio_En_US_Term/audio_En_US_Term_8_col3.mp3"
+    },
+    {
+        "text": "chair",
+        "file": "audio_En_US_Term/audio_En_US_Term_9_col0.mp3"
+    },
+    {
+        "text": "He sits on a chair.",
+        "file": "audio_En_US_Term/audio_En_US_Term_9_col3.mp3"
+    },
+    {
+        "text": "water",
+        "file": "audio_En_US_Term/audio_En_US_Term_10_col0.mp3"
+    },
+    {
+        "text": "I drink water every day.",
+        "file": "audio_En_US_Term/audio_En_US_Term_10_col3.mp3"
+    }
+]
