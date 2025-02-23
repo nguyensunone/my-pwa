@@ -252,10 +252,10 @@
 
 <!-- Nhóm các nút kiểm tra -->
 <div class="controls">
-    <button id="checkAnswerButton" onclick="checkAnswer()">Viết Mặt Trước</button>
-    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">Viết Mặt Sau</button>
-    <button id="speakCheckButton" onclick="startSpeechRecognition(true)">Nói Mặt Trước</button>
-    <button id="speakCheckBackButton" onclick="startSpeechRecognition(false)">Nói Mặt Sau</button>
+    <button id="checkAnswerButton" onclick="checkAnswer()">Viết Trước</button>
+    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">Viết Sau</button>
+    <button id="speakCheckButton" onclick="startSpeechRecognition(true)">Nói Trước</button>
+    <button id="speakCheckBackButton" onclick="startSpeechRecognition(false)">Nói Sau</button>
 </div>
 <textarea id="writingCheckBack" placeholder="Nhập câu trả lời mặt sau..." onkeydown="handleKeyDownBack(event)"></textarea>
 
@@ -265,13 +265,13 @@
 <div id="notification"></div>
 
 <div class="button-container">
-    <button onclick="toggleStyle()">Đổi màu</button>
-    <button onclick="prevWord()">Trước</button>
-    <button onclick="flipCard()">Lật Thẻ</button>
-    <button onclick="nextWord()">Tiếp Theo</button>
-    <button id="repeatButton" onclick="repeatPronunciation()">Lặp Lại</button>
+    <button onclick="toggleStyle()">Ẩn</button>
+    <button onclick="prevWord()">Lùi</button>
+    <button onclick="flipCard()">Lật</button>
+    <button onclick="nextWord()">Tới</button>
+    <button id="repeatButton" onclick="repeatPronunciation()">Lặp</button>
     <button id="autoFlipButton" onclick="toggleAutoFlip()">Tự Động</button>
-    <button id="toggleModeButton" onclick="toggleMode()">Theo Thứ Tự</button>
+    <button id="toggleModeButton" onclick="toggleMode()">Thứ Tự</button>
 </div>
 
 <!-- Dropdown để chọn bài học -->
