@@ -248,23 +248,23 @@
     <div id="questionCounter">Câu hỏi: 0/0</div>
 </div>
 <div id="vocabLabel">Không có từ vựng nào được thêm.</div>
-<textarea id="answerInput" placeholder="Nhập câu trả lời của bạn..." onkeydown="handleKeyDown(event)"></textarea>
+<textarea id="answerInput" placeholder="Nhập câu hỏi mặt trước (1)..." onkeydown="handleKeyDown(event)"></textarea>
 
 <!-- Nhóm các nút kiểm tra -->
 <div class="controls">
-    <button id="checkAnswerButton" onclick="checkAnswer()">ViếtMT</button>
-    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">ViếtMS</button>
-    <button id="speakCheckButton" onclick="startSpeechRecognition(true)">NóiMT</button>
-    <button id="speakCheckBackButton" onclick="startSpeechRecognition(false)">NóiMS</button>
+    <button id="checkAnswerButton" onclick="checkAnswer()">Viết1</button>
+    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">Viết2</button>
+    <button id="speakCheckButton" onclick="startSpeechRecognition(true)">Nói1</button>
+    <button id="speakCheckBackButton" onclick="startSpeechRecognition(false)">Nói2</button>
 </div>
-<textarea id="writingCheckBack" placeholder="Nhập câu trả lời mặt sau..." onkeydown="handleKeyDownBack(event)"></textarea>
+<textarea id="writingCheckBack" placeholder="Nhập câu trả lời mặt sau (2)..." onkeydown="handleKeyDownBack(event)"></textarea>
 
 <div id="speechResult" style="display: none;">
     <p><span id="recognizedSpeech"></span></p>
 </div>
 <div id="notification"></div>
 
-<div class="button-container">
+<div class=""controls">
     <button onclick="toggleStyle()">Ẩn</button>
     <button onclick="prevWord()">Lùi</button>
     <button onclick="flipCard()">Lật</button>
@@ -272,17 +272,16 @@
     <button id="repeatButton" onclick="repeatPronunciation()">Lặp</button>
     <button id="autoFlipButton" onclick="toggleAutoFlip()">Tự Động</button>
     <button id="toggleModeButton" onclick="toggleMode()">Thứ Tự</button>
-</div>
 
 <!-- Dropdown để chọn bài học -->
 <select id="lessonSelector" onchange="loadLesson()">
     <!-- Các tùy chọn sẽ được thêm tự động bằng JavaScript -->
-<div class="controls">
-    <input type="number" id="startQuestion" placeholder="Nhập số câu hỏi bắt đầu" min="1" max="138">
-    <input type="number" id="questionCount" placeholder="Số câu hỏi" min="1" max="138">
+</select>
+    <input type="number" id="startQuestion" placeholder="Số câu hỏi bắt đầu" min="1" max="138">
+    <input type="number" id="questionCount" placeholder="Tổng số câu hỏi" min="1" max="138">
     <button onclick="startSession()">Bắt Đầu Phiên Học</button>
 </div>
-</select>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
