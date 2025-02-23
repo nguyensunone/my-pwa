@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>US_Dialog</title>
+    <title>Học Tiếng Anh</title>
     <style>    
         body {
             font-family: 'Arial', sans-serif;
@@ -60,7 +61,7 @@
             font-size: 16px;
             border: none;
             border-radius: 4px;
-        }
+        }        
         button {
             background-color: #61dafb;
             color: #282c34;
@@ -97,7 +98,6 @@
             color: #61dafb;
             resize: vertical;
             overflow-y: auto;
-            font-family: 'Arial', sans-serif; /* Thêm dòng này */
         }
         #vocabLabel {
             font-size: 24px;
@@ -136,14 +136,7 @@
             border-radius: 4px;
             font-size: 16px;
         }
-        #speechResult {
-            background-color: #1c2025;
-            padding: 10px;
-            border-radius: 8px;
-            margin: 10px auto;
-            text-align: center;
-            max-width: 800px;
-        }
+        
         #recognizedSpeech {
             color: #61dafb;
             font-weight: bold;
@@ -177,70 +170,6 @@
     	    font-size: 20px; /* Giảm kích thước chữ */
 	}
     </style>
-    <style>
-    .controls button {
-        display: inline-block;
-        margin: 10px 5px;
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        border-radius: 4px;
-        background-color: #61dafb;
-        color: #282c34;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        height: 40px; /* Đặt chiều cao cố định cho các nút */
-        line-height: 20px; /* Đặt chiều cao dòng để căn giữa văn bản */
-    }
-
-    .controls button:hover {
-        background-color: #21a1f1;
-    }
-</style>
-<style>
-    /* Thêm CSS cho màn hình nhỏ */
-    @media only screen and (max-width: 600px) {
-        body {
-            padding: 10px;
-        }
-        #vocabLabel {
-            font-size: 20px;
-            padding: 10px;
-        }
-        .card {
-            padding: 10px;
-        }
-        input, button {
-            font-size: 14px;
-            padding: 8px;
-        }
-        #answerInput, #writingCheckBack {
-            width: 100%;
-            max-width: 100%;
-            font-size: 16px;
-        }
-        .controls button {
-            padding: 8px 16px;
-            font-size: 14px;
-            height: auto;
-            line-height: normal;
-        }
-        .button-container button {
-            padding: 8px 16px;
-            font-size: 14px;
-        }
-        #questionCounter {
-            font-size: 14px;
-        }
-        #speechResult {
-            max-width: 100%;
-            font-size: 12px;
-        }
-        #recognizedSpeech {
-            font-size: 16px;
-        }
-    }
-</style>
 </head>
 <body>
 
@@ -248,41 +177,40 @@
     <div id="questionCounter">Câu hỏi: 0/0</div>
 </div>
 <div id="vocabLabel">Không có từ vựng nào được thêm.</div>
-<textarea id="answerInput" placeholder="Nhập câu hỏi mặt trước (1)..." onkeydown="handleKeyDown(event)"></textarea>
+
+<textarea id="answerInput" placeholder="(1) Nhập câu trả lời mặt trước..." onkeydown="handleKeyDown(event)"></textarea>
 
 <!-- Nhóm các nút kiểm tra -->
-<div class="controls">
-    <button id="checkAnswerButton" onclick="checkAnswer()">Viết1</button>
-    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">Viết2</button>
-    <button id="speakCheckButton" onclick="startSpeechRecognition(true)">Nói1</button>
-    <button id="speakCheckBackButton" onclick="startSpeechRecognition(false)">Nói2</button>
+<div style="text-align: center;">
+    <button id="checkAnswerButton" onclick="checkAnswer()">Viết 1</button>
+    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">Viết 2</button>
+    <button id="speakCheckFrontButton" onclick="startSpeechRecognitionFront()">Nói 1</button>
+    <button id="speakCheckButton" onclick="startSpeechRecognition()">Nói 2</button>
 </div>
-<textarea id="writingCheckBack" placeholder="Nhập câu trả lời mặt sau (2)..." onkeydown="handleKeyDownBack(event)"></textarea>
+
+<textarea id="writingCheckBack" placeholder="(2) Nhập câu trả lời mặt sau..." onkeydown="handleKeyDownBack(event)"></textarea>
 
 <div id="speechResult" style="display: none;">
     <p><span id="recognizedSpeech"></span></p>
 </div>
 <div id="notification"></div>
 
-<div class=""controls">
-    <button onclick="toggleStyle()">Ẩn</button>
-    <button onclick="prevWord()">Lùi</button>
-    <button onclick="flipCard()">Lật</button>
-    <button onclick="nextWord()">Tới</button>
-    <button id="repeatButton" onclick="repeatPronunciation()">Lặp</button>
-    <button id="autoFlipButton" onclick="toggleAutoFlip()">Tự Động</button>
-    <button id="toggleModeButton" onclick="toggleMode()">Thứ Tự</button>
-
+<div class="controls"></div>
+<button onclick="toggleStyle()">Đổi màu</button>
+<button onclick="prevWord()">Trước</button>
+<button onclick="flipCard()">Lật Thẻ</button>
+<button onclick="nextWord()">Tiếp Theo</button>
+<button id="repeatButton" onclick="repeatPronunciation()">Lặp Lại</button>
+<button id="autoFlipButton" onclick="toggleAutoFlip()">Tự Động</button>
+<button id="toggleModeButton" onclick="toggleMode()">Theo Thứ Tự</button>
 <!-- Dropdown để chọn bài học -->
 <select id="lessonSelector" onchange="loadLesson()">
     <!-- Các tùy chọn sẽ được thêm tự động bằng JavaScript -->
 </select>
-    <input type="number" id="startQuestion" placeholder="Số câu hỏi bắt đầu" min="1" max="138">
-    <input type="number" id="questionCount" placeholder="Tổng số câu hỏi" min="1" max="138">
+    <input type="number" id="startQuestion" placeholder="Nhập số câu hỏi bắt đầu" min="1" max="138">
+    <input type="number" id="questionCount" placeholder="Số câu hỏi" min="1" max="138">
     <button onclick="startSession()">Bắt Đầu Phiên Học</button>
 </div>
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
 
@@ -403,9 +331,8 @@ function updateQuestionCounter() {
 
     // Danh sách các file bài học và mapping tương ứng
     const lessons = [
-        { name: 'US_dialog.json', mapping: 'mapping_US_dialog.json' },
-        { name: 'En_US_Term.json', mapping: 'mapping_En_US_Term.json' }
-              
+        { name: 'En_US_Term.json', mapping: 'mapping_En_US_Term.json' },
+        { name: 'US_dialog.json', mapping: 'mapping_US_dialog.json' }       
         // Thêm các bài học khác nếu cần
     ];
 
@@ -498,9 +425,6 @@ function updateQuestionCounter() {
                 break;
             case 'End': // Phím End
                 startSpeechRecognition();
-                break;
-            case 'Home': // Phím Home
-                startSpeechRecognition(true);
                 break;
             default:
                 break;
@@ -614,8 +538,8 @@ function updateQuestionCounter() {
     function autoFlipLogic() {
         autoFlipTimeout = setTimeout(() => {
             flipCard(); // Flip giữa front và back
-            setTimeout(nextWord, 5000); // Đợi 5s sau khi flip trước khi chuyển sang từ tiếp theo
-        }, 5000); // Đặt thời gian chờ giữa các từ ở chế độ tự động
+            setTimeout(nextWord, 4000); // Đợi 4s sau khi flip trước khi chuyển sang từ tiếp theo
+        }, 4000); // Đặt thời gian chờ giữa các từ ở chế độ tự động
     }
 
     function nextWord() {
@@ -684,26 +608,34 @@ function updateQuestionCounter() {
     }
 
     function checkAnswer() {
-        const userAnswer = removePunctuation(document.getElementById('answerInput').value.toString().trim().toLowerCase());
-        const word = vocabList[currentIndex];
-        const correctAnswer = removePunctuation((isFront ? word[0] : word[3]).toString().trim().toLowerCase());
+    const answerInput = document.getElementById('answerInput');
+    const userAnswer = removePunctuation(answerInput.value.toString().trim().toLowerCase());
+    const word = vocabList[currentIndex];
+    // Nếu đang ở mặt trước thì so sánh với word[0], ngược lại so sánh với word[3]
+    const expectedText = isFront ? word[0] : word[3];
+    const normalizedExpectedText = removePunctuation(expectedText.toString().trim().toLowerCase());
 
-        if (userAnswer === correctAnswer) {
-            showNotification("Đúng!", true);
+    if (userAnswer === normalizedExpectedText) {
+        showNotification("Đúng!", true);
+        // Phát âm câu đúng bằng phiên bản gốc để khớp với file âm thanh
+        playPronunciation(expectedText);
+        // Sau 3 giây: nếu đang ở mặt trước thì lật sang mặt sau, nếu đã ở mặt sau thì chuyển sang từ mới
+        setTimeout(() => {
             if (isFront) {
                 flipCard();
             } else {
                 nextWord();
             }
-        } else {
-            showNotification("Sai!", false);
-            // Phát âm thanh của câu trả lời đúng khi trả lời sai
-            playPronunciation(correctAnswer);
-        }
-
-        // Xóa nội dung trong khung nhập liệu sau khi kiểm tra
-        document.getElementById('answerInput').value = '';
+        }, 3000);
+    } else {
+        showNotification("Sai!", false);
+        // Phát âm câu đúng khi trả lời sai (sử dụng câu gốc)
+        playPronunciation(expectedText);
     }
+
+    // Xóa nội dung trong ô nhập liệu
+    answerInput.value = '';
+}
 
     function checkAnswerBack() {
         const currentExample = removePunctuation(vocabList[currentIndex][3].toString().trim().toLowerCase());
@@ -740,7 +672,7 @@ function updateQuestionCounter() {
     }
 
     // Chức năng Kiểm Tra Nói
-    function startSpeechRecognition(isFront) {
+    function startSpeechRecognition() {
         if (!('webkitSpeechRecognition' in window)) {
             alert("Trình duyệt của bạn không hỗ trợ nhận diện giọng nói.");
             return;
@@ -760,7 +692,7 @@ function updateQuestionCounter() {
             document.getElementById('speechResult').style.display = 'block';
 
             // Kiểm tra kết quả nhận diện giọng nói
-            checkSpeechAnswer(speechResult, isFront);
+            checkSpeechAnswer(speechResult);
         };
 
         recognition.onerror = function(event) {
@@ -774,33 +706,92 @@ function updateQuestionCounter() {
         };
     }
 
-    function checkSpeechAnswer(speechResult, isFront) {
+    function checkSpeechAnswer(speechResult) {
         const word = vocabList[currentIndex];
-        const correctAnswer = removePunctuation((isFront ? word[0] : word[3]).toString().trim().toLowerCase());
+        const correctAnswer = removePunctuation(word[3].toString().trim().toLowerCase()); // Luôn so sánh với câu trả lời mặt sau
         const userAnswer = removePunctuation(speechResult.trim().toLowerCase());
 
         if (userAnswer === correctAnswer) {
             showNotification("Đúng!", true);
             // Phát lại câu đúng khi nói đúng
-            playPronunciation(isFront ? word[0] : word[3]);
-            if (isFront) {
-                setTimeout(() => {
-                    flipCardToBack(); // Chuyển sang mặt sau để học tiếp
-                }, 3000); // Đợi 3 giây trước khi chuyển sang mặt sau
-            } else {
-                setTimeout(() => {
-                    nextWord(); // Chuyển sang từ tiếp theo sau 3 giây
-                }, 3000); // Đợi 3 giây trước khi chuyển sang từ tiếp theo
-            }
+            playPronunciation(word[3]);
+            setTimeout(() => {
+                nextWord(); // Chuyển sang từ tiếp theo sau 3 giây
+            }, 3000); // Đợi 3 giây trước khi chuyển sang từ tiếp theo
         } else {
             showNotification("Sai!", false);
+	    flipCardToBack(); // Hiển thị mặt sau nếu câu trả lời sai
             // Phát lại câu đúng khi nói sai
-            playPronunciation(isFront ? word[0] : word[3]);
-            if (!isFront) {
-                flipCardToBack(); // Hiển thị mặt sau nếu kiểm tra mặt sau và câu trả lời sai
-            }
+            playPronunciation(word[3]);
         }
     }
+
+    function startSpeechRecognitionFront() {
+    if (!('webkitSpeechRecognition' in window)) {
+        alert("Trình duyệt của bạn không hỗ trợ nhận diện giọng nói.");
+        return;
+    }
+    const recognitionFront = new webkitSpeechRecognition();
+    recognitionFront.lang = 'en-US'; // Đặt ngôn ngữ nhận diện là tiếng Anh
+    recognitionFront.interimResults = false;
+    recognitionFront.maxAlternatives = 1;
+
+    recognitionFront.start();
+
+    recognitionFront.onresult = function(event) {
+        const speechResult = event.results[0][0].transcript;
+        // Nếu bạn muốn hiển thị kết quả nhận diện:
+        document.getElementById('recognizedSpeech').textContent = speechResult;
+        document.getElementById('speechResult').style.display = 'block';
+
+        // Gọi hàm kiểm tra nói dành riêng cho Mặt Trước
+        checkSpeechAnswerFront(speechResult);
+    };
+
+    recognitionFront.onerror = function(event) {
+        console.error("Lỗi nhận diện giọng nói: ", event.error);
+        alert("Có lỗi xảy ra khi nhận diện giọng nói. Vui lòng thử lại.");
+    };
+
+    recognitionFront.onend = function() {
+        // Xử lý khi kết thúc nhận diện nếu cần
+    };
+}
+
+function checkSpeechAnswerFront(speechResult) {
+    const word = vocabList[currentIndex];
+    // Xác định câu gốc dựa trên mặt hiện tại của thẻ
+    const expectedText = isFront ? word[0] : word[3];
+    const normalizedExpectedText = removePunctuation(expectedText.toString().trim().toLowerCase());
+    const userAnswer = removePunctuation(speechResult.trim().toLowerCase());
+
+    if (userAnswer === normalizedExpectedText) {
+        showNotification("Đúng!", true);
+        // Phát âm câu đúng dùng phiên bản gốc để khớp với file âm thanh đã mapping
+        playPronunciation(expectedText);
+        if (isFront) {
+            // Nếu ở mặt trước: sau 3 giây tự động lật sang mặt sau
+            setTimeout(() => {
+                flipCard();
+            }, 3000);
+        } else {
+            // Nếu ở mặt sau: sau 4 giây chuyển sang từ mới
+            setTimeout(() => {
+                nextWord();
+            }, 4000);
+        }
+    } else {
+        showNotification("Sai!", false);
+        // Phát âm câu đúng để nhắc nhở
+        playPronunciation(expectedText);
+        if (!isFront) {
+            // Nếu ở mặt sau và trả lời sai, đảm bảo hiển thị mặt sau
+            flipCardToBack();
+        }
+        // Nếu ở mặt trước, không chuyển trạng thái thẻ khi trả lời sai
+    }
+}
+
 </script>
 </body>
 </html>
