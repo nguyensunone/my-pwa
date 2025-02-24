@@ -178,17 +178,17 @@
 </div>
 <div id="vocabLabel">Không có từ vựng nào được thêm.</div>
 
-<textarea id="answerInput" placeholder="(1) Nhập câu trả lời mặt trước..." onkeydown="handleKeyDown(event)"></textarea>
+<textarea id="answerInput" placeholder="Viết Mặt Trước...(V1). Nói Mặt Trước...(N1)" onkeydown="handleKeyDown(event)"></textarea>
 
 <!-- Nhóm các nút kiểm tra -->
 <div style="text-align: center;">
-    <button id="checkAnswerButton" onclick="checkAnswer()">Viết 1</button>
-    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">Viết 2</button>
-    <button id="speakCheckFrontButton" onclick="startSpeechRecognitionFront()">Nói 1</button>
-    <button id="speakCheckButton" onclick="startSpeechRecognition()">Nói 2</button>
+    <button id="checkAnswerButton" onclick="checkAnswer()">V1</button>
+    <button id="checkAnswerBackButton" onclick="checkAnswerBack()">V2</button>
+    <button id="speakCheckFrontButton" onclick="startSpeechRecognitionFront()">N1</button>
+    <button id="speakCheckButton" onclick="startSpeechRecognition()">N2</button>
 </div>
 
-<textarea id="writingCheckBack" placeholder="(2) Nhập câu trả lời mặt sau..." onkeydown="handleKeyDownBack(event)"></textarea>
+<textarea id="writingCheckBack" placeholder="Viết Mặt Sau...(V2). Nói Mặt Sau...(N2)" onkeydown="handleKeyDownBack(event)"></textarea>
 
 <div id="speechResult" style="display: none;">
     <p><span id="recognizedSpeech"></span></p>
@@ -302,7 +302,7 @@ function displayWord() {
         const frontCard = `
             <div class="card">
                 <span class="term">${word[0]}</span><br>
-                <span class="ipa">${word[1]}</span><br>
+                <span class="ipa">${word[1]}</span><br>                
                 <span class="vietnamese">${word[2]}</span><br>                    
             </div>
         `;
@@ -331,9 +331,9 @@ function updateQuestionCounter() {
 
     // Danh sách các file bài học và mapping tương ứng
     const lessons = [
-        { name: 'US_Term.json', mapping: 'mapping_US_Term.json' },
-        { name: 'US_Statament.json', mapping: 'mapping_US_Statement.json' },
-        { name: 'US_dialog.json', mapping: 'mapping_US_dialog.json' }       
+        { name: 'US_Word.json', mapping: 'mapping_US_Word.json' },
+        { name: 'US_Statement.json', mapping: 'mapping_US_Statement.json' },
+        { name: 'US_dialog.json', mapping: 'mapping_US_dialog.json' }           
         // Thêm các bài học khác nếu cần
     ];
 
@@ -427,6 +427,9 @@ function updateQuestionCounter() {
             case 'End': // Phím End
                 startSpeechRecognition();
                 break;
+            case 'Home': // Phím Home
+                startSpeechRecognitionFront();
+                break;
             default:
                 break;
         }
@@ -466,34 +469,6 @@ function updateQuestionCounter() {
     function updateQuestionCounter() {
         const questionCounter = document.getElementById('questionCounter');
         questionCounter.innerText = `Câu hỏi: ${currentIndex + 1}/${vocabList.length}`;
-    }
-
-    function displayWord() {
-        if (vocabList.length > 0 && currentIndex < vocabList.length) {
-            const word = vocabList[currentIndex];
-            const frontCard = `
-                <div class="card">
-                    <span class="term">${word[0]}</span><br>
-                    <span class="ipa">${word[1]}</span><br>
-                    <span class="vietnamese">${word[2]}</span><br>                    
-                </div>
-            `;
-            const backCard = `
-                <div class="card">
-                    <span class="example">${word[3]}</span><br>
-                    <span class="example_ipa">${word[4]}</span><br>
-                    <span class="example_vi">${word[5]}</span>
-                </div>
-            `;
-            document.getElementById('vocabLabel').innerHTML = isFront ? frontCard : backCard;
-
-            // Phát âm thanh tương ứng với mặt thẻ
-            const pronunciationText = isFront ? word[0].toString() : word[3].toString();
-            playPronunciation(pronunciationText);
-        } else {
-            document.getElementById('vocabLabel').innerText = "Tất cả từ vựng đã hoàn thành.";
-        }
-        updateQuestionCounter(); // Cập nhật số câu hỏi mỗi lần hiển thị
     }
 
     function playPronunciation(text) {
