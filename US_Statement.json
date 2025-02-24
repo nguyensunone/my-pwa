@@ -1,0 +1,802 @@
+[
+    [
+        "I read a book every day.",
+        "/aɪ rɛd ə bʊk ˈɛvri deɪ/",
+        "Tôi đọc một cuốn sách mỗi ngày.",
+        "book",
+        "/bʊk/",
+        "sách"
+    ],
+    [
+        "She eats an apple daily.",
+        "/ʃi its ən ˈæpəl ˈdeɪli/",
+        "Cô ấy ăn một quả táo mỗi ngày.",
+        "apple",
+        "/ˈæpəl/",
+        "táo"
+    ],
+    [
+        "The cat is on the bed.",
+        "/ðə kæt ɪz ɑn ðə bɛd/",
+        "Con mèo ở trên giường.",
+        "cat",
+        "/kæt/",
+        "mèo"
+    ],
+    [
+        "I have a small dog.",
+        "/aɪ hæv ə smɔl dɔg/",
+        "Tôi có một con chó nhỏ.",
+        "dog",
+        "/dɔg/",
+        "chó"
+    ],
+    [
+        "This is my house.",
+        "/ðɪs ɪz maɪ haʊs/",
+        "Đây là ngôi nhà của tôi.",
+        "house",
+        "/haʊs/",
+        "ngôi nhà"
+    ],
+    [
+        "The car is red.",
+        "/ðə kɑr ɪz rɛd/",
+        "Chiếc xe hơi màu đỏ.",
+        "car",
+        "/kɑr/",
+        "xe hơi"
+    ],
+    [
+        "I write with a pen.",
+        "/aɪ raɪt wɪð ə pɛn/",
+        "Tôi viết bằng bút.",
+        "pen",
+        "/pɛn/",
+        "bút"
+    ],
+    [
+        "The book is on the table.",
+        "/ðə bʊk ɪz ɑn ðə ˈteɪbəl/",
+        "Cuốn sách ở trên bàn.",
+        "table",
+        "/ˈteɪbəl/",
+        "bàn"
+    ],
+    [
+        "He sits on a chair.",
+        "/hi sɪts ɑn ə ʧɛr/",
+        "Anh ấy ngồi trên ghế.",
+        "chair",
+        "/ʧɛr/",
+        "ghế"
+    ],
+    [
+        "I drink water every day.",
+        "/aɪ drɪŋk ˈwɔtər ˈɛvri deɪ/",
+        "Tôi uống nước mỗi ngày.",
+        "water",
+        "/ˈwɔtər/",
+        "nước"
+    ],
+    [
+        "My teacher is very nice.",
+        "/maɪ ˈtiʧər ɪz ˈvɛri naɪs/",
+        "Giáo viên của tôi rất dễ thương.",
+        "teacher",
+        "/ˈtiʧər/",
+        "giáo viên"
+    ],
+    [
+        "She is a good student.",
+        "/ʃi ɪz ə gʊd ˈstuːdənt/",
+        "Cô ấy là một học sinh giỏi.",
+        "student",
+        "/ˈstuːdənt/",
+        "học sinh"
+    ],
+    [
+        "We go to school together.",
+        "/wi ɡoʊ tu skuːl təˈɡɛðər/",
+        "Chúng tôi đi học cùng nhau.",
+        "school",
+        "/skuːl/",
+        "trường học"
+    ],
+    [
+        "He is my best friend.",
+        "/hi ɪz maɪ bɛst frɛnd/",
+        "Anh ấy là bạn thân nhất của tôi.",
+        "friend",
+        "/frɛnd/",
+        "bạn bè"
+    ],
+    [
+        "I love my family.",
+        "/aɪ lʌv maɪ ˈfæməli/",
+        "Tôi yêu gia đình của tôi.",
+        "family",
+        "/ˈfæməli/",
+        "gia đình"
+    ],
+    [
+        "The food is delicious.",
+        "/ðə fuːd ɪz dɪˈlɪʃəs/",
+        "Thức ăn thật ngon.",
+        "food",
+        "/fuːd/",
+        "thức ăn"
+    ],
+    [
+        "She feels happy today.",
+        "/ʃi filz ˈhæpi təˈdeɪ/",
+        "Cô ấy cảm thấy vui hôm nay.",
+        "happy",
+        "/ˈhæpi/",
+        "vui vẻ"
+    ],
+    [
+        "The house is big.",
+        "/ðə haʊs ɪz bɪg/",
+        "Ngôi nhà thì lớn.",
+        "big",
+        "/bɪg/",
+        "lớn"
+    ],
+    [
+        "I have a small bag.",
+        "/aɪ hæv ə smɔl bæg/",
+        "Tôi có một cái túi nhỏ.",
+        "small",
+        "/smɔl/",
+        "nhỏ"
+    ],
+    [
+        "Please open the door.",
+        "/pliz ˈoʊpən ðə dɔr/",
+        "Làm ơn mở cửa ra.",
+        "door",
+        "/dɔr/",
+        "cửa"
+    ],
+    [
+        "The window is open.",
+        "/ðə ˈwɪndoʊ ɪz ˈoʊpən/",
+        "Cửa sổ đang mở.",
+        "window",
+        "/ˈwɪndoʊ/",
+        "cửa sổ"
+    ],
+    [
+        "My phone is on the table.",
+        "/maɪ foʊn ɪz ɑn ðə ˈteɪbəl/",
+        "Điện thoại của tôi ở trên bàn.",
+        "phone",
+        "/foʊn/",
+        "điện thoại"
+    ],
+    [
+        "The clock shows 3 o’clock.",
+        "/ðə klɑk ʃoʊz θri əˈklɑk/",
+        "Đồng hồ chỉ ba giờ.",
+        "clock",
+        "/klɑk/",
+        "đồng hồ"
+    ],
+    [
+        "I sleep on the bed.",
+        "/aɪ sliːp ɑn ðə bɛd/",
+        "Tôi ngủ trên giường.",
+        "bed",
+        "/bɛd/",
+        "giường"
+    ],
+    [
+        "The door is closed.",
+        "/ðə dɔr ɪz kloʊzd/",
+        "Cánh cửa đã đóng.",
+        "door",
+        "/dɔr/",
+        "cửa"
+    ],
+    [
+        "Her bag is very heavy.",
+        "/hɜr bæg ɪz ˈvɛri ˈhɛvi/",
+        "Túi của cô ấy rất nặng.",
+        "bag",
+        "/bæg/",
+        "túi xách"
+    ],
+    [
+        "I like your new shoes.",
+        "/aɪ laɪk jʊr nu ʃuz/",
+        "Tôi thích đôi giày mới của bạn.",
+        "shoes",
+        "/ʃuz/",
+        "giày"
+    ],
+    [
+        "He wears a blue shirt.",
+        "/hi wɛrz ə blu ʃɜrt/",
+        "Anh ấy mặc một chiếc áo sơ mi màu xanh.",
+        "shirt",
+        "/ʃɜrt/",
+        "áo sơ mi"
+    ],
+    [
+        "This hat is too big.",
+        "/ðɪs hæt ɪz tu bɪg/",
+        "Chiếc mũ này quá to.",
+        "hat",
+        "/hæt/",
+        "mũ"
+    ],
+    [
+        "The doorbell is ringing.",
+        "/ðə ˈdɔrˌbɛl ɪz ˈrɪŋɪŋ/",
+        "Chuông cửa đang reo.",
+        "doorbell",
+        "/ˈdɔrˌbɛl/",
+        "chuông cửa"
+    ],
+    [
+        "My mother is a teacher.",
+        "/maɪ ˈmʌðər ɪz ə ˈtiʧər/",
+        "Mẹ tôi là một giáo viên.",
+        "mother",
+        "/ˈmʌðər/",
+        "mẹ"
+    ],
+    [
+        "His father works at a bank.",
+        "/hɪz ˈfɑːðər wɜrks æt ə bæŋk/",
+        "Bố anh ấy làm việc ở ngân hàng.",
+        "father",
+        "/ˈfɑːðər/",
+        "cha"
+    ],
+    [
+        "I have one brother.",
+        "/aɪ hæv wʌn ˈbrʌðər/",
+        "Tôi có một anh trai.",
+        "brother",
+        "/ˈbrʌðər/",
+        "anh/em trai"
+    ],
+    [
+        "Her sister is very kind.",
+        "/hɜr ˈsɪstər ɪz ˈvɛri kaɪnd/",
+        "Chị gái cô ấy rất tốt bụng.",
+        "sister",
+        "/ˈsɪstər/",
+        "chị/em gái"
+    ],
+    [
+        "The baby is sleeping.",
+        "/ðə ˈbeɪbi ɪz ˈsliːpɪŋ/",
+        "Em bé đang ngủ.",
+        "baby",
+        "/ˈbeɪbi/",
+        "em bé"
+    ],
+    [
+        "They are my close friends.",
+        "/ðeɪ ɑr maɪ kloʊs frɛndz/",
+        "Họ là những người bạn thân của tôi.",
+        "friend",
+        "/frɛnd/",
+        "bạn bè"
+    ],
+    [
+        "The doctor is very busy.",
+        "/ðə ˈdɑktər ɪz ˈvɛri ˈbɪzi/",
+        "Bác sĩ rất bận rộn.",
+        "doctor",
+        "/ˈdɑktər/",
+        "bác sĩ"
+    ],
+    [
+        "She wants to be a nurse.",
+        "/ʃi wɑnts tu bi ə nɜrs/",
+        "Cô ấy muốn trở thành y tá.",
+        "nurse",
+        "/nɜrs/",
+        "y tá"
+    ],
+    [
+        "He is a college student.",
+        "/hi ɪz ə ˈkɑlɪʤ ˈstuːdənt/",
+        "Anh ấy là sinh viên đại học.",
+        "student",
+        "/ˈstuːdənt/",
+        "học sinh"
+    ],
+    [
+        "My father is a factory worker.",
+        "/maɪ ˈfɑːðər ɪz ə ˈfæktəri ˈwɜrkər/",
+        "Bố tôi là công nhân nhà máy.",
+        "worker",
+        "/ˈwɜrkər/",
+        "công nhân, nhân viên"
+    ],
+    [
+        "The sun is bright today.",
+        "/ðə sʌn ɪz braɪt təˈdeɪ/",
+        "Mặt trời hôm nay thật sáng.",
+        "sun",
+        "/sʌn/",
+        "mặt trời"
+    ],
+    [
+        "The moon looks beautiful tonight.",
+        "/ðə muːn lʊks ˈbjuːtəfəl təˈnaɪt/",
+        "Mặt trăng trông thật đẹp tối nay.",
+        "moon",
+        "/muːn/",
+        "mặt trăng"
+    ],
+    [
+        "I see many stars in the sky.",
+        "/aɪ si ˈmɛni stɑrz ɪn ðə skaɪ/",
+        "Tôi thấy nhiều ngôi sao trên bầu trời.",
+        "star",
+        "/stɑr/",
+        "ngôi sao"
+    ],
+    [
+        "This flower smells nice.",
+        "/ðɪs ˈflaʊər smɛlz naɪs/",
+        "Bông hoa này thơm quá.",
+        "flower",
+        "/ˈflaʊər/",
+        "hoa"
+    ],
+    [
+        "There is a big tree in the park.",
+        "/ðɛr ɪz ə bɪg tri ɪn ðə pɑrk/",
+        "Có một cái cây lớn trong công viên.",
+        "tree",
+        "/triː/",
+        "cây"
+    ],
+    [
+        "The river is very long.",
+        "/ðə ˈrɪvər ɪz ˈvɛri lɔŋ/",
+        "Con sông rất dài.",
+        "river",
+        "/ˈrɪvər/",
+        "sông"
+    ],
+    [
+        "We can see the mountain from here.",
+        "/wi kæn si ðə ˈmaʊnˌtɪn frəm hɪr/",
+        "Chúng ta có thể thấy ngọn núi từ đây.",
+        "mountain",
+        "/ˈmaʊnˌtɪn/",
+        "núi"
+    ],
+    [
+        "They are playing on the beach.",
+        "/ðeɪ ɑr ˈpleɪɪŋ ɑn ðə biːʧ/",
+        "Họ đang chơi trên bãi biển.",
+        "beach",
+        "/biːʧ/",
+        "bãi biển"
+    ],
+    [
+        "The road is very busy today.",
+        "/ðə roʊd ɪz ˈvɛri ˈbɪzi təˈdeɪ/",
+        "Con đường hôm nay rất đông.",
+        "road",
+        "/roʊd/",
+        "con đường"
+    ],
+    [
+        "We walk in the park every morning.",
+        "/wi wɔk ɪn ðə pɑrk ˈɛvri ˈmɔrnɪŋ/",
+        "Chúng tôi đi bộ trong công viên mỗi sáng.",
+        "park",
+        "/pɑrk/",
+        "công viên"
+    ],
+    [
+        "She is eating an apple.",
+        "/ʃi ɪz ˈiːtɪŋ ən ˈæpəl/",
+        "Cô ấy đang ăn một quả táo.",
+        "apple",
+        "/ˈæpəl/",
+        "táo"
+    ],
+    [
+        "I like to eat bananas.",
+        "/aɪ laɪk tu iːt bəˈnænəz/",
+        "Tôi thích ăn chuối.",
+        "banana",
+        "/bəˈnænə/",
+        "chuối"
+    ],
+    [
+        "He drinks orange juice.",
+        "/hi drɪŋks ˈɔrɪndʒ ʤuːs/",
+        "Anh ấy uống nước cam.",
+        "orange",
+        "/ˈɔrɪndʒ/",
+        "cam"
+    ],
+    [
+        "We need some bread.",
+        "/wi nid səm brɛd/",
+        "Chúng tôi cần một ít bánh mì.",
+        "bread",
+        "/brɛd/",
+        "bánh mì"
+    ],
+    [
+        "The baby drinks milk.",
+        "/ðə ˈbeɪbi drɪŋks mɪlk/",
+        "Em bé uống sữa.",
+        "milk",
+        "/mɪlk/",
+        "sữa"
+    ],
+    [
+        "Please give me some water.",
+        "/pliz gɪv mi səm ˈwɑːtər/",
+        "Làm ơn cho tôi ít nước.",
+        "water",
+        "/ˈwɑːtər/",
+        "nước"
+    ],
+    [
+        "We eat rice every day.",
+        "/wi iːt raɪs ˈɛvri deɪ/",
+        "Chúng tôi ăn cơm mỗi ngày.",
+        "rice",
+        "/raɪs/",
+        "cơm, gạo"
+    ],
+    [
+        "She cooks chicken for dinner.",
+        "/ʃi kʊks ˈʧɪkɪn fɔr ˈdɪnər/",
+        "Cô ấy nấu thịt gà cho bữa tối.",
+        "chicken",
+        "/ˈʧɪkɪn/",
+        "thịt gà"
+    ],
+    [
+        "He likes grilled fish.",
+        "/hi laɪks grɪld fɪʃ/",
+        "Anh ấy thích cá nướng.",
+        "fish",
+        "/fɪʃ/",
+        "cá"
+    ],
+    [
+        "I have two eggs for breakfast.",
+        "/aɪ hæv tu ɛgz fɔr ˈbrɛkfəst/",
+        "Tôi ăn hai quả trứng vào bữa sáng.",
+        "egg",
+        "/ɛg/",
+        "trứng"
+    ],
+    [
+        "My father has a new car.",
+        "/maɪ ˈfɑːðər hæz ə nu kɑr/",
+        "Bố tôi có một chiếc xe hơi mới.",
+        "car",
+        "/kɑr/",
+        "xe hơi"
+    ],
+    [
+        "We go to school by bus.",
+        "/wi goʊ tu skuːl baɪ bʌs/",
+        "Chúng tôi đến trường bằng xe buýt.",
+        "bus",
+        "/bʌs/",
+        "xe buýt"
+    ],
+    [
+        "The train arrives at 5 p.m.",
+        "/ðə treɪn əˈraɪvz æt faɪv piːˈɛm/",
+        "Tàu hỏa đến lúc 5 giờ chiều.",
+        "train",
+        "/treɪn/",
+        "tàu hỏa"
+    ],
+    [
+        "He rides his bike every morning.",
+        "/hi raɪdz hɪz baɪk ˈɛvri ˈmɔrnɪŋ/",
+        "Anh ấy đạp xe mỗi sáng.",
+        "bike",
+        "/baɪk/",
+        "xe đạp"
+    ],
+    [
+        "They are traveling by airplane.",
+        "/ðeɪ ɑr ˈtrævəlɪŋ baɪ ˈɛrˌpleɪn/",
+        "Họ đang di chuyển bằng máy bay.",
+        "airplane",
+        "/ˈɛrˌpleɪn/",
+        "máy bay"
+    ],
+    [
+        "The store is on Main Street.",
+        "/ðə stɔr ɪz ɑn meɪn striːt/",
+        "Cửa hàng nằm trên phố Main.",
+        "street",
+        "/striːt/",
+        "đường phố"
+    ],
+    [
+        "Their house is very big.",
+        "/ðɛr haʊs ɪz ˈvɛri bɪg/",
+        "Ngôi nhà của họ rất lớn.",
+        "house",
+        "/haʊs/",
+        "ngôi nhà"
+    ],
+    [
+        "Open the window, please.",
+        "/ˈoʊpən ðə ˈwɪndoʊ pliz/",
+        "Làm ơn mở cửa sổ ra.",
+        "window",
+        "/ˈwɪndoʊ/",
+        "cửa sổ"
+    ],
+    [
+        "Close the door when you leave.",
+        "/kloʊz ðə dɔr wɛn ju liv/",
+        "Đóng cửa khi bạn rời đi nhé.",
+        "door",
+        "/dɔr/",
+        "cửa ra vào"
+    ],
+    [
+        "There is a chair in the room.",
+        "/ðɛr ɪz ə ʧɛr ɪn ðə rum/",
+        "Có một cái ghế trong phòng.",
+        "chair",
+        "/ʧɛr/",
+        "ghế"
+    ],
+    [
+        "I am reading a book.",
+        "/aɪ æm ˈriːdɪŋ ə bʊk/",
+        "Tôi đang đọc một cuốn sách.",
+        "book",
+        "/bʊk/",
+        "sách"
+    ],
+    [
+        "He writes with a blue pen.",
+        "/hi raɪts wɪð ə blu pɛn/",
+        "Anh ấy viết bằng bút màu xanh.",
+        "pen",
+        "/pɛn/",
+        "bút mực"
+    ],
+    [
+        "Please sharpen the pencil.",
+        "/pliz ˈʃɑːrpən ðə ˈpɛnsl/",
+        "Làm ơn gọt bút chì.",
+        "pencil",
+        "/ˈpɛnsl/",
+        "bút chì"
+    ],
+    [
+        "The books are on the table.",
+        "/ðə bʊks ɑr ɑn ðə ˈteɪbəl/",
+        "Những cuốn sách ở trên bàn.",
+        "table",
+        "/ˈteɪbəl/",
+        "bàn"
+    ],
+    [
+        "Her bag is very heavy.",
+        "/hɜr bæɡ ɪz ˈvɛri ˈhɛvi/",
+        "Túi của cô ấy rất nặng.",
+        "bag",
+        "/bæɡ/",
+        "túi xách"
+    ],
+    [
+        "The clock shows 10 o’clock.",
+        "/ðə klɑk ʃoʊz tɛn əˈklɑk/",
+        "Đồng hồ chỉ 10 giờ.",
+        "clock",
+        "/klɑk/",
+        "đồng hồ"
+    ],
+    [
+        "My phone is on the table.",
+        "/maɪ foʊn ɪz ɑn ðə ˈteɪbəl/",
+        "Điện thoại của tôi ở trên bàn.",
+        "phone",
+        "/foʊn/",
+        "điện thoại"
+    ],
+    [
+        "I use a computer for work.",
+        "/aɪ juz ə kəmˈpjuːtər fɔr wɜrk/",
+        "Tôi sử dụng máy tính cho công việc.",
+        "computer",
+        "/kəmˈpjuːtər/",
+        "máy tính"
+    ],
+    [
+        "They are watching television.",
+        "/ðeɪ ɑr ˈwɑʧɪŋ ˈtɛləˌvɪʒən/",
+        "Họ đang xem tivi.",
+        "television",
+        "/ˈtɛləˌvɪʒən/",
+        "tivi"
+    ],
+    [
+        "Turn off the light, please.",
+        "/tɜrn ɑf ðə laɪt pliz/",
+        "Làm ơn tắt đèn đi.",
+        "light",
+        "/laɪt/",
+        "đèn"
+    ],
+    [
+        "The teacher is very kind.",
+        "/ðə ˈtiːʧər ɪz ˈvɛri kaɪnd/",
+        "Giáo viên rất tốt bụng.",
+        "teacher",
+        "/ˈtiːʧər/",
+        "giáo viên"
+    ],
+    [
+        "She is a good student.",
+        "/ʃi ɪz ə gʊd ˈstuːdənt/",
+        "Cô ấy là một học sinh giỏi.",
+        "student",
+        "/ˈstuːdənt/",
+        "học sinh, sinh viên"
+    ],
+    [
+        "We go to school every day.",
+        "/wi goʊ tu skuːl ˈɛvri deɪ/",
+        "Chúng tôi đến trường mỗi ngày.",
+        "school",
+        "/skuːl/",
+        "trường học"
+    ],
+    [
+        "Our class starts at 8 a.m.",
+        "/aʊr klæs stɑrts æt eɪt eɪ.ɛm/",
+        "Lớp học của chúng tôi bắt đầu lúc 8 giờ sáng.",
+        "class",
+        "/klæs/",
+        "lớp học"
+    ],
+    [
+        "I always do my homework.",
+        "/aɪ ˈɔlweɪz du maɪ ˈhoʊmˌwɜrk/",
+        "Tôi luôn làm bài tập về nhà.",
+        "homework",
+        "/ˈhoʊmˌwɜrk/",
+        "bài tập về nhà"
+    ],
+    [
+        "This is my English notebook.",
+        "/ðɪs ɪz maɪ ˈɪŋglɪʃ ˈnoʊtˌbʊk/",
+        "Đây là quyển vở tiếng Anh của tôi.",
+        "notebook",
+        "/ˈnoʊtˌbʊk/",
+        "vở ghi chép"
+    ],
+    [
+        "Today's lesson is interesting.",
+        "/təˈdeɪz ˈlɛsən ɪz ˈɪntrəstɪŋ/",
+        "Bài học hôm nay rất thú vị.",
+        "lesson",
+        "/ˈlɛsən/",
+        "bài học"
+    ],
+    [
+        "He is studying for the exam.",
+        "/hi ɪz ˈstʌdiɪŋ fɔr ði ɪɡˈzæm/",
+        "Anh ấy đang học cho kỳ thi.",
+        "exam",
+        "/ɪɡˈzæm/",
+        "kỳ thi"
+    ],
+    [
+        "Do you have a question?",
+        "/du ju hæv ə ˈkwɛsʧən/",
+        "Bạn có câu hỏi nào không?",
+        "question",
+        "/ˈkwɛsʧən/",
+        "câu hỏi"
+    ],
+    [
+        "She gave the correct answer.",
+        "/ʃi geɪv ðə kəˈrɛkt ˈænsər/",
+        "Cô ấy đã đưa ra câu trả lời đúng.",
+        "answer",
+        "/ˈænsər/",
+        "câu trả lời"
+    ],
+    [
+        "My family is very big.",
+        "/maɪ ˈfæməli ɪz ˈvɛri bɪg/",
+        "Gia đình tôi rất lớn.",
+        "family",
+        "/ˈfæməli/",
+        "gia đình"
+    ],
+    [
+        "My mother is a teacher.",
+        "/maɪ ˈmʌðər ɪz ə ˈtiːʧər/",
+        "Mẹ tôi là giáo viên.",
+        "mother",
+        "/ˈmʌðər/",
+        "mẹ"
+    ],
+    [
+        "His father works at a bank.",
+        "/hɪz ˈfɑːðər wɜrks æt ə bæŋk/",
+        "Bố của anh ấy làm việc ở ngân hàng.",
+        "father",
+        "/ˈfɑːðər/",
+        "cha"
+    ],
+    [
+        "I have one brother.",
+        "/aɪ hæv wʌn ˈbrʌðər/",
+        "Tôi có một người anh trai.",
+        "brother",
+        "/ˈbrʌðər/",
+        "anh, em trai"
+    ],
+    [
+        "Her sister is very friendly.",
+        "/hɜr ˈsɪstər ɪz ˈvɛri ˈfrɛndli/",
+        "Em gái của cô ấy rất thân thiện.",
+        "sister",
+        "/ˈsɪstər/",
+        "chị, em gái"
+    ],
+    [
+        "He is my best friend.",
+        "/hi ɪz maɪ bɛst frɛnd/",
+        "Anh ấy là bạn thân của tôi.",
+        "friend",
+        "/frɛnd/",
+        "bạn bè"
+    ],
+    [
+        "The baby is sleeping now.",
+        "/ðə ˈbeɪbi ɪz ˈsliːpɪŋ naʊ/",
+        "Em bé đang ngủ bây giờ.",
+        "baby",
+        "/ˈbeɪbi/",
+        "em bé"
+    ],
+    [
+        "My uncle lives in New York.",
+        "/maɪ ˈʌŋkəl lɪvz ɪn nu jɔrk/",
+        "Chú tôi sống ở New York.",
+        "uncle",
+        "/ˈʌŋkəl/",
+        "chú, cậu, bác trai"
+    ],
+    [
+        "Her aunt is visiting today.",
+        "/hɜr ænt ɪz ˈvɪzɪtɪŋ təˈdeɪ/",
+        "Dì của cô ấy đến thăm hôm nay.",
+        "aunt",
+        "/ænt/",
+        "cô, dì, bác gái"
+    ],
+    [
+        "My cousin plays the guitar.",
+        "/maɪ ˈkʌzən pleɪz ðə gɪˈtɑr/",
+        "Anh họ tôi chơi đàn guitar.",
+        "cousin",
+        "/ˈkʌzən/",
+        "anh, chị, em họ"
+    ]
+]
