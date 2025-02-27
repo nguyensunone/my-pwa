@@ -11,7 +11,7 @@
         "How are you?",
         "haʊ ɑr ju",
         "Bạn khỏe không?",
-        "I’m doing well, thank you!",
+        "I'm doing well, thank you!",
         "aɪm ˈduːɪŋ wɛl, θæŋk ju",
         "Tôi vẫn khỏe, cám ơn bạn!"
     ],
@@ -27,7 +27,7 @@
         "Where is the restroom?",
         "wɛr ɪz ðə ˈrɛsrum",
         "Nhà vệ sinh ở đâu?",
-        "It’s down the hall on the right.",
+        "It's down the hall on the right.",
         "ɪts daʊn ðə hɔl ɒn ðə raɪt",
         "Nó ở cuối hành lang bên phải."
     ],
@@ -51,12 +51,12 @@
         "What time is it?",
         "wɑt taɪm ɪz ɪt",
         "Mấy giờ rồi?",
-        "It’s 3 o’clock.",
+        "It's 3 o'clock.",
         "ɪts θri əˈklɒk",
         "Bây giờ là 3 giờ."
     ],
     [
-        "I’d like to order food.",
+        "I'd like to order food.",
         "aɪd laɪk tu ˈɔrdər fud",
         "Tôi muốn gọi thức ăn.",
         "What would you like to order?",
@@ -107,15 +107,15 @@
         "Where are you from?",
         "wɛr ɑr jʊ frʌm",
         "Bạn đến từ đâu?",
-        "I’m from Vietnam.",
+        "I'm from Vietnam.",
         "aɪm frʌm viːɛtˈnɑm",
         "Tôi đến từ Việt Nam."
     ],
     [
-        "What’s the weather like today?",
+        "What's the weather like today?",
         "wɑts ðə ˈwɛðər laɪk təˈdeɪ",
         "Thời tiết hôm nay thế nào?",
-        "It’s sunny and warm.",
+        "It's sunny and warm.",
         "ɪts ˈsʌni ənd wɔrm",
         "Hôm nay nắng và ấm."
     ],
@@ -179,7 +179,7 @@
         "Is there a discount?",
         "ɪz ðɛr ə ˈdɪskaʊnt",
         "Có giảm giá không?",
-        "Yes, there’s a 10% discount.",
+        "Yes, there's a 10% discount.",
         "jɛs, ðɛrz ə tɛn pərsɛnt ˈdɪsˌkaʊnt",
         "Có, có giảm giá 10%."
     ],
@@ -208,7 +208,7 @@
         "Không, tôi có xe của mình."
     ],
     [
-        "What’s your favorite movie?",
+        "What's your favorite movie?",
         "wɑts jʊr ˈfeɪvərɪt ˈmuvi",
         "Phim yêu thích của bạn là gì?",
         "My favorite movie is Inception.",
@@ -227,7 +227,7 @@
         "Can we get the check?",
         "kæn wi ɡɛt ðə tʃɛk",
         "Chúng ta có thể lấy hóa đơn không?",
-        "Sure, I’ll bring it right away.",
+        "Sure, I'll bring it right away.",
         "ʃʊr, aɪl brɪŋ ɪt raɪt əˈweɪ",
         "Chắc chắn, tôi sẽ mang đến ngay."
     ],
@@ -235,7 +235,7 @@
         "What is your job?",
         "wɑt ɪz jʊr dʒɑb",
         "Công việc của bạn là gì?",
-        "I’m an engineer.",
+        "I'm an engineer.",
         "aɪm æn ˌɛn dʒɪˈnɪr",
         "Tôi là kỹ sư."
     ],
@@ -251,7 +251,7 @@
         "Can I have a glass of water?",
         "kæn aɪ hæv ə ɡlæs ʌv ˈwɔtər",
         "Cho tôi một ly nước được không?",
-        "Here’s your water.",
+        "Here's your water.",
         "hɪrz jʊr ˈwɔtər",
         "Đây là nước của bạn."
     ],
@@ -259,7 +259,7 @@
         "Where can I find an ATM?",
         "wɛr kæn aɪ faɪnd æn ˌeɪ ti ˈɛm",
         "Tôi có thể tìm máy ATM ở đâu?",
-        "There’s one in the bank nearby.",
+        "There's one in the bank nearby.",
         "ðɛrz wʌn ɪn ðə bæŋk ˈnɪrbaɪ",
         "Có một cái trong ngân hàng gần đây."
     ],
@@ -275,7 +275,7 @@
         "How do you say this in English?",
         "haʊ du jʊ seɪ ðɪs ɪn ˈɪŋɡlɪʃ",
         "Cái này nói bằng tiếng Anh là gì?",
-        "It’s called a “pen.”",
+        "It's called a “pen.”",
         "ɪts kɔld ə pɛn",
         "Nó gọi là “bút”."
     ],
@@ -283,12 +283,12 @@
         "Do you have any plans for the weekend?",
         "du jʊ hæv ˈɛni plænz fɔr ðə ˈwiːkˌɛnd",
         "Bạn có kế hoạch gì cho cuối tuần không?",
-        "Yes, I’m going to visit friends.",
+        "Yes, I'm going to visit friends.",
         "jɛs, aɪm ˈɡoʊɪŋ tu ˈvɪzɪt frɛndz",
         "Có, tôi sẽ thăm bạn bè."
     ],
     [
-        "What’s your favorite food?",
+        "What's your favorite food?",
         "wɑts jʊr ˈfeɪvərɪt fud",
         "Món ăn yêu thích của bạn là gì?",
         "I love sushi.",
@@ -315,7 +315,7 @@
         "How far is it to the airport?",
         "haʊ fɑr ɪz ɪt tu ði ˈɛrˌpɔrt",
         "Đến sân bay xa không?",
-        "It’s about 20 miles.",
+        "It's about 20 miles.",
         "ɪts əˈbaʊt ˈtwɛnti maɪlz",
         "Khoảng 20 dặm."
     ],
@@ -323,7 +323,7 @@
         "What do you think of this place?",
         "wɑt du jʊ θɪŋk ʌv ðɪs pleɪs",
         "Bạn nghĩ gì về nơi này?",
-        "I think it’s great!",
+        "I think it's great!",
         "aɪ θɪŋk ɪts ɡreɪt",
         "Tôi nghĩ đây là tuyệt vời!"
     ],
@@ -331,7 +331,7 @@
         "Can I take this seat?",
         "kæn aɪ teɪk ðɪs sit",
         "Tôi có thể ngồi ở ghế này không?",
-        "Yes, it’s free.",
+        "Yes, it's free.",
         "jɛs, ɪts fri",
         "Có, nó còn trống."
     ],
@@ -347,15 +347,15 @@
         "Is it okay to bring drinks?",
         "ɪz ɪt oʊˈkeɪ tu brɪŋ drɪŋks",
         "Mang theo đồ uống có được không?",
-        "Yes, that’s fine.",
+        "Yes, that's fine.",
         "jɛs, ðæts faɪn",
         "Có, không vấn đề gì."
     ],
     [
-        "What’s the daily special?",
+        "What's the daily special?",
         "wɑts ðə ˈdeɪli ˈspɛʃəl",
         "Món đặc biệt trong ngày là gì?",
-        "Today’s special is chicken salad.",
+        "Today's special is chicken salad.",
         "təˈdeɪz ˈspɛʃəl ɪz ˈtʃɪkɪn ˈsæləd",
         "Món đặc biệt hôm nay là salad gà."
     ],
@@ -395,7 +395,7 @@
         "Is there a restroom nearby?",
         "ɪz ðɛr ə ˈrɛstruːm ˈnɪrbaɪ",
         "Gần đây có nhà vệ sinh không?",
-        "Yes, it’s down the hall.",
+        "Yes, it's down the hall.",
         "jɛs, ɪts daʊn ðə hɔl",
         "Có, nó ở dưới hành lang."
     ],
@@ -408,7 +408,7 @@
         "Có, chúng tôi có thể gói lại cho bạn."
     ],
     [
-        "What’s the Wi-Fi password?",
+        "What's the Wi-Fi password?",
         "wɑts ðə ˈwaɪfaɪ ˈpæsˌwɜrd",
         "Mật khẩu Wi-Fi là gì?",
         "The password is “welcome123”.",
@@ -419,7 +419,7 @@
         "Can I take your order?",
         "kæn aɪ teɪk jʊər ˈɔrdər",
         "Tôi có thể lấy đơn đặt hàng của bạn không?",
-        "Yes, I’ll have a burger, please.",
+        "Yes, I'll have a burger, please.",
         "jɛs, aɪl hæv ə ˈbɜrgər, pliz",
         "Có, tôi muốn một cái burger."
     ],
@@ -427,7 +427,7 @@
         "How late are you open?",
         "haʊ leɪt ɑr jʊ ˈoʊpən",
         "Bạn mở cửa đến mấy giờ?",
-        "We’re open until 10 PM.",
+        "We're open until 10 PM.",
         "wɪr ˈoʊpən ənˈtɪl tɛn pi ɛm",
         "Chúng tôi mở cửa đến 10 giờ tối."
     ],
@@ -448,10 +448,10 @@
         "Bạn có thể gọi dịch vụ taxi."
     ],
     [
-        "What’s going on here?",
+        "What's going on here?",
         "wɑts ˈɡoʊɪŋ ɑn hɪr",
         "Ở đây có chuyện gì vậy?",
-        "There’s a community event today.",
+        "There's a community event today.",
         "ðɛrz ə kəˈmjunɪti ɪˈvɛnt təˈdeɪ",
         "Hôm nay có một sự kiện cộng đồng."
     ],
@@ -459,7 +459,7 @@
         "Do you like this song?",
         "du jʊ laɪk ðɪs sɔŋ",
         "Bạn có thích bài hát này không?",
-        "Yes, it’s really catchy!",
+        "Yes, it's really catchy!",
         "jɛs, ɪts ˈrɪli ˈkæʧi",
         "Có, nó rất bắt tai!"
     ],
@@ -467,7 +467,7 @@
         "What would you like to drink?",
         "wɑt wʊd jʊ laɪk tu drɪŋk",
         "Bạn muốn uống gì?",
-        "I’d like a coffee, please.",
+        "I'd like a coffee, please.",
         "aɪd laɪk ə ˈkɔfi, pliz",
         "Tôi muốn một ly cà phê, làm ơn."
     ],
@@ -475,7 +475,7 @@
         "Can I help you find something?",
         "kæn aɪ hɛlp jʊ faɪnd ˈsʌmθɪŋ",
         "Tôi có thể giúp bạn tìm cái gì không?",
-        "Yes, I’m looking for a jacket.",
+        "Yes, I'm looking for a jacket.",
         "jɛs, aɪm ˈlʊkɪŋ fɔr ə ˈdʒækɪt",
         "Có, tôi đang tìm một cái áo khoác."
     ],
@@ -491,7 +491,7 @@
         "Is this seat taken?",
         "ɪz ðɪs sit ˈteɪkən",
         "Ghế này có ai ngồi không?",
-        "No, it’s free.",
+        "No, it's free.",
         "noʊ, ɪts fri",
         "Không, nó còn trống."
     ],
@@ -547,7 +547,7 @@
         "How do you spell that?",
         "haʊ du jʊ spɛl ðæt",
         "Bạn đánh vần cái đó như thế nào?",
-        "It’s spelled A-P-P-L-E.",
+        "It's spelled A-P-P-L-E.",
         "ɪts spɛld eɪ-pi-pi-el-i",
         "Nó được đánh vần là A-P-P-L-E."
     ],
@@ -555,12 +555,12 @@
         "Can you recommend a restaurant?",
         "kæn jʊ ˌrɛkəˈmɛnd ə ˈrɛstərɒnt",
         "Bạn có thể gợi ý một nhà hàng không?",
-        "Yes, I recommend Joe’s Pizza.",
+        "Yes, I recommend Joe's Pizza.",
         "jɛs, aɪ ˌrɛkəˈmɛnd dʒoʊz ˈpiːtsa",
         "Có, tôi gợi ý nhà hàng Joe's Pizza."
     ],
     [
-        "What’s your favorite movie?",
+        "What's your favorite movie?",
         "wɑts jʊr ˈfeɪvərɪt ˈmuːvi",
         "Bộ phim yêu thích của bạn là gì?",
         "My favorite movie is Inception.",
@@ -584,7 +584,7 @@
         "Chắc chắn rồi!"
     ],
     [
-        "What’s your favorite season?",
+        "What's your favorite season?",
         "wɑts jʊr ˈfeɪvərɪt ˈsiːzən",
         "Mùa yêu thích của bạn là gì?",
         "I love spring.",
@@ -624,7 +624,7 @@
         "Chắc chắn, đây ạ."
     ],
     [
-        "What’s your dream job?",
+        "What's your dream job?",
         "wɑts jʊr drim dʒɑb",
         "Công việc mơ ước của bạn là gì?",
         "I dream of being a teacher.",
@@ -648,7 +648,7 @@
         "Tôi thích chó."
     ],
     [
-        "What’s your favorite holiday?",
+        "What's your favorite holiday?",
         "wɑts jʊr ˈfeɪvərɪt ˈhɑlədeɪ",
         "Ngày lễ yêu thích của bạn là gì?",
         "My favorite holiday is Christmas.",
@@ -664,10 +664,10 @@
         "Tất nhiên, bạn cần gì?"
     ],
     [
-        "Where’s the nearest pharmacy?",
+        "Where's the nearest pharmacy?",
         "wɛrz ðə ˈnɪrɪst ˈfɑrməsi",
         "Nhà thuốc gần nhất ở đâu?",
-        "It’s right down the street.",
+        "It's right down the street.",
         "ɪts raɪt daʊn ðə strit",
         "Nó ở ngay phía dưới đường."
     ],
@@ -675,7 +675,7 @@
         "Can you keep a secret?",
         "kæn jʊ kip ə ˈsiːkrɪt",
         "Bạn có thể giữ bí mật không?",
-        "Yes, I promise I won’t tell anyone.",
+        "Yes, I promise I won't tell anyone.",
         "jɛs, aɪ ˈprɑmɪs aɪ woʊnt tɛl ˈɛnɪwʌn",
         "Có, tôi hứa sẽ không nói với ai."
     ],
@@ -683,7 +683,7 @@
         "How do I get to the train station?",
         "haʊ du aɪ ɡɛt tu ðə treɪn ˈsteɪʃən",
         "Làm thế nào để đến ga tàu?",
-        "You can take the bus; it’s easy.",
+        "You can take the bus; it's easy.",
         "jʊ kæn teɪk ðə bʌs; ɪts ˈizi",
         "Bạn có thể đi xe buýt; rất dễ."
     ],
@@ -691,7 +691,7 @@
         "Would you like some dessert?",
         "wʊd ju laɪk səm dɪˈzɜrt",
         "Bạn có muốn ăn món tráng miệng không?",
-        "Yes, I’d love some cake!",
+        "Yes, I'd love some cake!",
         "jɛs, aɪd lʌv səm keɪk",
         "Có, tôi rất thích bánh!"
     ]
