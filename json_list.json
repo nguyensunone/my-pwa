@@ -1,0 +1,19 @@
+{
+    "lessons": [
+        {
+            "name": "US_Word.json",
+            "mapping": "mapping_US_Word.json",
+            "audio": "audio_US_Word"
+        },
+        {
+            "name": "US_Statement.json",
+            "mapping": "mapping_US_Statement.json",
+            "audio": "audio_US_Statement"
+        },
+        {
+            "name": "American_Dialog.json",
+            "mapping": "mapping_American_Dialog.json",
+            "audio": "audio_American_Dialog"
+        }
+    ]
+}
