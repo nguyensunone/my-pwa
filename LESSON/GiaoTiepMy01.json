@@ -1,0 +1,794 @@
+[
+    [
+        "What's your name?",
+        "wɑts jʊr neɪm",
+        "Tên bạn là gì?",
+        "My name is John.",
+        "maɪ neɪm ɪz dʒɒn",
+        "Tên tôi là John."
+    ],
+    [
+        "How are you?",
+        "haʊ ɑr ju",
+        "Bạn khỏe không?",
+        "I'm doing well, thank you!",
+        "aɪm ˈduːɪŋ wɛl, θæŋk ju",
+        "Tôi vẫn khỏe, cám ơn bạn!"
+    ],
+    [
+        "Can you help me, please?",
+        "kæn jʊ hɛlp mi, pliz",
+        "Bạn có thể giúp tôi không?",
+        "Sure, what do you need help with?",
+        "ʃʊr, wɑt du jʊ nid hɛlp wɪð",
+        "Chắc chắn, bạn cần giúp gì?"
+    ],
+    [
+        "Where is the restroom?",
+        "wɛr ɪz ðə ˈrɛsrum",
+        "Nhà vệ sinh ở đâu?",
+        "It's down the hall on the right.",
+        "ɪts daʊn ðə hɔl ɒn ðə raɪt",
+        "Nó ở cuối hành lang bên phải."
+    ],
+    [
+        "How much does this cost?",
+        "haʊ mʌtʃ dʌz ðɪs kɔst",
+        "Cái này giá bao nhiêu?",
+        "It costs $20.",
+        "ɪt kɔsts ˈtwɛnti dɔlər",
+        "Nó giá 20 đô la."
+    ],
+    [
+        "Do you speak English?",
+        "du jʊ spiːk ˈɪŋɡlɪʃ",
+        "Bạn có nói tiếng Anh không?",
+        "Yes, I do.",
+        "jɛs, aɪ du",
+        "Vâng, tôi có nói."
+    ],
+    [
+        "What time is it?",
+        "wɑt taɪm ɪz ɪt",
+        "Mấy giờ rồi?",
+        "It's 3:00",
+        "ɪts θri əˈklɒk",
+        "Bây giờ là 3 giờ."
+    ],
+    [
+        "I'd like to order food.",
+        "aɪd laɪk tu ˈɔrdər fud",
+        "Tôi muốn gọi thức ăn.",
+        "What would you like to order?",
+        "wɑt wʊd ju laɪk tu ˈɔrdər",
+        "Bạn muốn gọi gì?"
+    ],
+    [
+        "Where can I find a taxi?",
+        "wɛr kæn aɪ faɪnd ə ˈtæksi",
+        "Tôi có thể tìm taxi ở đâu?",
+        "Taxis are usually at the airport.",
+        "ˈtæksiz ɑr ˈjuːʒuəli æt ði ˈɛrˌpɔrt",
+        "Taxi thường có ở sân bay."
+    ],
+    [
+        "Can I get the bill, please?",
+        "kæn aɪ gɛt ðə bɪl, pliz",
+        "Cho tôi xin hóa đơn được không?",
+        "Absolutely, here you go.",
+        "ˌæbsəˈlutli, hɪr jʊ ɡo",
+        "Chắc chắn rồi, đây ạ."
+    ],
+    [
+        "Can I help you?",
+        "kæn aɪ hɛlp ju",
+        "Tôi có thể giúp bạn không?",
+        "No, thank you.",
+        "noʊ, θæŋk ju",
+        "Không, cám ơn bạn."
+    ],
+    [
+        "Do you have a menu?",
+        "du jʊ hæv ə ˈmɛnju",
+        "Bạn có thực đơn không?",
+        "Yes, here is the menu.",
+        "jɛs, hɪr ɪz ðə ˈmɛnju",
+        "Có, đây là thực đơn."
+    ],
+    [
+        "What do you do for fun?",
+        "wɑt du jʊ du fɔr fʌn",
+        "Bạn làm gì để giải trí?",
+        "I enjoy reading and hiking.",
+        "aɪ ɪnˈdʒɔɪ ˈriːdɪŋ ənd ˈhaɪkɪŋ",
+        "Tôi thích đọc sách và leo núi."
+    ],
+    [
+        "Where are you from?",
+        "wɛr ɑr jʊ frʌm",
+        "Bạn đến từ đâu?",
+        "I'm from Vietnam.",
+        "aɪm frʌm viːɛtˈnɑm",
+        "Tôi đến từ Việt Nam."
+    ],
+    [
+        "What's the weather like today?",
+        "wɑts ðə ˈwɛðər laɪk təˈdeɪ",
+        "Thời tiết hôm nay thế nào?",
+        "It's sunny and warm.",
+        "ɪts ˈsʌni ənd wɔrm",
+        "Hôm nay nắng và ấm."
+    ],
+    [
+        "Can you recommend a restaurant?",
+        "kæn jʊ ˌrɛkəˈmɛnd ə ˈrɛstərɒnt",
+        "Bạn có thể gợi ý một nhà hàng không?",
+        "Yes, I recommend Italian food.",
+        "jɛs, aɪ ˌrɛkəˈmɛnd ɪˈtæljən fud",
+        "Vâng, tôi gợi ý món Ý."
+    ],
+    [
+        "How do you get to the station?",
+        "haʊ du jʊ ɡɛt tu ðə ˈsteɪʃən",
+        "Làm thế nào để đến ga tàu?",
+        "You can take bus number 25.",
+        "jʊ kæn teɪk bʌs ˈnʌmbər 25",
+        "Bạn có thể bắt xe buýt số 25."
+    ],
+    [
+        "Can I use your phone?",
+        "kæn aɪ juz jʊər foʊn",
+        "Tôi có thể dùng điện thoại của bạn không?",
+        "Sure, here it is.",
+        "ʃʊr, hɪr ɪt ɪz",
+        "Chắc chắn rồi, đây ạ."
+    ],
+    [
+        "What time does it open?",
+        "wɑt taɪm dʌz ɪt ˈoʊpən",
+        "Mấy giờ thì mở cửa?",
+        "It opens at 9 AM.",
+        "ɪt ˈoʊpənz æt naɪn eɪ ɛm",
+        "Nó mở cửa lúc 9 giờ sáng."
+    ],
+    [
+        "Do you have any questions?",
+        "du jʊ hæv ˈɛni ˈkwɛsʧənz",
+        "Bạn có câu hỏi nào không?",
+        "No, I'm good.",
+        "noʊ, aɪm ɡʊd",
+        "Không, tôi ổn."
+    ],
+    [
+        "Can I take a picture?",
+        "kæn aɪ teɪk ə ˈpɪkʧər",
+        "Tôi có thể chụp ảnh không?",
+        "Yes, go ahead!",
+        "jɛs, ɡoʊ əˈhɛd",
+        "Có, cứ tự nhiên!"
+    ],
+    [
+        "How long will it take?",
+        "haʊ lɔŋ wɪl ɪt teɪk",
+        "Sẽ mất bao lâu?",
+        "It will take about 30 minutes.",
+        "ɪt wɪl teɪk əˈbaʊt ˈθɜrti ˈmɪnəts",
+        "Nó sẽ mất khoảng 30 phút."
+    ],
+    [
+        "Is there a discount?",
+        "ɪz ðɛr ə ˈdɪskaʊnt",
+        "Có giảm giá không?",
+        "Yes, there's a 10% discount.",
+        "jɛs, ðɛrz ə tɛn pərsɛnt ˈdɪsˌkaʊnt",
+        "Có, có giảm giá 10%."
+    ],
+    [
+        "Excuse me, where can I park?",
+        "ɪkˈskjuz mi, wɛr kæn aɪ pɑrk",
+        "Xin lỗi, tôi có thể đỗ xe ở đâu?",
+        "You can park in the lot across the street.",
+        "jʊ kæn pɑrk ɪn ðə lɑt əˈkrɔs ðə strit",
+        "Bạn có thể đỗ trong bãi bên kia đường."
+    ],
+    [
+        "Can we meet tomorrow?",
+        "kæn wi mit təˈmɔroʊ",
+        "Chúng ta có thể gặp nhau vào ngày mai không?",
+        "Yes, what time?",
+        "jɛs, wɑt taɪm",
+        "Có, mấy giờ?"
+    ],
+    [
+        "Do you need a ride?",
+        "du jʊ nid ə raɪd",
+        "Bạn có cần đi nhờ không?",
+        "No, I have my own car.",
+        "noʊ, aɪ hæv maɪ oʊn kɑr",
+        "Không, tôi có xe của mình."
+    ],
+    [
+        "What's your favorite movie?",
+        "wɑts jʊr ˈfeɪvərɪt ˈmuvi",
+        "Phim yêu thích của bạn là gì?",
+        "My favorite movie is Inception.",
+        "maɪ ˈfeɪvərɪt ˈmuvi ɪz ɪnˈsɛpʃən",
+        "Phim yêu thích của tôi là Inception."
+    ],
+    [
+        "Where can I buy tickets?",
+        "wɛr kæn aɪ baɪ ˈtɪkɪts",
+        "Tôi có thể mua vé ở đâu?",
+        "You can buy tickets online.",
+        "jʊ kæn baɪ ˈtɪkɪts ɑnˈlaɪn",
+        "Bạn có thể mua vé trực tuyến."
+    ],
+    [
+        "Can we get the check?",
+        "kæn wi ɡɛt ðə tʃɛk",
+        "Chúng ta có thể lấy hóa đơn không?",
+        "Sure, I'll bring it right away.",
+        "ʃʊr, aɪl brɪŋ ɪt raɪt əˈweɪ",
+        "Chắc chắn, tôi sẽ mang đến ngay."
+    ],
+    [
+        "What is your job?",
+        "wɑt ɪz jʊr dʒɑb",
+        "Công việc của bạn là gì?",
+        "I'm an engineer.",
+        "aɪm æn ˌɛn dʒɪˈnɪr",
+        "Tôi là kỹ sư."
+    ],
+    [
+        "Could you speak more slowly?",
+        "kʊd jʊ spiːk mɔr ˈsloʊli",
+        "Bạn có thể nói chậm hơn không?",
+        "Of course, I can.",
+        "əv kɔrs, aɪ kæn",
+        "Tất nhiên, tôi có thể."
+    ],
+    [
+        "Can I have a glass of water?",
+        "kæn aɪ hæv ə ɡlæs ʌv ˈwɔtər",
+        "Cho tôi một ly nước được không?",
+        "Here's your water.",
+        "hɪrz jʊr ˈwɔtər",
+        "Đây là nước của bạn."
+    ],
+    [
+        "Where can I find an ATM?",
+        "wɛr kæn aɪ faɪnd æn ˌeɪ ti ˈɛm",
+        "Tôi có thể tìm máy ATM ở đâu?",
+        "There's one in the bank nearby.",
+        "ðɛrz wʌn ɪn ðə bæŋk ˈnɪrbaɪ",
+        "Có một cái trong ngân hàng gần đây."
+    ],
+    [
+        "Can you repeat that?",
+        "kæn jʊ rɪˈpiːt ðæt",
+        "Bạn có thể nhắc lại không?",
+        "Sure, I said...",
+        "ʃʊr, aɪ sɛd...",
+        "Chắc chắn, tôi đã nói..."
+    ],
+    [
+        "How do you say this in English?",
+        "haʊ du jʊ seɪ ðɪs ɪn ˈɪŋɡlɪʃ",
+        "Cái này nói bằng tiếng Anh là gì?",
+        "It's called a “pen.”",
+        "ɪts kɔld ə pɛn",
+        "Nó gọi là “bút”."
+    ],
+    [
+        "Do you have any plans for the weekend?",
+        "du jʊ hæv ˈɛni plænz fɔr ðə ˈwiːkˌɛnd",
+        "Bạn có kế hoạch gì cho cuối tuần không?",
+        "Yes, I'm going to visit friends.",
+        "jɛs, aɪm ˈɡoʊɪŋ tu ˈvɪzɪt frɛndz",
+        "Có, tôi sẽ thăm bạn bè."
+    ],
+    [
+        "What's your favorite food?",
+        "wɑts jʊr ˈfeɪvərɪt fud",
+        "Món ăn yêu thích của bạn là gì?",
+        "I love sushi.",
+        "aɪ lʌv ˈsuːʃi",
+        "Tôi thích sushi."
+    ],
+    [
+        "Can I borrow your pen?",
+        "kæn aɪ ˈbɔroʊ jʊər pɛn",
+        "Tôi có thể mượn bút của bạn không?",
+        "Yes, here you go.",
+        "jɛs, hɪr jʊ ɡo",
+        "Có, đây ạ."
+    ],
+    [
+        "Do you want to join us?",
+        "du jʊ wɑnt tu dʒɔɪn ʌs",
+        "Bạn có muốn tham gia cùng chúng tôi không?",
+        "Yes, I'd love to!",
+        "jɛs, aɪd lʌv tu",
+        "Có, tôi rất thích!"
+    ],
+    [
+        "How far is it to the airport?",
+        "haʊ fɑr ɪz ɪt tu ði ˈɛrˌpɔrt",
+        "Đến sân bay xa không?",
+        "It's about 20 miles.",
+        "ɪts əˈbaʊt ˈtwɛnti maɪlz",
+        "Khoảng 20 dặm."
+    ],
+    [
+        "What do you think of this place?",
+        "wɑt du jʊ θɪŋk ʌv ðɪs pleɪs",
+        "Bạn nghĩ gì về nơi này?",
+        "I think it's great!",
+        "aɪ θɪŋk ɪts ɡreɪt",
+        "Tôi nghĩ đây là tuyệt vời!"
+    ],
+    [
+        "Can I take this seat?",
+        "kæn aɪ teɪk ðɪs sit",
+        "Tôi có thể ngồi ở ghế này không?",
+        "Yes, it's free.",
+        "jɛs, ɪts fri",
+        "Có, nó còn trống."
+    ],
+    [
+        "When does the train arrive?",
+        "wɛn dʌz ðə treɪn əˈraɪv",
+        "Tàu đến lúc nào?",
+        "It arrives at 5 PM.",
+        "ɪt əˈraɪvz æt faɪv pi ɛm",
+        "Nó đến lúc 5 giờ chiều."
+    ],
+    [
+        "Is it okay to bring drinks?",
+        "ɪz ɪt oʊˈkeɪ tu brɪŋ drɪŋks",
+        "Mang theo đồ uống có được không?",
+        "Yes, that's fine.",
+        "jɛs, ðæts faɪn",
+        "Có, không vấn đề gì."
+    ],
+    [
+        "What's the daily special?",
+        "wɑts ðə ˈdeɪli ˈspɛʃəl",
+        "Món đặc biệt trong ngày là gì?",
+        "Today's special is chicken salad.",
+        "təˈdeɪz ˈspɛʃəl ɪz ˈtʃɪkɪn ˈsæləd",
+        "Món đặc biệt hôm nay là salad gà."
+    ],
+    [
+        "Can I have a takeout menu?",
+        "kæn aɪ hæv ə ˈteɪkaʊt ˈmɛnu",
+        "Tôi có thể xin thực đơn mang về không?",
+        "Sure, here you are.",
+        "ʃʊr, hɪr jʊ ɑr",
+        "Chắc chắn rồi, đây ạ."
+    ],
+    [
+        "How do you get to this address?",
+        "haʊ du jʊ ɡɛt tu ðɪs əˈdrɛs",
+        "Làm thế nào để đến địa chỉ này?",
+        "You can take a left at the corner.",
+        "jʊ kæn teɪk ə lɛft æt ðə ˈkɔrnər",
+        "Bạn có thể rẽ trái ở góc."
+    ],
+    [
+        "Would you like some help?",
+        "wʊd ju laɪk səm hɛlp",
+        "Bạn có muốn nhận giúp đỡ không?",
+        "Yes, please!",
+        "jɛs, pliz",
+        "Có, làm ơn!"
+    ],
+    [
+        "Can you show me how to do this?",
+        "kæn jʊ ʃoʊ mi haʊ tu du ðɪs",
+        "Bạn có thể chỉ tôi cách làm việc này không?",
+        "Sure, let me demonstrate.",
+        "ʃʊr, lɛt mi ˈdɛmənˌstreɪt",
+        "Chắc chắn, để tôi hướng dẫn."
+    ],
+    [
+        "Is there a restroom nearby?",
+        "ɪz ðɛr ə ˈrɛstruːm ˈnɪrbaɪ",
+        "Gần đây có nhà vệ sinh không?",
+        "Yes, it's down the hall.",
+        "jɛs, ɪts daʊn ðə hɔl",
+        "Có, nó ở dưới hành lang."
+    ],
+    [
+        "Can I get that to go?",
+        "kæn aɪ gɛt ðæt tu ɡo",
+        "Tôi có thể lấy cái đó mang về không?",
+        "Yes, we can wrap it up for you.",
+        "jɛs, wi kæn ræp ɪt ʌp fɔr ju",
+        "Có, chúng tôi có thể gói lại cho bạn."
+    ],
+    [
+        "What's the Wi-Fi password?",
+        "wɑts ðə ˈwaɪfaɪ ˈpæsˌwɜrd",
+        "Mật khẩu Wi-Fi là gì?",
+        "The password is “welcome123”.",
+        "ðə ˈpæsˌwɜrd ɪz \"ˈwɛlkəm wʌn tu θri\"",
+        "Mật khẩu là “welcome123”."
+    ],
+    [
+        "Can I take your order?",
+        "kæn aɪ teɪk jʊər ˈɔrdər",
+        "Tôi có thể lấy đơn đặt hàng của bạn không?",
+        "Yes, I'll have a burger, please.",
+        "jɛs, aɪl hæv ə ˈbɜrgər, pliz",
+        "Có, tôi muốn một cái burger."
+    ],
+    [
+        "How late are you open?",
+        "haʊ leɪt ɑr jʊ ˈoʊpən",
+        "Bạn mở cửa đến mấy giờ?",
+        "We're open until 10 PM.",
+        "wɪr ˈoʊpən ənˈtɪl tɛn pi ɛm",
+        "Chúng tôi mở cửa đến 10 giờ tối."
+    ],
+    [
+        "Can you recommend a good book?",
+        "kæn jʊ ˌrɛkəˈmɛnd ə ɡʊd bʊk",
+        "Bạn có thể gợi ý một cuốn sách hay không?",
+        "Sure, I recommend “The Alchemist.”",
+        "ʃʊr, aɪ ˌrɛkəˈmɛnd ðə ˈæl.kəm.ɪst",
+        "Chắc chắn, tôi gợi ý cuốn “Nhà giả kim.”"
+    ],
+    [
+        "How do I get a taxi from here?",
+        "haʊ du aɪ ɡɛt ə ˈtæksi frʌm hɪr",
+        "Tôi lấy taxi từ đây như thế nào?",
+        "You can call a taxi service.",
+        "jʊ kæn kɔl ə ˈtæksɪ ˈsɜrvɪs",
+        "Bạn có thể gọi dịch vụ taxi."
+    ],
+    [
+        "What's going on here?",
+        "wɑts ˈɡoʊɪŋ ɑn hɪr",
+        "Ở đây có chuyện gì vậy?",
+        "There's a community event today.",
+        "ðɛrz ə kəˈmjunɪti ɪˈvɛnt təˈdeɪ",
+        "Hôm nay có một sự kiện cộng đồng."
+    ],
+    [
+        "Do you like this song?",
+        "du jʊ laɪk ðɪs sɔŋ",
+        "Bạn có thích bài hát này không?",
+        "Yes, it's really catchy!",
+        "jɛs, ɪts ˈrɪli ˈkæʧi",
+        "Có, nó rất bắt tai!"
+    ],
+    [
+        "What would you like to drink?",
+        "wɑt wʊd jʊ laɪk tu drɪŋk",
+        "Bạn muốn uống gì?",
+        "I'd like a coffee, please.",
+        "aɪd laɪk ə ˈkɔfi, pliz",
+        "Tôi muốn một ly cà phê, làm ơn."
+    ],
+    [
+        "Can I help you find something?",
+        "kæn aɪ hɛlp jʊ faɪnd ˈsʌmθɪŋ",
+        "Tôi có thể giúp bạn tìm cái gì không?",
+        "Yes, I'm looking for a jacket.",
+        "jɛs, aɪm ˈlʊkɪŋ fɔr ə ˈdʒækɪt",
+        "Có, tôi đang tìm một cái áo khoác."
+    ],
+    [
+        "Where can I park my car?",
+        "wɛr kæn aɪ pɑrk maɪ kɑr",
+        "Tôi có thể đỗ xe ở đâu?",
+        "You can park on the street.",
+        "jʊ kæn pɑrk ɑn ðə strit",
+        "Bạn có thể đỗ trên đường."
+    ],
+    [
+        "Is this seat taken?",
+        "ɪz ðɪs sit ˈteɪkən",
+        "Ghế này có ai ngồi không?",
+        "No, it's free.",
+        "noʊ, ɪts fri",
+        "Không, nó còn trống."
+    ],
+    [
+        "What time does the store close?",
+        "wɑt taɪm dʌz ðə stɔr kloʊz",
+        "Cửa hàng đóng cửa lúc mấy giờ?",
+        "It closes at 9 PM.",
+        "ɪt kloʊzɪz æt naɪn pi ɛm",
+        "Nó đóng cửa lúc 9 giờ tối."
+    ],
+    [
+        "How was your day?",
+        "haʊ wəz jʊr deɪ",
+        "Ngày của bạn thế nào?",
+        "It was good, thank you!",
+        "ɪt wəz gʊd, θæŋk jʊ",
+        "Nó tốt, cảm ơn bạn!"
+    ],
+    [
+        "What kind of music do you like?",
+        "wɑt kaɪnd ʌv ˈmjuzɪk du jʊ laɪk",
+        "Bạn thích thể loại nhạc gì?",
+        "I like pop and rock.",
+        "aɪ laɪk pɑp ənd rɒk",
+        "Tôi thích pop và rock."
+    ],
+    [
+        "Can you tell me a joke?",
+        "kæn jʊ tɛl mi ə dʒoʊk",
+        "Bạn có thể kể cho tôi một câu chuyện hài không?",
+        "Sure, why did the chicken cross the road?",
+        "ʃʊr, waɪ dɪd ðə ˈʧɪkɪn krɔs ðə roʊd",
+        "Chắc chắn, tại sao con gà băng qua đường?"
+    ],
+    [
+        "Where do you work?",
+        "wɛr du jʊ wɜrk",
+        "Bạn làm việc ở đâu?",
+        "I work at a marketing company.",
+        "aɪ wɜrk æt ə ˈmɑrkɪtɪŋ ˈkʌmpəni",
+        "Tôi làm việc ở một công ty marketing."
+    ],
+    [
+        "Would you like to go for a walk?",
+        "wʊd ju laɪk tu ɡoʊ fɔr ə wɔk",
+        "Bạn có muốn đi dạo không?",
+        "That sounds nice!",
+        "ðæt saʊndz naɪs",
+        "Nghe có vẻ tốt đấy!"
+    ],
+    [
+        "How do you spell that?",
+        "haʊ du jʊ spɛl ðæt",
+        "Bạn đánh vần cái đó như thế nào?",
+        "It's spelled A-P-P-L-E.",
+        "ɪts spɛld eɪ-pi-pi-el-i",
+        "Nó được đánh vần là A-P-P-L-E."
+    ],
+    [
+        "Can you recommend a restaurant?",
+        "kæn jʊ ˌrɛkəˈmɛnd ə ˈrɛstərɒnt",
+        "Bạn có thể gợi ý một nhà hàng không?",
+        "Yes, I recommend Joe's Pizza.",
+        "jɛs, aɪ ˌrɛkəˈmɛnd dʒoʊz ˈpiːtsa",
+        "Có, tôi gợi ý nhà hàng Joe's Pizza."
+    ],
+    [
+        "What's your favorite movie?",
+        "wɑts jʊr ˈfeɪvərɪt ˈmuːvi",
+        "Bộ phim yêu thích của bạn là gì?",
+        "My favorite movie is Inception.",
+        "maɪ ˈfeɪvərɪt ˈmuːvi ɪz ɪnˈsɛpʃən",
+        "Bộ phim yêu thích của tôi là Inception."
+    ],
+    [
+        "Do you have any siblings?",
+        "du jʊ hæv ˈɛni ˈsɪblɪŋz",
+        "Bạn có anh chị em không?",
+        "Yes, I have one brother and one sister.",
+        "jɛs, aɪ hæv wʌn ˈbrʌðər ənd wʌn ˈsɪstər",
+        "Có, tôi có một anh trai và một chị gái."
+    ],
+    [
+        "Can we take a picture together?",
+        "kæn wi teɪk ə ˈpɪkʧər təˈɡɛðər",
+        "Chúng ta có thể chụp ảnh cùng nhau không?",
+        "Absolutely!",
+        "ˈæb.sə.lut.li",
+        "Chắc chắn rồi!"
+    ],
+    [
+        "What's your favorite season?",
+        "wɑts jʊr ˈfeɪvərɪt ˈsiːzən",
+        "Mùa yêu thích của bạn là gì?",
+        "I love spring.",
+        "aɪ lʌv sprɪŋ",
+        "Tôi thích mùa xuân."
+    ],
+    [
+        "How do you usually celebrate your birthday?",
+        "haʊ du jʊ ˈjuːʒəli ˈsɛlɪˌbreɪt jʊər ˈbɜrθdeɪ",
+        "Bạn thường tổ chức sinh nhật như thế nào?",
+        "I usually have a small party with friends.",
+        "aɪ ˈjuːʒəli hæv ə smɔl ˈpɑrti wɪð frɛndz",
+        "Tôi thường tổ chức một bữa tiệc nhỏ với bạn bè."
+    ],
+    [
+        "Where do you like to go shopping?",
+        "wɛr du jʊ laɪk tu ɡoʊ ˈʃɑpɪŋ",
+        "Bạn thích đi mua sắm ở đâu?",
+        "I love shopping at the mall.",
+        "aɪ lʌv ˈʃɑpɪŋ æt ðə mɔl",
+        "Tôi thích đi mua sắm ở trung tâm thương mại."
+    ],
+    [
+        "Would you like to go to a concert?",
+        "wʊd ju laɪk tu ɡoʊ tu ə ˈkɑnsɜrt",
+        "Bạn có muốn đi xem hòa nhạc không?",
+        "Yes, that sounds fun!",
+        "jɛs, ðæt saʊndz fʌn",
+        "Có, nghe có vẻ hấp dẫn!"
+    ],
+    [
+        "Can you pass the salt, please?",
+        "kæn jʊ pæs ðə sɔlt pliz",
+        "Bạn có thể đưa muối cho tôi không?",
+        "Sure, here you go.",
+        "ʃʊr, hɪr jʊ ɡo",
+        "Chắc chắn, đây ạ."
+    ],
+    [
+        "What's your dream job?",
+        "wɑts jʊr drim dʒɑb",
+        "Công việc mơ ước của bạn là gì?",
+        "I dream of being a teacher.",
+        "aɪ drim ʌv ˈbiːɪŋ ə ˈtiːʧər",
+        "Tôi mơ ước trở thành giáo viên."
+    ],
+    [
+        "How often do you exercise?",
+        "haʊ ˈɔfən du jʊ ˈɛksərsaɪz",
+        "Bạn thường xuyên tập thể dục bao nhiêu?",
+        "I exercise three times a week.",
+        "aɪ ˈɛksərˌsaɪz θri taɪmz ə wɪk",
+        "Tôi tập thể dục ba lần một tuần."
+    ],
+    [
+        "Do you prefer dogs or cats?",
+        "du jʊ prɪˈfɜr dɔɡz ɔr kæts",
+        "Bạn thích chó hay mèo hơn?",
+        "I prefer dogs.",
+        "aɪ prɪˈfɜr dɔɡz",
+        "Tôi thích chó."
+    ],
+    [
+        "What's your favorite holiday?",
+        "wɑts jʊr ˈfeɪvərɪt ˈhɑlədeɪ",
+        "Ngày lễ yêu thích của bạn là gì?",
+        "My favorite holiday is Christmas.",
+        "maɪ ˈfeɪvərɪt ˈhɑlədeɪ ɪz ˈkrɪs·məs",
+        "Ngày lễ yêu thích của tôi là Giáng Sinh."
+    ],
+    [
+        "Can you help me with this task?",
+        "kæn ju hɛlp mi wɪð ðɪs tæsk",
+        "Bạn có thể giúp tôi với nhiệm vụ này không?",
+        "Of course, what do you need?",
+        "ʌv kɔrs, wʌt du jʊ nid",
+        "Tất nhiên, bạn cần gì?"
+    ],
+    [
+        "Where's the nearest pharmacy?",
+        "wɛrz ðə ˈnɪrɪst ˈfɑrməsi",
+        "Nhà thuốc gần nhất ở đâu?",
+        "It's right down the street.",
+        "ɪts raɪt daʊn ðə strit",
+        "Nó ở ngay phía dưới đường."
+    ],
+    [
+        "Can you keep a secret?",
+        "kæn jʊ kip ə ˈsiːkrɪt",
+        "Bạn có thể giữ bí mật không?",
+        "Yes, I promise I won't tell anyone.",
+        "jɛs, aɪ ˈprɑmɪs aɪ woʊnt tɛl ˈɛnɪwʌn",
+        "Có, tôi hứa sẽ không nói với ai."
+    ],
+    [
+        "How do I get to the train station?",
+        "haʊ du aɪ ɡɛt tu ðə treɪn ˈsteɪʃən",
+        "Làm thế nào để đến ga tàu?",
+        "You can take the bus; it's easy.",
+        "jʊ kæn teɪk ðə bʌs; ɪts ˈizi",
+        "Bạn có thể đi xe buýt; rất dễ."
+    ],
+    [
+        "Would you like some dessert?",
+        "wʊd ju laɪk səm dɪˈzɜrt",
+        "Bạn có muốn ăn món tráng miệng không?",
+        "Yes, I'd love some cake!",
+        "jɛs, aɪd lʌv səm keɪk",
+        "Có, tôi rất thích bánh!"
+    ],
+    [
+        "Are you allergic to anything?",
+        "ɑr jʊ əˈlɜrdʒɪk tu ˈɛniθɪŋ",
+        "Bạn có bị dị ứng với thứ gì không?",
+        "Yes, I'm allergic to peanuts.",
+        "jɛs, aɪm əˈlɜrdʒɪk tu ˈpiˌnʌts",
+        "Có, tôi bị dị ứng với đậu phộng."
+    ],
+    [
+        "What are your plans for the weekend?",
+        "wɑt ɑr jʊər plænz fɔr ðə ˈwiˌkɛnd",
+        "Bạn có kế hoạch gì cho cuối tuần này?",
+        "I'm planning to visit the museum.",
+        "aɪm ˈplænɪŋ tu ˈvɪzɪt ðə mjuˈziəm",
+        "Tôi dự định đi thăm bảo tàng."
+    ],
+    [
+        "Do you have any hobbies?",
+        "du jʊ hæv ˈɛni ˈhɑbiz",
+        "Bạn có sở thích nào không?",
+        "Yes, I enjoy painting and hiking.",
+        "jɛs, aɪ ɛnˈdʒɔɪ ˈpeɪntɪŋ ənd ˈhaɪkɪŋ",
+        "Có, tôi thích vẽ và đi bộ đường dài."
+    ],
+    [
+        "Can you speak any other languages?",
+        "kæn jʊ spik ˈɛni ˈʌðər ˈlæŋgwɪdʒɪz",
+        "Bạn có thể nói ngôn ngữ nào khác không?",
+        "Yes, I can speak Spanish.",
+        "jɛs, aɪ kæn spik ˈspænɪʃ",
+        "Có, tôi có thể nói tiếng Tây Ban Nha."
+    ],
+    [
+        "What's the weather like today?",
+        "wɑts ðə ˈwɛðər laɪk təˈdeɪ",
+        "Thời tiết hôm nay thế nào?",
+        "It's sunny and warm.",
+        "ɪts ˈsʌni ənd wɔrm",
+        "Trời nắng và ấm áp."
+    ],
+    [
+        "How long have you lived here?",
+        "haʊ lɔŋ hæv jʊ lɪvd hir",
+        "Bạn đã sống ở đây bao lâu rồi?",
+        "I've lived here for five years.",
+        "aɪv lɪvd hir fɔr faɪv jɪrz",
+        "Tôi đã sống ở đây được năm năm rồi."
+    ],
+    [
+        "Do you have any pets?",
+        "du jʊ hæv ˈɛni pɛts",
+        "Bạn có thú cưng nào không?",
+        "Yes, I have a dog and two cats.",
+        "jɛs, aɪ hæv ə dɔɡ ənd tu kæts",
+        "Có, tôi có một con chó và hai con mèo."
+    ],
+    [
+        "Can you play any musical instruments?",
+        "kæn jʊ pleɪ ˈɛni ˈmjuzɪkəl ˈɪnstrəmənʦ",
+        "Bạn có thể chơi nhạc cụ nào không?",
+        "Yes, I can play the guitar.",
+        "jɛs, aɪ kæn pleɪ ðə ɡɪˈtɑr",
+        "Có, tôi có thể chơi guitar."
+    ],
+    [
+        "What kind of books do you like to read?",
+        "wɑt kaɪnd ʌv bʊks du jʊ laɪk tu rid",
+        "Bạn thích đọc loại sách gì?",
+        "I like to read science fiction.",
+        "aɪ laɪk tu rid ˈsaɪəns ˈfɪkʃən",
+        "Tôi thích đọc khoa học viễn tưởng."
+    ],
+    [
+        "Are you a morning person or a night owl?",
+        "ɑr jʊ ə ˈmɔrnɪŋ ˈpɜrsən ɔr ə naɪt aʊl",
+        "Bạn là người thích buổi sáng hay cú đêm?",
+        "I'm definitely a night owl.",
+        "aɪm ˈdɛfənətli ə naɪt aʊl",
+        "Chắc chắn tôi là cú đêm."
+    ],
+    [
+        "What's your favorite type of food?",
+        "wɑts jʊr ˈfeɪvərɪt taɪp ʌv fud",
+        "Bạn thích loại đồ ăn nào nhất?",
+        "I love Italian food.",
+        "aɪ lʌv ɪˈtæliən fud",
+        "Tôi thích đồ ăn Ý."
+    ],
+    [
+        "How do you relieve stress?",
+        "haʊ du jʊ rɪˈliv strɛs",
+        "Bạn giải tỏa căng thẳng như thế nào?",
+        "I meditate and listen to music.",
+        "aɪ ˈmɛdəˌteɪt ənd ˈlɪsən tu ˈmjuzɪk",
+        "Tôi thiền và nghe nhạc."
+    ]
+]

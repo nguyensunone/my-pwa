@@ -11,9 +11,9 @@
             "audio": "audio_US_Statement"
         },
         {
-            "name": "American_Dialog.json",
-            "mapping": "mapping_American_Dialog.json",
-            "audio": "audio_American_Dialog"
+            "name": "mapping_GiaoTiepMy01.json",
+            "mapping": "mapping_GiaoTiepMy01.json",
+            "audio": "audio_GiaoTiepMy01"
         }
     ]
 }

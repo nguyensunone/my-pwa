@@ -1,0 +1,794 @@
+[
+    {
+        "text": "What's your name?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_1_col0.mp3"
+    },
+    {
+        "text": "My name is John.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_1_col3.mp3"
+    },
+    {
+        "text": "How are you?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_2_col0.mp3"
+    },
+    {
+        "text": "I'm doing well, thank you!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_2_col3.mp3"
+    },
+    {
+        "text": "Can you help me, please?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_3_col0.mp3"
+    },
+    {
+        "text": "Sure, what do you need help with?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_3_col3.mp3"
+    },
+    {
+        "text": "Where is the restroom?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_4_col0.mp3"
+    },
+    {
+        "text": "It's down the hall on the right.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_4_col3.mp3"
+    },
+    {
+        "text": "How much does this cost?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_5_col0.mp3"
+    },
+    {
+        "text": "It costs $20.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_5_col3.mp3"
+    },
+    {
+        "text": "Do you speak English?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_6_col0.mp3"
+    },
+    {
+        "text": "Yes, I do.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_6_col3.mp3"
+    },
+    {
+        "text": "What time is it?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_7_col0.mp3"
+    },
+    {
+        "text": "It's 3:00",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_7_col3.mp3"
+    },
+    {
+        "text": "I'd like to order food.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_8_col0.mp3"
+    },
+    {
+        "text": "What would you like to order?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_8_col3.mp3"
+    },
+    {
+        "text": "Where can I find a taxi?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_9_col0.mp3"
+    },
+    {
+        "text": "Taxis are usually at the airport.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_9_col3.mp3"
+    },
+    {
+        "text": "Can I get the bill, please?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_10_col0.mp3"
+    },
+    {
+        "text": "Absolutely, here you go.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_10_col3.mp3"
+    },
+    {
+        "text": "Can I help you?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_11_col0.mp3"
+    },
+    {
+        "text": "No, thank you.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_11_col3.mp3"
+    },
+    {
+        "text": "Do you have a menu?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_12_col0.mp3"
+    },
+    {
+        "text": "Yes, here is the menu.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_12_col3.mp3"
+    },
+    {
+        "text": "What do you do for fun?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_13_col0.mp3"
+    },
+    {
+        "text": "I enjoy reading and hiking.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_13_col3.mp3"
+    },
+    {
+        "text": "Where are you from?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_14_col0.mp3"
+    },
+    {
+        "text": "I'm from Vietnam.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_14_col3.mp3"
+    },
+    {
+        "text": "What's the weather like today?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_15_col0.mp3"
+    },
+    {
+        "text": "It's sunny and warm.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_15_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a restaurant?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_16_col0.mp3"
+    },
+    {
+        "text": "Yes, I recommend Italian food.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_16_col3.mp3"
+    },
+    {
+        "text": "How do you get to the station?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_17_col0.mp3"
+    },
+    {
+        "text": "You can take bus number 25.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_17_col3.mp3"
+    },
+    {
+        "text": "Can I use your phone?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_18_col0.mp3"
+    },
+    {
+        "text": "Sure, here it is.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_18_col3.mp3"
+    },
+    {
+        "text": "What time does it open?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_19_col0.mp3"
+    },
+    {
+        "text": "It opens at 9 AM.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_19_col3.mp3"
+    },
+    {
+        "text": "Do you have any questions?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_20_col0.mp3"
+    },
+    {
+        "text": "No, I'm good.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_20_col3.mp3"
+    },
+    {
+        "text": "Can I take a picture?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_21_col0.mp3"
+    },
+    {
+        "text": "Yes, go ahead!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_21_col3.mp3"
+    },
+    {
+        "text": "How long will it take?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_22_col0.mp3"
+    },
+    {
+        "text": "It will take about 30 minutes.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_22_col3.mp3"
+    },
+    {
+        "text": "Is there a discount?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_23_col0.mp3"
+    },
+    {
+        "text": "Yes, there's a 10% discount.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_23_col3.mp3"
+    },
+    {
+        "text": "Excuse me, where can I park?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_24_col0.mp3"
+    },
+    {
+        "text": "You can park in the lot across the street.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_24_col3.mp3"
+    },
+    {
+        "text": "Can we meet tomorrow?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_25_col0.mp3"
+    },
+    {
+        "text": "Yes, what time?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_25_col3.mp3"
+    },
+    {
+        "text": "Do you need a ride?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_26_col0.mp3"
+    },
+    {
+        "text": "No, I have my own car.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_26_col3.mp3"
+    },
+    {
+        "text": "What's your favorite movie?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_27_col0.mp3"
+    },
+    {
+        "text": "My favorite movie is Inception.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_27_col3.mp3"
+    },
+    {
+        "text": "Where can I buy tickets?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_28_col0.mp3"
+    },
+    {
+        "text": "You can buy tickets online.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_28_col3.mp3"
+    },
+    {
+        "text": "Can we get the check?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_29_col0.mp3"
+    },
+    {
+        "text": "Sure, I'll bring it right away.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_29_col3.mp3"
+    },
+    {
+        "text": "What is your job?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_30_col0.mp3"
+    },
+    {
+        "text": "I'm an engineer.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_30_col3.mp3"
+    },
+    {
+        "text": "Could you speak more slowly?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_31_col0.mp3"
+    },
+    {
+        "text": "Of course, I can.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_31_col3.mp3"
+    },
+    {
+        "text": "Can I have a glass of water?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_32_col0.mp3"
+    },
+    {
+        "text": "Here's your water.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_32_col3.mp3"
+    },
+    {
+        "text": "Where can I find an ATM?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_33_col0.mp3"
+    },
+    {
+        "text": "There's one in the bank nearby.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_33_col3.mp3"
+    },
+    {
+        "text": "Can you repeat that?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_34_col0.mp3"
+    },
+    {
+        "text": "Sure, I said...",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_34_col3.mp3"
+    },
+    {
+        "text": "How do you say this in English?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_35_col0.mp3"
+    },
+    {
+        "text": "It's called a \"pen.\"",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_35_col3.mp3"
+    },
+    {
+        "text": "Do you have any plans for the weekend?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_36_col0.mp3"
+    },
+    {
+        "text": "Yes, I'm going to visit friends.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_36_col3.mp3"
+    },
+    {
+        "text": "What's your favorite food?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_37_col0.mp3"
+    },
+    {
+        "text": "I love sushi.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_37_col3.mp3"
+    },
+    {
+        "text": "Can I borrow your pen?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_38_col0.mp3"
+    },
+    {
+        "text": "Yes, here you go.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_38_col3.mp3"
+    },
+    {
+        "text": "Do you want to join us?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_39_col0.mp3"
+    },
+    {
+        "text": "Yes, I'd love to!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_39_col3.mp3"
+    },
+    {
+        "text": "How far is it to the airport?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_40_col0.mp3"
+    },
+    {
+        "text": "It's about 20 miles.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_40_col3.mp3"
+    },
+    {
+        "text": "What do you think of this place?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_41_col0.mp3"
+    },
+    {
+        "text": "I think it's great!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_41_col3.mp3"
+    },
+    {
+        "text": "Can I take this seat?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_42_col0.mp3"
+    },
+    {
+        "text": "Yes, it's free.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_42_col3.mp3"
+    },
+    {
+        "text": "When does the train arrive?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_43_col0.mp3"
+    },
+    {
+        "text": "It arrives at 5 PM.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_43_col3.mp3"
+    },
+    {
+        "text": "Is it okay to bring drinks?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_44_col0.mp3"
+    },
+    {
+        "text": "Yes, that's fine.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_44_col3.mp3"
+    },
+    {
+        "text": "What's the daily special?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_45_col0.mp3"
+    },
+    {
+        "text": "Today's special is chicken salad.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_45_col3.mp3"
+    },
+    {
+        "text": "Can I have a takeout menu?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_46_col0.mp3"
+    },
+    {
+        "text": "Sure, here you are.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_46_col3.mp3"
+    },
+    {
+        "text": "How do you get to this address?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_47_col0.mp3"
+    },
+    {
+        "text": "You can take a left at the corner.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_47_col3.mp3"
+    },
+    {
+        "text": "Would you like some help?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_48_col0.mp3"
+    },
+    {
+        "text": "Yes, please!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_48_col3.mp3"
+    },
+    {
+        "text": "Can you show me how to do this?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_49_col0.mp3"
+    },
+    {
+        "text": "Sure, let me demonstrate.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_49_col3.mp3"
+    },
+    {
+        "text": "Is there a restroom nearby?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_50_col0.mp3"
+    },
+    {
+        "text": "Yes, it's down the hall.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_50_col3.mp3"
+    },
+    {
+        "text": "Can I get that to go?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_51_col0.mp3"
+    },
+    {
+        "text": "Yes, we can wrap it up for you.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_51_col3.mp3"
+    },
+    {
+        "text": "What's the Wi-Fi password?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_52_col0.mp3"
+    },
+    {
+        "text": "The password is \"welcome123\".",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_52_col3.mp3"
+    },
+    {
+        "text": "Can I take your order?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_53_col0.mp3"
+    },
+    {
+        "text": "Yes, I'll have a burger, please.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_53_col3.mp3"
+    },
+    {
+        "text": "How late are you open?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_54_col0.mp3"
+    },
+    {
+        "text": "We're open until 10 PM.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_54_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a good book?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_55_col0.mp3"
+    },
+    {
+        "text": "Sure, I recommend \"The Alchemist.\"",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_55_col3.mp3"
+    },
+    {
+        "text": "How do I get a taxi from here?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_56_col0.mp3"
+    },
+    {
+        "text": "You can call a taxi service.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_56_col3.mp3"
+    },
+    {
+        "text": "What's going on here?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_57_col0.mp3"
+    },
+    {
+        "text": "There's a community event today.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_57_col3.mp3"
+    },
+    {
+        "text": "Do you like this song?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_58_col0.mp3"
+    },
+    {
+        "text": "Yes, it's really catchy!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_58_col3.mp3"
+    },
+    {
+        "text": "What would you like to drink?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_59_col0.mp3"
+    },
+    {
+        "text": "I'd like a coffee, please.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_59_col3.mp3"
+    },
+    {
+        "text": "Can I help you find something?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_60_col0.mp3"
+    },
+    {
+        "text": "Yes, I'm looking for a jacket.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_60_col3.mp3"
+    },
+    {
+        "text": "Where can I park my car?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_61_col0.mp3"
+    },
+    {
+        "text": "You can park on the street.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_61_col3.mp3"
+    },
+    {
+        "text": "Is this seat taken?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_62_col0.mp3"
+    },
+    {
+        "text": "No, it's free.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_62_col3.mp3"
+    },
+    {
+        "text": "What time does the store close?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_63_col0.mp3"
+    },
+    {
+        "text": "It closes at 9 PM.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_63_col3.mp3"
+    },
+    {
+        "text": "How was your day?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_64_col0.mp3"
+    },
+    {
+        "text": "It was good, thank you!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_64_col3.mp3"
+    },
+    {
+        "text": "What kind of music do you like?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_65_col0.mp3"
+    },
+    {
+        "text": "I like pop and rock.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_65_col3.mp3"
+    },
+    {
+        "text": "Can you tell me a joke?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_66_col0.mp3"
+    },
+    {
+        "text": "Sure, why did the chicken cross the road?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_66_col3.mp3"
+    },
+    {
+        "text": "Where do you work?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_67_col0.mp3"
+    },
+    {
+        "text": "I work at a marketing company.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_67_col3.mp3"
+    },
+    {
+        "text": "Would you like to go for a walk?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_68_col0.mp3"
+    },
+    {
+        "text": "That sounds nice!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_68_col3.mp3"
+    },
+    {
+        "text": "How do you spell that?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_69_col0.mp3"
+    },
+    {
+        "text": "It's spelled A-P-P-L-E.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_69_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a restaurant?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_70_col0.mp3"
+    },
+    {
+        "text": "Yes, I recommend Joe's Pizza.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_70_col3.mp3"
+    },
+    {
+        "text": "What's your favorite movie?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_71_col0.mp3"
+    },
+    {
+        "text": "My favorite movie is Inception.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_71_col3.mp3"
+    },
+    {
+        "text": "Do you have any siblings?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_72_col0.mp3"
+    },
+    {
+        "text": "Yes, I have one brother and one sister.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_72_col3.mp3"
+    },
+    {
+        "text": "Can we take a picture together?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_73_col0.mp3"
+    },
+    {
+        "text": "Absolutely!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_73_col3.mp3"
+    },
+    {
+        "text": "What's your favorite season?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_74_col0.mp3"
+    },
+    {
+        "text": "I love spring.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_74_col3.mp3"
+    },
+    {
+        "text": "How do you usually celebrate your birthday?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_75_col0.mp3"
+    },
+    {
+        "text": "I usually have a small party with friends.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_75_col3.mp3"
+    },
+    {
+        "text": "Where do you like to go shopping?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_76_col0.mp3"
+    },
+    {
+        "text": "I love shopping at the mall.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_76_col3.mp3"
+    },
+    {
+        "text": "Would you like to go to a concert?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_77_col0.mp3"
+    },
+    {
+        "text": "Yes, that sounds fun!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_77_col3.mp3"
+    },
+    {
+        "text": "Can you pass the salt, please?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_78_col0.mp3"
+    },
+    {
+        "text": "Sure, here you go.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_78_col3.mp3"
+    },
+    {
+        "text": "What's your dream job?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_79_col0.mp3"
+    },
+    {
+        "text": "I dream of being a teacher.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_79_col3.mp3"
+    },
+    {
+        "text": "How often do you exercise?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_80_col0.mp3"
+    },
+    {
+        "text": "I exercise three times a week.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_80_col3.mp3"
+    },
+    {
+        "text": "Do you prefer dogs or cats?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_81_col0.mp3"
+    },
+    {
+        "text": "I prefer dogs.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_81_col3.mp3"
+    },
+    {
+        "text": "What's your favorite holiday?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_82_col0.mp3"
+    },
+    {
+        "text": "My favorite holiday is Christmas.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_82_col3.mp3"
+    },
+    {
+        "text": "Can you help me with this task?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_83_col0.mp3"
+    },
+    {
+        "text": "Of course, what do you need?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_83_col3.mp3"
+    },
+    {
+        "text": "Where's the nearest pharmacy?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_84_col0.mp3"
+    },
+    {
+        "text": "It's right down the street.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_84_col3.mp3"
+    },
+    {
+        "text": "Can you keep a secret?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_85_col0.mp3"
+    },
+    {
+        "text": "Yes, I promise I won't tell anyone.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_85_col3.mp3"
+    },
+    {
+        "text": "How do I get to the train station?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_86_col0.mp3"
+    },
+    {
+        "text": "You can take the bus; it's easy.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_86_col3.mp3"
+    },
+    {
+        "text": "Would you like some dessert?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_87_col0.mp3"
+    },
+    {
+        "text": "Yes, I'd love some cake!",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_87_col3.mp3"
+    },
+    {
+        "text": "Are you allergic to anything?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_88_col0.mp3"
+    },
+    {
+        "text": "Yes, I'm allergic to peanuts.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_88_col3.mp3"
+    },
+    {
+        "text": "What are your plans for the weekend?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_89_col0.mp3"
+    },
+    {
+        "text": "I'm planning to visit the museum.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_89_col3.mp3"
+    },
+    {
+        "text": "Do you have any hobbies?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_90_col0.mp3"
+    },
+    {
+        "text": "Yes, I enjoy painting and hiking.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_90_col3.mp3"
+    },
+    {
+        "text": "Can you speak any other languages?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_91_col0.mp3"
+    },
+    {
+        "text": "Yes, I can speak Spanish.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_91_col3.mp3"
+    },
+    {
+        "text": "What's the weather like today?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_92_col0.mp3"
+    },
+    {
+        "text": "It's sunny and warm.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_92_col3.mp3"
+    },
+    {
+        "text": "How long have you lived here?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_93_col0.mp3"
+    },
+    {
+        "text": "I've lived here for five years.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_93_col3.mp3"
+    },
+    {
+        "text": "Do you have any pets?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_94_col0.mp3"
+    },
+    {
+        "text": "Yes, I have a dog and two cats.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_94_col3.mp3"
+    },
+    {
+        "text": "Can you play any musical instruments?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_95_col0.mp3"
+    },
+    {
+        "text": "Yes, I can play the guitar.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_95_col3.mp3"
+    },
+    {
+        "text": "What kind of books do you like to read?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_96_col0.mp3"
+    },
+    {
+        "text": "I like to read science fiction.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_96_col3.mp3"
+    },
+    {
+        "text": "Are you a morning person or a night owl?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_97_col0.mp3"
+    },
+    {
+        "text": "I'm definitely a night owl.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_97_col3.mp3"
+    },
+    {
+        "text": "What's your favorite type of food?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_98_col0.mp3"
+    },
+    {
+        "text": "I love Italian food.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_98_col3.mp3"
+    },
+    {
+        "text": "How do you relieve stress?",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_99_col0.mp3"
+    },
+    {
+        "text": "I meditate and listen to music.",
+        "file": "audio_GiaoTiepMy01/audio_GiaoTiepMy01_99_col3.mp3"
+    }
+]
