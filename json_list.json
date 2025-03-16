@@ -1,19 +1,14 @@
 {
     "lessons": [
         {
-            "name": "US_Word.json",
-            "mapping": "mapping_US_Word.json",
-            "audio": "audio_US_Word"
+            "name": "dam_thoai_01.json",
+            "mapping": "mapping_dam_thoai_01.json",
+            "audio": "audio_dam_thoai_01"
         },
         {
-            "name": "US_Statement.json",
-            "mapping": "mapping_US_Statement.json",
-            "audio": "audio_US_Statement"
-        },
-        {
-            "name": "GiaoTiepMy01.json",
-            "mapping": "mapping_GiaoTiepMy01.json",
-            "audio": "audio_GiaoTiepMy01"
+            "name": "dam_thoại_02.json",
+            "mapping": "mapping_dam_thoại_02.json",
+            "audio": "audio_dam_thoại_02"
         }
     ]
 }
