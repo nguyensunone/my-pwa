@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thi Quoc Tich</title>
-    <style>    
+    <style>
         body {
             font-family: 'Arial', sans-serif;
             background-color: #282c34;
@@ -193,21 +193,6 @@
     <div id="questionCounter">Câu hỏi: 0/0</div>
 </div>
 <div id="vocabLabel">Không có từ vựng nào được thêm.</div>
-
-<!--Nhóm các nút đổi màu-->
-<div style="text-align: center;">
-<label>  
-    <input type="checkbox" onchange="toggleVisibility('term')"> Ẩn En  
-</label>  
-<label>  
-    <input type="checkbox" onchange="toggleVisibility('ipa')"> Ẩn IPA  
-</label>  
-<label>  
-    <input type="checkbox" onchange="toggleVisibility('vietnamese')"> Ẩn Vi  
-</label>
-</div>
-
-<div id="notification"></div>
 <div id="speechResult">
     <p><span id="recognizedSpeech"></span></p>
 </div>
@@ -216,14 +201,13 @@
 <textarea id="writingCheckBack" placeholder="Viết Trả lời...(V2). Nói Trả lời...(N2)" onkeydown="handleKeyDownBack(event)"></textarea>
 
 <!-- Nhóm các nút kiểm tra -->
-<div style="text-align: center;">
+<div class="controls">
     <button id="checkAnswerButton" onclick="checkAnswer()">V1</button>
     <button id="checkAnswerBackButton" onclick="checkAnswerBack()">V2</button>
     <button id="speakCheckFrontButton" onclick="startSpeechRecognitionFront()">N1</button>
-    <button id="speakCheckButton" onclick="startSpeechRecognition()">N2</button>
+    <button id="speakCheckButton" onclick="startSpeechRecognitionBack()">N2</button>
 </div>
 
-<div class="controls"></div>
 <button onclick="prevWord()">Trước</button>
 <button onclick="flipCard()">Lật Thẻ</button>
 <button onclick="nextWord()">Tiếp Theo</button>
@@ -241,11 +225,12 @@
 <input type="number" id="startQuestion" placeholder="Câu BĐ" min="1" max="138">
 <input type="number" id="questionCount" placeholder="SL câu" min="1" max="138">
 <button onclick="startSession()">Bắt Đầu Phiên Học</button>
- 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
-
 <script>
+// All existing JavaScript functionality remains as is
+
     let vocabList = []; // Danh sách từ vựng
     let currentIndex = 0; // Vị trí từ hiện tại
     let autoFlip = false;
@@ -703,7 +688,52 @@ function checkAnswerBack() {
     }
 }
 
-    function startSpeechRecognition() {
+// Add the new unified speech recognition functions here
+
+function startSpeechRecognition(isFront) {
+    if ('webkitSpeechRecognition' in window) {
+        setupSpeechRecognition(isFront, webkitSpeechRecognition);
+    } else if ('SpeechRecognition' in window) {
+        setupSpeechRecognition(isFront, SpeechRecognition);
+    } else {
+        alert("Your browser does not support speech recognition.");
+    }
+}
+
+function setupSpeechRecognition(isFront, RecognitionClass) {
+    const recognition = new RecognitionClass();
+    recognition.lang = 'en-US';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    recognition.onresult = function(event) {
+        handleRecognitionResult(event, isFront);
+    };
+    recognition.onerror = function(event) {
+        console.error("Speech recognition error: ", event.error);
+        alert("An error occurred during speech recognition. Please try again.");
+    };
+    recognition.onend = function() {
+        console.log("Recognition session ended.");
+    };
+    recognition.start();
+}
+
+function handleRecognitionResult(event, isFront) {
+    const speechResult = event.results[0][0].transcript;
+    document.getElementById('recognizedSpeech').textContent = speechResult;
+    document.getElementById('speechResult').style.display = 'block';
+    if (isFront) {
+        checkSpeechAnswerFront(speechResult);
+    } else {
+        checkSpeechAnswer(speechResult);
+    }
+}
+
+function startSpeechRecognitionFront() {
+    startSpeechRecognition(true);
+}
+
+function startSpeechRecognition() {
         if (!('webkitSpeechRecognition' in window)) {
             alert("Trình duyệt của bạn không hỗ trợ nhận diện giọng nói.");
             return;
@@ -730,7 +760,11 @@ function checkAnswerBack() {
         };
     }
 
-    function checkSpeechAnswer(speechResult) {
+function startSpeechRecognitionBack() {
+    startSpeechRecognition(false);
+}
+
+function checkSpeechAnswer(speechResult) {
         const word = vocabList[currentIndex];
         const correctAnswer = removePunctuation(word[3].toString().trim().toLowerCase());
         const userAnswer = removePunctuation(speechResult.trim().toLowerCase());
@@ -747,39 +781,8 @@ function checkAnswerBack() {
         }
     }
 
-    function startSpeechRecognitionFront() {
-    if (!('webkitSpeechRecognition' in window)) {
-        alert("Trình duyệt của bạn không hỗ trợ nhận diện giọng nói.");
-        return;
-    }
-    const recognitionFront = new webkitSpeechRecognition();
-    recognitionFront.lang = 'en-US';
-    recognitionFront.interimResults = false;
-    recognitionFront.maxAlternatives = 1;
 
-    recognitionFront.onresult = function(event) {
-        const speechResult = event.results[0][0].transcript;
-        document.getElementById('recognizedSpeech').textContent = speechResult;
-        document.getElementById('speechResult').style.display = 'block';
-        checkSpeechAnswerFront(speechResult);
-        recognitionFront.stop(); // Stop recognition after speech is processed
-    };
-
-    recognitionFront.onerror = function(event) {
-        console.error("Lỗi nhận diện giọng nói: ", event.error);
-        alert("Có lỗi xảy ra khi nhận diện giọng nói. Vui lòng thử lại.");
-        recognitionFront.stop(); // Consider stopping recognition on error
-    };
-
-    recognitionFront.onend = function() {
-        // This event is triggered when the speech recognition service has disconnected.
-        // You can add code here to handle restarts or cleanup.
-    };
-
-    recognitionFront.start(); // Start recognition
-}
-
-    function checkSpeechAnswerFront(speechResult) {
+function checkSpeechAnswerFront(speechResult) {
         const word = vocabList[currentIndex];
         const expectedText = isFront ? word[0] : word[3];
         const normalizedExpectedText = removePunctuation(expectedText.toString().trim().toLowerCase());
@@ -810,6 +813,8 @@ function checkAnswerBack() {
         loadLessonList();
         loadDifficultWords(); // Tải danh sách câu khó
     };
+
+// Remainder of your existing JavaScript code...
 </script>
 </body>
 </html>
