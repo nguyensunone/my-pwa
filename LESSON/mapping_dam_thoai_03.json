@@ -1,0 +1,802 @@
+[
+    {
+        "text": "Can you tell me more about this?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_1_col0.mp3"
+    },
+    {
+        "text": "Of course, here's what I know.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_1_col3.mp3"
+    },
+    {
+        "text": "What time is the last train?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_2_col0.mp3"
+    },
+    {
+        "text": "It's at 11:45 PM.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_2_col3.mp3"
+    },
+    {
+        "text": "Do you prefer summer or winter?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_3_col0.mp3"
+    },
+    {
+        "text": "I prefer summer because of the sun.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_3_col3.mp3"
+    },
+    {
+        "text": "Where can I catch a taxi?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_4_col0.mp3"
+    },
+    {
+        "text": "There's a taxi stand nearby.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_4_col3.mp3"
+    },
+    {
+        "text": "How do you like your job?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_5_col0.mp3"
+    },
+    {
+        "text": "I love it, it's very rewarding.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_5_col3.mp3"
+    },
+    {
+        "text": "Can you help me book a table?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_6_col0.mp3"
+    },
+    {
+        "text": "Sure, for how many people?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_6_col3.mp3"
+    },
+    {
+        "text": "What's your favorite subject in school?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_7_col0.mp3"
+    },
+    {
+        "text": "I love studying history.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_7_col3.mp3"
+    },
+    {
+        "text": "Do you listen to podcasts?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_8_col0.mp3"
+    },
+    {
+        "text": "Yes, I listen to them every day.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_8_col3.mp3"
+    },
+    {
+        "text": "How do you prepare for exams?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_9_col0.mp3"
+    },
+    {
+        "text": "I make notes and review regularly.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_9_col3.mp3"
+    },
+    {
+        "text": "Can I call you back later?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_10_col0.mp3"
+    },
+    {
+        "text": "Of course, call me anytime.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_10_col3.mp3"
+    },
+    {
+        "text": "Can you help me find my way?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_11_col0.mp3"
+    },
+    {
+        "text": "Sure, where do you need to go?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_11_col3.mp3"
+    },
+    {
+        "text": "What's the best time to visit?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_12_col0.mp3"
+    },
+    {
+        "text": "Spring is the best season to visit.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_12_col3.mp3"
+    },
+    {
+        "text": "Can I leave my bag here?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_13_col0.mp3"
+    },
+    {
+        "text": "Yes, it's safe here.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_13_col3.mp3"
+    },
+    {
+        "text": "How do you usually spend your evenings?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_14_col0.mp3"
+    },
+    {
+        "text": "I like to relax and read a book.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_14_col3.mp3"
+    },
+    {
+        "text": "What's your favorite holiday?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_15_col0.mp3"
+    },
+    {
+        "text": "I love Christmas.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_15_col3.mp3"
+    },
+    {
+        "text": "Can I sit at this table?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_16_col0.mp3"
+    },
+    {
+        "text": "Sure, it's free.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_16_col3.mp3"
+    },
+    {
+        "text": "How's everything going?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_17_col0.mp3"
+    },
+    {
+        "text": "Everything is going well, thank you.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_17_col3.mp3"
+    },
+    {
+        "text": "What should I bring with me?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_18_col0.mp3"
+    },
+    {
+        "text": "Just bring your ID and some cash.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_18_col3.mp3"
+    },
+    {
+        "text": "Can I turn off the light?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_19_col0.mp3"
+    },
+    {
+        "text": "Sure, go ahead.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_19_col3.mp3"
+    },
+    {
+        "text": "Have you been to this place before?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_20_col0.mp3"
+    },
+    {
+        "text": "No, this is my first time.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_20_col3.mp3"
+    },
+    {
+        "text": "What's the purpose of your visit?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_21_col0.mp3"
+    },
+    {
+        "text": "I'm here for business.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_21_col3.mp3"
+    },
+    {
+        "text": "Can I ask for a favor?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_22_col0.mp3"
+    },
+    {
+        "text": "Sure, what do you need?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_22_col3.mp3"
+    },
+    {
+        "text": "How do you pronounce this word?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_23_col0.mp3"
+    },
+    {
+        "text": "It's pronounced \"schedule.\"",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_23_col3.mp3"
+    },
+    {
+        "text": "What's your favorite animal?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_24_col0.mp3"
+    },
+    {
+        "text": "I love dogs.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_24_col3.mp3"
+    },
+    {
+        "text": "Can I have a glass of water?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_25_col0.mp3"
+    },
+    {
+        "text": "Sure, I'll get it for you.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_25_col3.mp3"
+    },
+    {
+        "text": "How do I improve my English?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_26_col0.mp3"
+    },
+    {
+        "text": "Practice every day and watch movies.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_26_col3.mp3"
+    },
+    {
+        "text": "What should we do next?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_27_col0.mp3"
+    },
+    {
+        "text": "Let's review the plan.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_27_col3.mp3"
+    },
+    {
+        "text": "Do you want to go out tonight?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_28_col0.mp3"
+    },
+    {
+        "text": "Yes, that sounds fun.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_28_col3.mp3"
+    },
+    {
+        "text": "What time does the movie start?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_29_col0.mp3"
+    },
+    {
+        "text": "It starts at 8 PM.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_29_col3.mp3"
+    },
+    {
+        "text": "Can you tell me the rules?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_30_col0.mp3"
+    },
+    {
+        "text": "Sure, here's a quick overview.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_30_col3.mp3"
+    },
+    {
+        "text": "Can I join you for dinner?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_31_col0.mp3"
+    },
+    {
+        "text": "Sure, we'd love to have you.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_31_col3.mp3"
+    },
+    {
+        "text": "Where should I park my car?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_32_col0.mp3"
+    },
+    {
+        "text": "There's parking available nearby.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_32_col3.mp3"
+    },
+    {
+        "text": "Do you usually cook at home?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_33_col0.mp3"
+    },
+    {
+        "text": "Yes, I cook almost every day.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_33_col3.mp3"
+    },
+    {
+        "text": "What kind of books do you like?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_34_col0.mp3"
+    },
+    {
+        "text": "I enjoy mystery and fiction.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_34_col3.mp3"
+    },
+    {
+        "text": "Can I take your photo?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_35_col0.mp3"
+    },
+    {
+        "text": "Sure, just let me know when.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_35_col3.mp3"
+    },
+    {
+        "text": "What time should I call you?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_36_col0.mp3"
+    },
+    {
+        "text": "Call me around 6 PM.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_36_col3.mp3"
+    },
+    {
+        "text": "How can I reserve tickets?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_37_col0.mp3"
+    },
+    {
+        "text": "You can book them online.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_37_col3.mp3"
+    },
+    {
+        "text": "Do you like the atmosphere here?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_38_col0.mp3"
+    },
+    {
+        "text": "Yes, it's really cozy and nice.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_38_col3.mp3"
+    },
+    {
+        "text": "How long will you stay here?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_39_col0.mp3"
+    },
+    {
+        "text": "I'll stay for two weeks.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_39_col3.mp3"
+    },
+    {
+        "text": "Can you suggest something fun to do?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_40_col0.mp3"
+    },
+    {
+        "text": "How about visiting the local museum?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_40_col3.mp3"
+    },
+    {
+        "text": "Can I take a day off tomorrow?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_41_col0.mp3"
+    },
+    {
+        "text": "Sure, just let your manager know.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_41_col3.mp3"
+    },
+    {
+        "text": "How do I connect to the Wi-Fi?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_42_col0.mp3"
+    },
+    {
+        "text": "Use the password on the sticker.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_42_col3.mp3"
+    },
+    {
+        "text": "Do you have any travel plans?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_43_col0.mp3"
+    },
+    {
+        "text": "Yes, I'm going to Italy next month.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_43_col3.mp3"
+    },
+    {
+        "text": "What should I wear for the event?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_44_col0.mp3"
+    },
+    {
+        "text": "Wear something formal, like a suit.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_44_col3.mp3"
+    },
+    {
+        "text": "Can I use your charger?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_45_col0.mp3"
+    },
+    {
+        "text": "Sure, here you go.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_45_col3.mp3"
+    },
+    {
+        "text": "How's your new job so far?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_46_col0.mp3"
+    },
+    {
+        "text": "It's going great, I'm enjoying it.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_46_col3.mp3"
+    },
+    {
+        "text": "Where can I get some coffee?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_47_col0.mp3"
+    },
+    {
+        "text": "There's a café across the street.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_47_col3.mp3"
+    },
+    {
+        "text": "Can you show me the menu?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_48_col0.mp3"
+    },
+    {
+        "text": "Sure, here it is.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_48_col3.mp3"
+    },
+    {
+        "text": "What time do we need to leave?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_49_col0.mp3"
+    },
+    {
+        "text": "We need to leave by 6 PM.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_49_col3.mp3"
+    },
+    {
+        "text": "Can I help you with anything?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_50_col0.mp3"
+    },
+    {
+        "text": "Thanks, but I've got it covered.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_50_col3.mp3"
+    },
+    {
+        "text": "Can you help me set this up?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_51_col0.mp3"
+    },
+    {
+        "text": "Sure, let's do it together.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_51_col3.mp3"
+    },
+    {
+        "text": "What's your plan for today?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_52_col0.mp3"
+    },
+    {
+        "text": "I have a meeting in the afternoon.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_52_col3.mp3"
+    },
+    {
+        "text": "Can I help you clean up?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_53_col0.mp3"
+    },
+    {
+        "text": "Thanks, that would be great.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_53_col3.mp3"
+    },
+    {
+        "text": "Where can I buy groceries?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_54_col0.mp3"
+    },
+    {
+        "text": "There's a supermarket nearby.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_54_col3.mp3"
+    },
+    {
+        "text": "How do you like your coffee?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_55_col0.mp3"
+    },
+    {
+        "text": "I like it black with no sugar.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_55_col3.mp3"
+    },
+    {
+        "text": "What's the cost of this service?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_56_col0.mp3"
+    },
+    {
+        "text": "It costs $50 per month.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_56_col3.mp3"
+    },
+    {
+        "text": "Do you prefer working in the morning or evening?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_57_col0.mp3"
+    },
+    {
+        "text": "I prefer working in the morning.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_57_col3.mp3"
+    },
+    {
+        "text": "Can I borrow this book for a week?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_58_col0.mp3"
+    },
+    {
+        "text": "Sure, just let me know when you're done.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_58_col3.mp3"
+    },
+    {
+        "text": "How do I save this file?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_59_col0.mp3"
+    },
+    {
+        "text": "Click on the save icon at the top.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_59_col3.mp3"
+    },
+    {
+        "text": "What do you want to eat for lunch?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_60_col0.mp3"
+    },
+    {
+        "text": "I'd like a sandwich, please.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_60_col3.mp3"
+    },
+    {
+        "text": "Can I pay with a credit card?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_61_col0.mp3"
+    },
+    {
+        "text": "Yes, we accept all major cards.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_61_col3.mp3"
+    },
+    {
+        "text": "How do I book a flight?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_62_col0.mp3"
+    },
+    {
+        "text": "You can book it online or call the airline.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_62_col3.mp3"
+    },
+    {
+        "text": "Do you need any help packing?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_63_col0.mp3"
+    },
+    {
+        "text": "No, I've got it, but thanks.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_63_col3.mp3"
+    },
+    {
+        "text": "Can I borrow a pen?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_64_col0.mp3"
+    },
+    {
+        "text": "Sure, here you go.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_64_col3.mp3"
+    },
+    {
+        "text": "What's the quickest way to get there?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_65_col0.mp3"
+    },
+    {
+        "text": "Take the express train.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_65_col3.mp3"
+    },
+    {
+        "text": "How's your family doing?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_66_col0.mp3"
+    },
+    {
+        "text": "They're doing well, thank you.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_66_col3.mp3"
+    },
+    {
+        "text": "Do you have a suggestion for lunch?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_67_col0.mp3"
+    },
+    {
+        "text": "How about trying the new Italian restaurant?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_67_col3.mp3"
+    },
+    {
+        "text": "Can I change my appointment time?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_68_col0.mp3"
+    },
+    {
+        "text": "Yes, what time works best for you?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_68_col3.mp3"
+    },
+    {
+        "text": "Do you like spicy food?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_69_col0.mp3"
+    },
+    {
+        "text": "Yes, I love it!",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_69_col3.mp3"
+    },
+    {
+        "text": "What's the next step in the process?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_70_col0.mp3"
+    },
+    {
+        "text": "We need to finalize the paperwork.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_70_col3.mp3"
+    },
+    {
+        "text": "How do I cancel my reservation?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_71_col0.mp3"
+    },
+    {
+        "text": "You can cancel it online or call us.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_71_col3.mp3"
+    },
+    {
+        "text": "Can I try this on?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_72_col0.mp3"
+    },
+    {
+        "text": "Sure, the fitting rooms are over there.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_72_col3.mp3"
+    },
+    {
+        "text": "How can I improve my pronunciation?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_73_col0.mp3"
+    },
+    {
+        "text": "Practice speaking slowly and clearly.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_73_col3.mp3"
+    },
+    {
+        "text": "Do you need more time to decide?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_74_col0.mp3"
+    },
+    {
+        "text": "Yes, I need a few more minutes.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_74_col3.mp3"
+    },
+    {
+        "text": "Can I get some extra napkins?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_75_col0.mp3"
+    },
+    {
+        "text": "Sure, I'll bring them over.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_75_col3.mp3"
+    },
+    {
+        "text": "What's the closest bus stop?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_76_col0.mp3"
+    },
+    {
+        "text": "It's just around the corner.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_76_col3.mp3"
+    },
+    {
+        "text": "How do you celebrate birthdays?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_77_col0.mp3"
+    },
+    {
+        "text": "I usually have a party with friends.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_77_col3.mp3"
+    },
+    {
+        "text": "Can I order this online?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_78_col0.mp3"
+    },
+    {
+        "text": "Yes, you can find it on the website.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_78_col3.mp3"
+    },
+    {
+        "text": "Do you enjoy watching sports?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_79_col0.mp3"
+    },
+    {
+        "text": "Yes, my favorite sport is soccer.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_79_col3.mp3"
+    },
+    {
+        "text": "What's the easiest way to learn?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_80_col0.mp3"
+    },
+    {
+        "text": "Find something you enjoy and practice.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_80_col3.mp3"
+    },
+    {
+        "text": "Can I turn the air conditioning on?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_81_col0.mp3"
+    },
+    {
+        "text": "Sure, the remote is over there.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_81_col3.mp3"
+    },
+    {
+        "text": "How do you deal with stress?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_82_col0.mp3"
+    },
+    {
+        "text": "I exercise and meditate regularly.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_82_col3.mp3"
+    },
+    {
+        "text": "Can I get a receipt for this?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_83_col0.mp3"
+    },
+    {
+        "text": "Sure, I'll print it out for you.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_83_col3.mp3"
+    },
+    {
+        "text": "What time does breakfast end?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_84_col0.mp3"
+    },
+    {
+        "text": "Breakfast ends at 10:30 AM.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_84_col3.mp3"
+    },
+    {
+        "text": "Do you like visiting parks?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_85_col0.mp3"
+    },
+    {
+        "text": "Yes, they're relaxing and peaceful.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_85_col3.mp3"
+    },
+    {
+        "text": "How can I join the club?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_86_col0.mp3"
+    },
+    {
+        "text": "Just fill out the registration form.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_86_col3.mp3"
+    },
+    {
+        "text": "What's the fee for membership?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_87_col0.mp3"
+    },
+    {
+        "text": "It's $20 per month.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_87_col3.mp3"
+    },
+    {
+        "text": "Do you like online shopping?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_88_col0.mp3"
+    },
+    {
+        "text": "Yes, it's convenient and easy.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_88_col3.mp3"
+    },
+    {
+        "text": "How do you usually commute?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_89_col0.mp3"
+    },
+    {
+        "text": "I take the train or bus every day.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_89_col3.mp3"
+    },
+    {
+        "text": "Can I return this item?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_90_col0.mp3"
+    },
+    {
+        "text": "Sure, do you have the receipt?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_90_col3.mp3"
+    },
+    {
+        "text": "How do you usually spend your weekends?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_91_col0.mp3"
+    },
+    {
+        "text": "I spend time with family or go hiking.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_91_col3.mp3"
+    },
+    {
+        "text": "Can I use your printer?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_92_col0.mp3"
+    },
+    {
+        "text": "Sure, go ahead.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_92_col3.mp3"
+    },
+    {
+        "text": "What do you usually eat for dinner?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_93_col0.mp3"
+    },
+    {
+        "text": "I usually have rice and vegetables.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_93_col3.mp3"
+    },
+    {
+        "text": "How long does the journey take?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_94_col0.mp3"
+    },
+    {
+        "text": "It takes about three hours.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_94_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a good app for learning?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_95_col0.mp3"
+    },
+    {
+        "text": "Try Duolingo, it's very effective.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_95_col3.mp3"
+    },
+    {
+        "text": "What should we do this evening?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_96_col0.mp3"
+    },
+    {
+        "text": "Let's watch a movie together.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_96_col3.mp3"
+    },
+    {
+        "text": "Can I bring a friend to the party?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_97_col0.mp3"
+    },
+    {
+        "text": "Yes, just let me know beforehand.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_97_col3.mp3"
+    },
+    {
+        "text": "How do I submit this form?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_98_col0.mp3"
+    },
+    {
+        "text": "You can email it or drop it off in person.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_98_col3.mp3"
+    },
+    {
+        "text": "What's the weather forecast for tomorrow?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_99_col0.mp3"
+    },
+    {
+        "text": "It's going to be sunny and warm.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_99_col3.mp3"
+    },
+    {
+        "text": "Do you like trying new foods?",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_100_col0.mp3"
+    },
+    {
+        "text": "Yes, I love exploring different cuisines.",
+        "file": "audio_dam_thoai_03/audio_dam_thoai_03_100_col3.mp3"
+    }
+]
