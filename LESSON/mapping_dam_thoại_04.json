@@ -1,0 +1,802 @@
+[
+    {
+        "text": "Can you tell me your favorite color?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_1_col0.mp3"
+    },
+    {
+        "text": "My favorite color is blue.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_1_col3.mp3"
+    },
+    {
+        "text": "Where's the nearest pharmacy?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_2_col0.mp3"
+    },
+    {
+        "text": "It's two blocks away on the right.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_2_col3.mp3"
+    },
+    {
+        "text": "Do you enjoy listening to music?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_3_col0.mp3"
+    },
+    {
+        "text": "Yes, I listen to music every day.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_3_col3.mp3"
+    },
+    {
+        "text": "What's your preferred mode of transport?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_4_col0.mp3"
+    },
+    {
+        "text": "I prefer biking when the weather is nice.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_4_col3.mp3"
+    },
+    {
+        "text": "How do you usually spend your mornings?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_5_col0.mp3"
+    },
+    {
+        "text": "I start with coffee and check emails.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_5_col3.mp3"
+    },
+    {
+        "text": "Can I use your headphones?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_6_col0.mp3"
+    },
+    {
+        "text": "Sure, here they are.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_6_col3.mp3"
+    },
+    {
+        "text": "What time does the library open?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_7_col0.mp3"
+    },
+    {
+        "text": "It opens at 8 AM on weekdays.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_7_col3.mp3"
+    },
+    {
+        "text": "How do you learn new skills?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_8_col0.mp3"
+    },
+    {
+        "text": "I take online courses and practice.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_8_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a relaxing activity?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_9_col0.mp3"
+    },
+    {
+        "text": "Try going for a walk in the park.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_9_col3.mp3"
+    },
+    {
+        "text": "What's your favorite drink?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_10_col0.mp3"
+    },
+    {
+        "text": "I love iced green tea.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_10_col3.mp3"
+    },
+    {
+        "text": "Can you tell me how to get started?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_11_col0.mp3"
+    },
+    {
+        "text": "Sure, let's go step by step.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_11_col3.mp3"
+    },
+    {
+        "text": "What's the best way to stay organized?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_12_col0.mp3"
+    },
+    {
+        "text": "Use a planner or digital calendar.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_12_col3.mp3"
+    },
+    {
+        "text": "Do you like group activities?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_13_col0.mp3"
+    },
+    {
+        "text": "Yes, it's a great way to connect.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_13_col3.mp3"
+    },
+    {
+        "text": "How can I access this file?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_14_col0.mp3"
+    },
+    {
+        "text": "You need to log in with your account.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_14_col3.mp3"
+    },
+    {
+        "text": "Can I reserve a seat for the show?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_15_col0.mp3"
+    },
+    {
+        "text": "Yes, online booking is available.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_15_col3.mp3"
+    },
+    {
+        "text": "What's your favorite kind of weather?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_16_col0.mp3"
+    },
+    {
+        "text": "I love sunny and breezy days.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_16_col3.mp3"
+    },
+    {
+        "text": "How do you keep your energy up?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_17_col0.mp3"
+    },
+    {
+        "text": "I drink lots of water and take breaks.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_17_col3.mp3"
+    },
+    {
+        "text": "Can you help me choose a gift?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_18_col0.mp3"
+    },
+    {
+        "text": "Sure, what's the occasion?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_18_col3.mp3"
+    },
+    {
+        "text": "Do you like attending events?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_19_col0.mp3"
+    },
+    {
+        "text": "Yes, it's always exciting.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_19_col3.mp3"
+    },
+    {
+        "text": "How do you spend your holidays?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_20_col0.mp3"
+    },
+    {
+        "text": "I travel or spend time with loved ones.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_20_col3.mp3"
+    },
+    {
+        "text": "How do I register for the event?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_21_col0.mp3"
+    },
+    {
+        "text": "You can sign up on the website.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_21_col3.mp3"
+    },
+    {
+        "text": "What's your usual weekend routine?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_22_col0.mp3"
+    },
+    {
+        "text": "I go grocery shopping and relax.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_22_col3.mp3"
+    },
+    {
+        "text": "Can you explain how this works?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_23_col0.mp3"
+    },
+    {
+        "text": "Sure, it's actually quite simple.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_23_col3.mp3"
+    },
+    {
+        "text": "What's the best way to prepare for a trip?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_24_col0.mp3"
+    },
+    {
+        "text": "Make a packing list and plan ahead.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_24_col3.mp3"
+    },
+    {
+        "text": "Do you enjoy going to the movies?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_25_col0.mp3"
+    },
+    {
+        "text": "Yes, I love watching on the big screen.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_25_col3.mp3"
+    },
+    {
+        "text": "How do I get started with this app?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_26_col0.mp3"
+    },
+    {
+        "text": "Follow the tutorial provided.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_26_col3.mp3"
+    },
+    {
+        "text": "Can I use this for free?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_27_col0.mp3"
+    },
+    {
+        "text": "Yes, but some features require payment.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_27_col3.mp3"
+    },
+    {
+        "text": "What's your favorite thing about traveling?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_28_col0.mp3"
+    },
+    {
+        "text": "I love exploring new cultures.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_28_col3.mp3"
+    },
+    {
+        "text": "How do you relax after work?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_29_col0.mp3"
+    },
+    {
+        "text": "I read a book or take a walk.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_29_col3.mp3"
+    },
+    {
+        "text": "Can I ask for help with my homework?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_30_col0.mp3"
+    },
+    {
+        "text": "Of course, what do you need help with?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_30_col3.mp3"
+    },
+    {
+        "text": "Can I get some help with directions?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_31_col0.mp3"
+    },
+    {
+        "text": "Sure, where are you headed?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_31_col3.mp3"
+    },
+    {
+        "text": "How do you usually spend your afternoons?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_32_col0.mp3"
+    },
+    {
+        "text": "I like to go for a walk or read.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_32_col3.mp3"
+    },
+    {
+        "text": "What's the best way to learn a new language?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_33_col0.mp3"
+    },
+    {
+        "text": "Practice speaking every day.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_33_col3.mp3"
+    },
+    {
+        "text": "Do you like exploring new places?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_34_col0.mp3"
+    },
+    {
+        "text": "Yes, traveling is my favorite hobby.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_34_col3.mp3"
+    },
+    {
+        "text": "How do you keep track of your tasks?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_35_col0.mp3"
+    },
+    {
+        "text": "I use a task management app.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_35_col3.mp3"
+    },
+    {
+        "text": "Can I borrow a jacket for tonight?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_36_col0.mp3"
+    },
+    {
+        "text": "Of course, take whichever you like.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_36_col3.mp3"
+    },
+    {
+        "text": "What's the easiest way to stay healthy?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_37_col0.mp3"
+    },
+    {
+        "text": "Eat well and exercise regularly.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_37_col3.mp3"
+    },
+    {
+        "text": "How do you usually spend your evenings?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_38_col0.mp3"
+    },
+    {
+        "text": "I relax and watch TV.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_38_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a good book?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_39_col0.mp3"
+    },
+    {
+        "text": "Sure, \"The Great Gatsby\" is a classic.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_39_col3.mp3"
+    },
+    {
+        "text": "Do you enjoy cooking?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_40_col0.mp3"
+    },
+    {
+        "text": "Yes, I love experimenting with recipes.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_40_col3.mp3"
+    },
+    {
+        "text": "Can I ask you for advice?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_41_col0.mp3"
+    },
+    {
+        "text": "Of course, what's on your mind?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_41_col3.mp3"
+    },
+    {
+        "text": "Where's the nearest train station?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_42_col0.mp3"
+    },
+    {
+        "text": "It's five minutes' walk from here.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_42_col3.mp3"
+    },
+    {
+        "text": "What's your favorite holiday tradition?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_43_col0.mp3"
+    },
+    {
+        "text": "I love decorating the Christmas tree.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_43_col3.mp3"
+    },
+    {
+        "text": "How do I start learning guitar?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_44_col0.mp3"
+    },
+    {
+        "text": "Begin with basic chords and practice daily.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_44_col3.mp3"
+    },
+    {
+        "text": "Do you like spending time outdoors?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_45_col0.mp3"
+    },
+    {
+        "text": "Yes, I enjoy hiking and picnics.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_45_col3.mp3"
+    },
+    {
+        "text": "Can I share this idea with you?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_46_col0.mp3"
+    },
+    {
+        "text": "Absolutely, I'd love to hear it.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_46_col3.mp3"
+    },
+    {
+        "text": "How do I organize my schedule better?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_47_col0.mp3"
+    },
+    {
+        "text": "Use a planner and prioritize tasks.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_47_col3.mp3"
+    },
+    {
+        "text": "What's the best way to start exercising?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_48_col0.mp3"
+    },
+    {
+        "text": "Begin with light cardio and build up gradually.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_48_col3.mp3"
+    },
+    {
+        "text": "Can I join you for coffee?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_49_col0.mp3"
+    },
+    {
+        "text": "Sure, let's go together.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_49_col3.mp3"
+    },
+    {
+        "text": "How do you celebrate special occasions?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_50_col0.mp3"
+    },
+    {
+        "text": "I have a dinner with family and friends.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_50_col3.mp3"
+    },
+    {
+        "text": "Can I use your laptop for a bit?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_51_col0.mp3"
+    },
+    {
+        "text": "Sure, just be careful with it.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_51_col3.mp3"
+    },
+    {
+        "text": "How often do you exercise?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_52_col0.mp3"
+    },
+    {
+        "text": "I work out three times a week.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_52_col3.mp3"
+    },
+    {
+        "text": "What's your favorite type of movie?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_53_col0.mp3"
+    },
+    {
+        "text": "I love watching thrillers.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_53_col3.mp3"
+    },
+    {
+        "text": "Can you help me set up this account?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_54_col0.mp3"
+    },
+    {
+        "text": "Sure, let's go through the steps.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_54_col3.mp3"
+    },
+    {
+        "text": "How do you prefer to spend vacations?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_55_col0.mp3"
+    },
+    {
+        "text": "I love traveling and exploring new cities.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_55_col3.mp3"
+    },
+    {
+        "text": "Can I join your online study group?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_56_col0.mp3"
+    },
+    {
+        "text": "Sure, we meet every Friday evening.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_56_col3.mp3"
+    },
+    {
+        "text": "What's the best way to improve concentration?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_57_col0.mp3"
+    },
+    {
+        "text": "Practice mindfulness and avoid distractions.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_57_col3.mp3"
+    },
+    {
+        "text": "Can I ask for your opinion on this idea?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_58_col0.mp3"
+    },
+    {
+        "text": "Of course, I'd love to share my thoughts.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_58_col3.mp3"
+    },
+    {
+        "text": "What time does the meeting start?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_59_col0.mp3"
+    },
+    {
+        "text": "It starts at 2 PM sharp.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_59_col3.mp3"
+    },
+    {
+        "text": "How do you stay motivated to learn?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_60_col0.mp3"
+    },
+    {
+        "text": "I set small goals and reward myself.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_60_col3.mp3"
+    },
+    {
+        "text": "Can I help you carry these bags?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_61_col0.mp3"
+    },
+    {
+        "text": "Thank you, that would be great!",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_61_col3.mp3"
+    },
+    {
+        "text": "What time does lunch usually start?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_62_col0.mp3"
+    },
+    {
+        "text": "Lunch usually starts at 12 PM.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_62_col3.mp3"
+    },
+    {
+        "text": "Do you like reading novels?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_63_col0.mp3"
+    },
+    {
+        "text": "Yes, my favorite genre is fantasy.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_63_col3.mp3"
+    },
+    {
+        "text": "How can I improve my cooking skills?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_64_col0.mp3"
+    },
+    {
+        "text": "Try following online recipes and practicing daily.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_64_col3.mp3"
+    },
+    {
+        "text": "What's your favorite sport to play?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_65_col0.mp3"
+    },
+    {
+        "text": "I love playing basketball.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_65_col3.mp3"
+    },
+    {
+        "text": "Can I borrow your notebook?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_66_col0.mp3"
+    },
+    {
+        "text": "Sure, just let me know when you're done.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_66_col3.mp3"
+    },
+    {
+        "text": "How do I prepare for a presentation?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_67_col0.mp3"
+    },
+    {
+        "text": "Practice in front of a mirror or record yourself.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_67_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a fun activity for kids?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_68_col0.mp3"
+    },
+    {
+        "text": "Try doing arts and crafts together.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_68_col3.mp3"
+    },
+    {
+        "text": "What time should I arrive at the airport?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_69_col0.mp3"
+    },
+    {
+        "text": "Arrive at least two hours before your flight.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_69_col3.mp3"
+    },
+    {
+        "text": "Can I ask you to review my work?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_70_col0.mp3"
+    },
+    {
+        "text": "Of course, I'll be happy to help.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_70_col3.mp3"
+    },
+    {
+        "text": "What's the fastest way to get there?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_71_col0.mp3"
+    },
+    {
+        "text": "Take the subway, it's very quick.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_71_col3.mp3"
+    },
+    {
+        "text": "Can I help you find something?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_72_col0.mp3"
+    },
+    {
+        "text": "Yes, I'm looking for my keys.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_72_col3.mp3"
+    },
+    {
+        "text": "What's your favorite type of weather?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_73_col0.mp3"
+    },
+    {
+        "text": "I love sunny and breezy days.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_73_col3.mp3"
+    },
+    {
+        "text": "How do I make this recipe better?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_74_col0.mp3"
+    },
+    {
+        "text": "Add more spices for flavor.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_74_col3.mp3"
+    },
+    {
+        "text": "Can you recommend a quiet place to study?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_75_col0.mp3"
+    },
+    {
+        "text": "Try the local library, it's peaceful.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_75_col3.mp3"
+    },
+    {
+        "text": "How do you celebrate your birthday?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_76_col0.mp3"
+    },
+    {
+        "text": "I have dinner with family and friends.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_76_col3.mp3"
+    },
+    {
+        "text": "What's the most exciting trip you've had?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_77_col0.mp3"
+    },
+    {
+        "text": "Visiting Japan was unforgettable.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_77_col3.mp3"
+    },
+    {
+        "text": "Can you explain this concept again?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_78_col0.mp3"
+    },
+    {
+        "text": "Sure, let me break it down.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_78_col3.mp3"
+    },
+    {
+        "text": "How do you usually prepare for exams?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_79_col0.mp3"
+    },
+    {
+        "text": "I make notes and review them daily.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_79_col3.mp3"
+    },
+    {
+        "text": "Can I bring a dish to the party?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_80_col0.mp3"
+    },
+    {
+        "text": "Yes, that would be wonderful!",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_80_col3.mp3"
+    },
+    {
+        "text": "Can I sit next to you?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_81_col0.mp3"
+    },
+    {
+        "text": "Sure, go ahead.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_81_col3.mp3"
+    },
+    {
+        "text": "How do you stay focused at work?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_82_col0.mp3"
+    },
+    {
+        "text": "I use a to-do list and take breaks.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_82_col3.mp3"
+    },
+    {
+        "text": "What's the best time to visit the park?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_83_col0.mp3"
+    },
+    {
+        "text": "Early morning or late afternoon.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_83_col3.mp3"
+    },
+    {
+        "text": "Can you explain this part to me?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_84_col0.mp3"
+    },
+    {
+        "text": "Of course, let's go over it.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_84_col3.mp3"
+    },
+    {
+        "text": "Do you like going for long drives?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_85_col0.mp3"
+    },
+    {
+        "text": "Yes, it's relaxing and enjoyable.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_85_col3.mp3"
+    },
+    {
+        "text": "What's your go-to comfort food?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_86_col0.mp3"
+    },
+    {
+        "text": "I love eating homemade soup.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_86_col3.mp3"
+    },
+    {
+        "text": "How do you stay active every day?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_87_col0.mp3"
+    },
+    {
+        "text": "I walk and stretch regularly.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_87_col3.mp3"
+    },
+    {
+        "text": "Can I bring my pet to your house?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_88_col0.mp3"
+    },
+    {
+        "text": "Sure, pets are welcome here.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_88_col3.mp3"
+    },
+    {
+        "text": "What's your favorite thing to do on a rainy day?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_89_col0.mp3"
+    },
+    {
+        "text": "I enjoy reading a good book by the window.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_89_col3.mp3"
+    },
+    {
+        "text": "How do you usually plan your week?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_90_col0.mp3"
+    },
+    {
+        "text": "I set priorities and allocate time for each task.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_90_col3.mp3"
+    },
+    {
+        "text": "Can I bring my laptop to the meeting?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_91_col0.mp3"
+    },
+    {
+        "text": "Yes, it might be useful for taking notes.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_91_col3.mp3"
+    },
+    {
+        "text": "What's the easiest way to start meditating?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_92_col0.mp3"
+    },
+    {
+        "text": "Try focusing on your breath for five minutes.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_92_col3.mp3"
+    },
+    {
+        "text": "How do you stay positive during tough times?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_93_col0.mp3"
+    },
+    {
+        "text": "I focus on solutions and seek support from friends.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_93_col3.mp3"
+    },
+    {
+        "text": "Can you help me improve my writing skills?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_94_col0.mp3"
+    },
+    {
+        "text": "Sure, start by reading more and practicing regularly.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_94_col3.mp3"
+    },
+    {
+        "text": "What time does the conference end?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_95_col0.mp3"
+    },
+    {
+        "text": "It ends at 5 PM sharp.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_95_col3.mp3"
+    },
+    {
+        "text": "Do you prefer working alone or in a team?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_96_col0.mp3"
+    },
+    {
+        "text": "I enjoy both, depending on the task.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_96_col3.mp3"
+    },
+    {
+        "text": "How do you prepare for interviews?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_97_col0.mp3"
+    },
+    {
+        "text": "I research the company and practice answering questions.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_97_col3.mp3"
+    },
+    {
+        "text": "Can I ask for help setting up the projector?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_98_col0.mp3"
+    },
+    {
+        "text": "Of course, let's get it ready together.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_98_col3.mp3"
+    },
+    {
+        "text": "What's your favorite way to relax?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_99_col0.mp3"
+    },
+    {
+        "text": "I love listening to calm music or taking a walk.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_99_col3.mp3"
+    },
+    {
+        "text": "How do you celebrate small victories?",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_100_col0.mp3"
+    },
+    {
+        "text": "I treat myself to something special.",
+        "file": "audio_dam_thoại_04/audio_dam_thoại_04_100_col3.mp3"
+    }
+]

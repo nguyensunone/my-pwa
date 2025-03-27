@@ -14,6 +14,11 @@
             "name": "dam_thoai_03.json",
             "mapping": "mapping_dam_thoai_03.json",
             "audio": "audio_dam_thoai_03"
+        },
+        {
+            "name": "dam_thoại_04.json",
+            "mapping": "mapping_dam_thoại_04.json",
+            "audio": "audio_dam_thoại_04"
         }
     ]
 }
