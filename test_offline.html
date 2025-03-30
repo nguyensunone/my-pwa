@@ -184,6 +184,40 @@
         #slowPronunciationButton:hover {
             background-color: #21a1f1;
         }
+        #notification {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #f44336;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            max-width: 90%;
+        }
+        
+        .wrong-answer-container {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #2d3748;
+            border-radius: 5px;
+            border-left: 4px solid #f44336;
+        }
+        
+        .wrong-answer {
+            color: #ff6b6b;
+        }
+
+        .correct-answer {
+            color: lightgreen;            
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -237,8 +271,8 @@
 <select id="lessonSelector" onchange="loadLesson()">
     <!-- Các tùy chọn sẽ được thêm tự động từ json_list.json -->
 </select>
-<input type="number" id="startQuestion" placeholder="Bắt đầu" min="1" max="138">
-<input type="number" id="questionCount" placeholder="Tổng số" min="1" max="138">
+<input type="number" id="startQuestion" placeholder="Bắt đầu" min="1" max="200">
+<input type="number" id="questionCount" placeholder="Tổng số" min="1" max="200">
 <button onclick="startSession()">Bắt Đầu Phiên Học</button>
  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
@@ -325,12 +359,12 @@
     function startSession() {
         const startQuestion = parseInt(document.getElementById('startQuestion').value);
         const questionCount = parseInt(document.getElementById('questionCount').value) || 10;
-        if (isNaN(startQuestion) || startQuestion < 1 || startQuestion > 138) {
-            alert("Vui lòng nhập số câu hỏi bắt đầu từ 1 đến 138.");
+        if (isNaN(startQuestion) || startQuestion < 1 || startQuestion > 200) {
+            alert("Vui lòng nhập số câu hỏi bắt đầu từ 1 đến 200.");
             return;
         }
-        if (isNaN(questionCount) || questionCount < 1 || questionCount > 138) {
-            alert("Vui lòng nhập số câu hỏi hợp lệ (tối đa 138).");
+        if (isNaN(questionCount) || questionCount < 1 || questionCount > 200) {
+            alert("Vui lòng nhập số câu hỏi hợp lệ (tối đa 200).");
             return;
         }
         sessionStartIndex = startQuestion - 1;
@@ -345,38 +379,50 @@
     }
 
     function nextWord() {
-        if (vocabList.length === 0) return;
-        clearTimeout(autoFlipTimeout);
+    if (vocabList.length === 0) return;
+    clearTimeout(autoFlipTimeout);
 
-        if (isRandomMode) {
-            // Nếu đã hỏi hết tất cả câu
-            if (askedIndices.length >= vocabList.length) {
-                if (!isRandomCycleComplete) {
-                    alert("Đã hoàn thành 1 vòng ngẫu nhiên!\nTự động bắt đầu vòng mới.");
-                }
-                askedIndices = [];
-                isRandomCycleComplete = true;
+    if (isRandomMode) {
+        if (askedIndices.length >= vocabList.length) {
+            if (!isRandomCycleComplete) {
+                alert("Đã hoàn thành 1 vòng ngẫu nhiên!\nTự động bắt đầu vòng mới.");
             }
-
-            // Lọc các câu chưa hỏi
-            const availableIndices = [];
-            for (let i = 0; i < vocabList.length; i++) {
-                if (!askedIndices.includes(i)) {
-                    availableIndices.push(i);
-                }
-            }
-
-            // Chọn ngẫu nhiên từ các câu chưa hỏi
-            currentIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
-            askedIndices.push(currentIndex);
-        } else {
-            // Chế độ thứ tự bình thường
-            currentIndex = (currentIndex + 1) % vocabList.length;
+            askedIndices = [];
+            isRandomCycleComplete = true;
         }
 
-        isFront = true;
-        displayWord();
+        const availableIndices = [];
+        for (let i = 0; i < vocabList.length; i++) {
+            if (!askedIndices.includes(i)) {
+                availableIndices.push(i);
+            }
+        }
+
+        currentIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
+        askedIndices.push(currentIndex);
+    } else {
+        currentIndex = (currentIndex + 1) % vocabList.length;
     }
+
+    isFront = true;
+    displayWord();
+    
+    // Nếu đang ở chế độ auto flip, phát âm thanh ngay
+    if (autoFlip) {
+        const word = vocabList[currentIndex];
+        playPronunciation(word[0]);
+    }
+}
+
+function flipCard() {
+    isFront = !isFront;
+    displayWord();
+    
+    // Phát âm thanh mặt mới và xử lý auto flip
+    const word = vocabList[currentIndex];
+    const textToPlay = isFront ? word[0] : word[3];
+    playPronunciation(textToPlay);
+}
 
     // --- Sửa hàm prevWord ---
     function prevWord() {
@@ -590,35 +636,69 @@ function toggleSlowPronunciation() {
 }
 
 function playPronunciation(text) {
-    currentPronunciationText = text; // Lưu lại câu vừa phát âm
+    currentPronunciationText = text;
     if (audio) {
-        audio.stop(); // Dừng âm thanh nếu đang chơi
+        audio.stop();
+        audio.unload(); // Giải phóng tài nguyên âm thanh cũ
     }
 
-    // Tìm file âm thanh tương ứng trong audioMapping
     const audioEntry = audioMapping.find(item => item.text === text);
     if (audioEntry) {
-        // Thêm tiền tố "LESSON/" cho đường dẫn file âm thanh
         const audioFilePath = "LESSON/" + audioEntry.file;
         audio = new Howl({
             src: [audioFilePath],
             html5: true,
-            rate: isSlowPronunciation ? 0.80 : 1, // Điều chỉnh tốc độ phát
-            onend: function () {
+            rate: isSlowPronunciation ? 0.75 : 1, // Giảm tốc độ hơn nếu cần
+            onload: function() {
+                // Bắt đầu phát âm thanh khi đã load xong
+                audio.play();
+                
+                // Xử lý auto flip
                 if (autoFlip) {
-                    autoFlipLogic();
+                    clearTimeout(autoFlipTimeout);
+                    const duration = audio.duration() * 1000; // Thời lượng âm thanh (ms)
+                    const bufferTime = 2000; // Thêm 2 giây buffer
+                    
+                    // Đặt thời gian chờ = thời lượng âm thanh + buffer
+                    autoFlipTimeout = setTimeout(() => {
+                        if (!isFront) {
+                            nextWord();
+                        } else {
+                            flipCard();
+                        }
+                    }, duration + bufferTime);
                 }
             },
-            onloaderror: function () {
-                console.log("Lỗi phát âm thanh từ file local.");
+            onend: function() {
+                console.log('Phát âm hoàn tất');
+            },
+            onloaderror: function(id, error) {
+                console.error("Lỗi phát âm thanh:", error);
+                if (autoFlip) {
+                    // Nếu có lỗi, chuyển sau 5 giây mặc định
+                    autoFlipTimeout = setTimeout(() => {
+                        if (!isFront) {
+                            nextWord();
+                        } else {
+                            flipCard();
+                        }
+                    }, 5000);
+                }
             }
         });
-        audio.play();
     } else {
-        console.log("Không tìm thấy file âm thanh cho từ:", text);
+        console.log("Không tìm thấy file âm thanh cho:", text);
+        if (autoFlip) {
+            autoFlipTimeout = setTimeout(() => {
+                if (!isFront) {
+                    nextWord();
+                } else {
+                    flipCard();
+                }
+            }, 5000);
+        }
     }
 }
-
 
 function repeatPronunciation() {
     if (currentPronunciationText) {
@@ -630,19 +710,31 @@ function repeatPronunciation() {
     }
 }
 
-    function autoFlipLogic() {
+function autoFlipLogic() {
+    if (audio) {
+        // Đợi âm thanh phát xong hoặc hết thời gian tối đa
+        const audioDuration = audio.duration() * 1000; // chuyển sang mili giây
+        const maxWaitTime = Math.max(audioDuration, 5000); // Lấy thời gian lớn hơn giữa độ dài audio và 5 giây
+        
         autoFlipTimeout = setTimeout(() => {
             flipCard();
-            setTimeout(nextWord, 4000);
-        }, 4000);
+            // Đợi âm thanh mặt sau phát xong trước khi chuyển thẻ tiếp
+            setTimeout(() => {
+                if (audio) {
+                    audio.once('end', nextWord);
+                } else {
+                    nextWord();
+                }
+            }, 1000); // Thêm độ trễ nhỏ để đảm bảo
+        }, maxWaitTime);
+    } else {
+        // Xử lý khi không có audio
+        autoFlipTimeout = setTimeout(() => {
+            flipCard();
+            setTimeout(nextWord, 5000);
+        }, 5000);
     }
-
-    function flipCard() {
-        isFront = !isFront;
-        displayWord();
-        const word = vocabList[currentIndex];
-        currentPronunciationText = isFront ? word[0] : word[3];
-    }
+}
 
     function flipCardToBack() {
         isFront = false;
@@ -650,43 +742,83 @@ function repeatPronunciation() {
     }
 
     function toggleAutoFlip() {
-        autoFlip = !autoFlip;
-        const button = document.getElementById('autoFlipButton');
-        button.innerText = autoFlip ? "Tắt Tự Động" : "Tự Động";
-        if (autoFlip) {
-            alert("Chế độ tự động đã bật.");
-            autoFlipLogic();
-        } else {
-            alert("Chế độ tự động đã tắt.");
-            clearTimeout(autoFlipTimeout);
-            if (audio) {
-                audio.stop();
-            }
+    autoFlip = !autoFlip;
+    const button = document.getElementById('autoFlipButton');
+    button.innerText = autoFlip ? "Tắt Tự Động" : "Tự Động";
+    
+    if (autoFlip) {
+        clearTimeout(autoFlipTimeout);
+        // Bắt đầu auto flip ngay lập tức
+        const word = vocabList[currentIndex];
+        const textToPlay = isFront ? word[0] : word[3];
+        playPronunciation(textToPlay);
+    } else {
+        clearTimeout(autoFlipTimeout);
+        if (audio) {
+            audio.stop();
         }
     }
-
-    function removePunctuation(text) {
-        return text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?]/g, '').replace(/\s{2,}/g, ' ');
-    }
-
-    function showNotification(message, isCorrect, userAnswer = "", correctAnswer = "") {
-    const notification = document.getElementById('notification');
-    notification.innerHTML = `<strong>${message}</strong>`;
-
-    if (!isCorrect) {
-        notification.innerHTML += `<br><span style="color: darkblue;">"${userAnswer}"</span>`;
-        notification.innerHTML += `<br><span style="color: black;">"${correctAnswer}"</span>`;
-    }
-
-    notification.style.display = 'block';
-    notification.style.backgroundColor = isCorrect ? '#4caf50' : '#f44336';
-
-    setTimeout(() => {
-        notification.style.display = 'none';
-    }, 5000);
 }
 
-function checkAnswer() {
+function removePunctuation(text) {  
+    return text  
+        .replace(/[-]/g, ' ') // Thay thế dấu gạch nối bằng dấu cách  
+        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, '') // Loại bỏ các ký tự khác  
+        .replace(/\s{2,}/g, ' ') // Thay thế nhiều dấu cách thành một dấu cách  
+        .trim(); // Loại bỏ dấu cách thừa ở đầu và cuối chuỗi  
+}  
+
+    function showNotification(message, isCorrect, userAnswer = "", correctAnswer = "") {
+        const notification = document.getElementById('notification');
+        notification.textContent = message;
+        notification.style.display = 'block';
+        notification.style.backgroundColor = isCorrect ? '#4caf50' : '#f44336';
+        
+        // Hiển thị câu sai và đúng trên card
+        if (!isCorrect) {
+            const card = document.querySelector('.card');
+            if (card) {
+                // Xóa thông báo cũ nếu có
+                const oldContainer = card.querySelector('.wrong-answer-container');
+                if (oldContainer) {
+                    card.removeChild(oldContainer);
+                }
+                
+                // Tạo container hiển thị sai/đúng
+                const container = document.createElement('div');
+                container.className = 'wrong-answer-container';
+                
+                // Thêm câu viết sai
+                const wrongElement = document.createElement('div');
+                wrongElement.className = 'wrong-answer';
+                wrongElement.textContent = `${userAnswer}`;
+                container.appendChild(wrongElement);
+                
+                // Thêm câu đúng (nếu có)
+                if (correctAnswer) {
+                    const correctElement = document.createElement('div');
+                    correctElement.className = 'correct-answer';
+                    correctElement.textContent = `${correctAnswer}`;
+                    container.appendChild(correctElement);
+                }
+                
+                card.appendChild(container);
+            }
+        }
+
+        setTimeout(() => {
+            notification.style.display = 'none';
+            // Giữ thông báo sai trên card trong 10 giây
+            setTimeout(() => {
+                const container = document.querySelector('.wrong-answer-container');
+                if (container) {
+                    container.remove();
+                }
+            }, 10000); // 10 giây
+        }, 2000);
+    }
+
+    function checkAnswer() {
     const answerInput = document.getElementById('answerInput');
     const userAnswer = removePunctuation(answerInput.value.toString().trim().toLowerCase());
     const word = vocabList[currentIndex];
@@ -695,14 +827,30 @@ function checkAnswer() {
 
     if (userAnswer === normalizedExpectedText) {
         showNotification("Đúng!", true);
+        
+        // Phát âm thanh và chỉ chuyển khi phát xong
         playPronunciation(expectedText);
-        setTimeout(() => {
-            if (isFront) {
-                flipCard();
-            } else {
-                nextWord();
-            }
-        }, 3000);
+        if (audio) {
+            audio.once('end', function() {
+                setTimeout(() => {
+                    if (isFront) {
+                        flipCard();
+                    } else {
+                        nextWord();
+                    }
+                }, 1000); // Thêm 1 giây buffer sau khi âm thanh kết thúc
+            });
+        } else {
+            // Nếu không có âm thanh, chờ 4 giây mặc định
+            setTimeout(() => {
+                if (isFront) {
+                    flipCard();
+                } else {
+                    nextWord();
+                }
+            }, 4000);
+        }
+        
     } else {
         showNotification("Sai!", false, userAnswer, normalizedExpectedText);
         playPronunciation(expectedText);
@@ -724,16 +872,37 @@ function checkAnswerBack() {
                 <span class="example_vi">${vocabList[currentIndex][5]}</span>
             </div>
         `;
+        
+        // Phát âm thanh và chỉ chuyển khi phát xong
         playPronunciation(vocabList[currentIndex][3]);
-        setTimeout(() => {
-            nextWord();
-        }, 4000);
+        if (audio) {
+            audio.once('end', function() {
+                setTimeout(() => {
+                    nextWord();
+                }, 1000); // Thêm 1 giây buffer
+            });
+        } else {
+            setTimeout(() => {
+                nextWord();
+            }, 4000);
+        }
+        
     } else {
+        document.getElementById('vocabLabel').innerHTML = `
+            <div class="card">
+                <span class="example">${vocabList[currentIndex][3]}</span><br>
+                <span class="example_ipa">${vocabList[currentIndex][4]}</span><br>
+                <span class="example_vi">${vocabList[currentIndex][5]}</span>
+                <div class="wrong-answer-container">
+                    <div class="wrong-answer">Bạn viết: ${userAnswerBack}</div>
+                    <div class="correct-answer">Câu đúng: ${currentExample}</div>
+                </div>
+            </div>
+        `;
         showNotification("Sai!", false, userAnswerBack, currentExample);
-        flipCardToBack();
         playPronunciation(vocabList[currentIndex][3]);
     }
-}    
+}
 
 function startSpeechRecognitionFront() {
     if (!('webkitSpeechRecognition' in window)) {
