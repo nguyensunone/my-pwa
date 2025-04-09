@@ -296,22 +296,6 @@
 </div>
 <div id="vocabLabel">Không có từ vựng nào được thêm.</div>
 
-<!--Nhóm các nút đổi màu-->
-<div style="text-align: center;">
-<label>  
-    <input type="checkbox" onchange="toggleVisibility('term')"> Ẩn En  
-</label>  
-<label>  
-    <input type="checkbox" onchange="toggleVisibility('ipa')"> Ẩn IPA  
-</label>  
-<label>  
-    <input type="checkbox" onchange="toggleVisibility('vietnamese')"> Ẩn Vi  
-</label>
-<label>  
-    <input type="checkbox" id="autoCheckToggle" checked onchange="toggleAutoCheck()"> Tự động kiểm tra  
-</label>
-</div>
-
 <div id="notification"></div>
 <div id="speechResult">
     <p><span id="recognizedSpeech"></span></p>
@@ -338,6 +322,23 @@
 <button id="studyDifficultButton" onclick="studyDifficultWords()">Học Khó</button>
 <button id="removeDifficultButton" onclick="removeFromDifficult()">Xóa Khó</button>
 <button id="slowPronunciationButton" onclick="toggleSlowPronunciation()">Phát Âm Chậm</button>
+
+<!--Nhóm các nút đổi màu-->
+<div style="text-align: center;">
+    <label>  
+        <input type="checkbox" onchange="toggleVisibility('term')"> Ẩn En  
+    </label>  
+    <label>  
+        <input type="checkbox" onchange="toggleVisibility('ipa')"> Ẩn IPA  
+    </label>  
+    <label>  
+        <input type="checkbox" onchange="toggleVisibility('vietnamese')"> Ẩn Vi  
+    </label>
+    <label>  
+        <input type="checkbox" id="autoCheckToggle" checked onchange="toggleAutoCheck()"> Tự động kiểm tra  
+    </label>
+</div>
+
 <!-- Dropdown để chọn bài học -->
 <select id="lessonSelector" onchange="loadLesson()">
     <!-- Các tùy chọn sẽ được thêm tự động từ json_list.json -->
