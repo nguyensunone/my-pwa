@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đóng Vai Hội Thoại</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; background: #1e1e2f; color: #fff; padding: 20px; text-align: center; }
+    .card, .translation, .hint, .feedback, .fade { transition: opacity 0.5s ease-in-out; }
+    .card { background: #2b2d42; padding: 20px; border-radius: 12px; margin: 20px auto; max-width: 700px; font-size: 20px; }
+    select, button, input[type="radio"], input[type="text"], input[type="number"], label { margin: 10px; padding: 10px; font-size: 16px; }
+    .translation { font-style: italic; color: #a0e0f0; margin-top: 10px; }
+    .hint { color: #ffd166; margin: 10px auto; font-style: italic; font-size: 18px; }
+    .correct { color: #4cc9f0; font-weight: bold; }
+    .wrong { color: #f72585; font-weight: bold; }
+    .hidden { opacity: 0; pointer-events: none; height: 0; overflow: hidden; }
+    .visible { opacity: 1; }
+    .mic-status { margin: 10px; font-style: italic; }
+    .prompt-message { color: #8ac926; font-style: italic; margin: 15px 0; font-size: 18px; }
+    .vietnamese-prompt { color: #f8f9fa; font-weight: bold; margin: 10px 0; }
+    .progress-container { margin: 15px 0; font-size: 18px; }
+    .range-selector { display: flex; justify-content: center; align-items: center; margin: 10px 0; }
+    .range-selector input { width: 60px; text-align: center; }
+    .button-group { display: flex; justify-content: center; gap: 10px; margin: 15px 0; }
+  </style>
+</head>
+<body>
+  <h1>🎭 Đóng Vai Hội Thoại</h1>
+  <!-- Thanh chọn ứng dụng -->
+<div class="app-nav">
+  <select id="appSelector" onchange="switchApp()">
+    <option value="translation_practice.html">Luyện Dịch Việt-Anh</option>
+    <option value="qa_en.html">Luyện Hỏi Đáp Tiếng Anh</option>
+    <option value="role_play.html">Đóng Vai Hội Thoại</option>
+  </select>
+</div>
+
+  <div>
+    <select id="lessonSelector"></select>
+    <button id="loadLessonBtn">📥 Tải Bài Học</button><br>
+    
+    <div class="range-selector">
+      <span>Chọn câu:</span>
+      <input type="number" id="startRange" min="1" value="1">
+      <span>đến</span>
+      <input type="number" id="endRange" min="1" value="10">
+    </div>
+    
+    <label><input type="radio" name="role" value="answer" checked> Tôi là Người trả lời</label>
+    <label><input type="radio" name="role" value="ask"> Tôi là Người hỏi</label><br>
+    <label><input type="checkbox" id="hidePrompts"> Ẩn Gợi Ý và Câu Thoại</label><br>
+    <button id="startRolePlayBtn">🎬 Bắt đầu Đóng Vai</button>
+  </div>
+  
+  <div class="progress-container">
+    Tiến trình: <span id="progress">-</span>
+  </div>
+  
+  <div class="card fade" id="dialogueDisplay">Câu thoại sẽ xuất hiện tại đây.</div>
+  <div id="translation" class="translation fade"></div>
+  <div id="hint" class="hint fade"></div>
+  <div id="vietnamesePrompt" class="vietnamese-prompt"></div>
+  <div id="promptMessage" class="prompt-message"></div>
+  <input type="text" id="userInput" placeholder="Nhập câu trả lời hoặc nói...">
+  
+  <div class="button-group">
+    <button id="checkAnswerBtn">Kiểm tra</button>
+    <button id="skipBtn">⏭ Bỏ qua</button>
+    <button id="micButton">🎤 Bật Microphone</button>
+  </div>
+  
+  <div id="micStatus" class="mic-status">Microphone: Tắt</div>
+  <div id="feedback" class="feedback"></div>
+<script>
+let lessonData = [];
+let mappingData = [];
+let lessons = [];
+let currentIndex = 0;
+let role = "answer";
+let expectedText = "";
+let recognition = null;
+let isMicActive = false;
+let isPlayingAudio = false;
+let startRange = 1;
+let endRange = 10;
+let micRetryCount = 0;
+const MAX_MIC_RETRY = 3;
+
+// Khởi tạo sự kiện khi trang tải xong
+document.addEventListener('DOMContentLoaded', function() {
+  // Gán sự kiện cho các nút
+  document.getElementById('loadLessonBtn').addEventListener('click', loadLesson);
+  document.getElementById('startRolePlayBtn').addEventListener('click', startRolePlay);
+  document.getElementById('checkAnswerBtn').addEventListener('click', checkAnswer);
+  document.getElementById('skipBtn').addEventListener('click', skipDialogue);
+  document.getElementById('micButton').addEventListener('click', toggleMic);
+  document.getElementById('hidePrompts').addEventListener('change', togglePrompts);
+  // Tự động chọn đúng ứng dụng đang mở
+  document.getElementById('appSelector').value = location.pathname.split('/').pop();
+  document.getElementById('userInput').addEventListener('keydown', function(e) {
+    if(e.key === 'Enter') checkAnswer();
+  });
+  
+  // Sự kiện cho phạm vi câu
+  document.getElementById('startRange').addEventListener('change', updateRange);
+  document.getElementById('endRange').addEventListener('change', updateRange);
+  
+  // Tải danh sách bài học
+  loadLessonList();
+});
+
+function loadLessonList() {
+  fetch("json_list.json")
+    .then(res => res.json())
+    .then(data => {
+      lessons = data.lessons || [];
+      const selector = document.getElementById("lessonSelector");
+      selector.innerHTML = '';
+      lessons.forEach(lesson => {
+        const opt = document.createElement("option");
+        opt.value = lesson.name;
+        opt.innerText = lesson.name.replace(".json", "");
+        selector.appendChild(opt);
+      });
+    })
+    .catch(err => {
+      console.error("Lỗi khi tải danh sách bài học:", err);
+    });
+}
+
+function updateRange() {
+  startRange = parseInt(document.getElementById("startRange").value) || 1;
+  endRange = parseInt(document.getElementById("endRange").value) || 10;
+  
+  if (startRange > endRange) {
+    endRange = startRange;
+    document.getElementById("endRange").value = endRange;
+  }
+  
+  if (lessonData.length > 0) {
+    const maxLength = lessonData.length;
+    if (endRange > maxLength) {
+      endRange = maxLength;
+      document.getElementById("endRange").value = endRange;
+    }
+    if (startRange > maxLength) {
+      startRange = maxLength;
+      document.getElementById("startRange").value = startRange;
+    }
+  }
+  
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = endRange - startRange + 1;
+  const current = currentIndex - startRange + 1;
+  document.getElementById("progress").innerText = 
+    (currentIndex >= startRange && currentIndex <= endRange) 
+      ? `${current}/${total}` 
+      : "-";
+}
+
+function togglePrompts() {
+  const hide = document.getElementById("hidePrompts").checked;
+  ["dialogueDisplay", "translation", "hint", "promptMessage", "vietnamesePrompt"].forEach(id => {
+    const el = document.getElementById(id);
+    el.className = hide ? "hidden" : 
+      id === "promptMessage" ? "prompt-message" : 
+      id === "vietnamesePrompt" ? "vietnamese-prompt" : "fade visible";
+  });
+}
+
+function loadLesson() {
+  const selected = document.getElementById("lessonSelector").value;
+  const lesson = lessons.find(l => l.name === selected);
+  if (!lesson) return alert("Không tìm thấy bài học!");
+
+  Promise.all([
+    fetch("LESSON/" + lesson.name).then(res => res.json()),
+    fetch("LESSON/" + lesson.mapping).then(res => res.json())
+  ]).then(([data, mapping]) => {
+    lessonData = data;
+    mappingData = Array.isArray(mapping) ? mapping : [mapping];
+    document.getElementById("startRange").max = lessonData.length;
+    document.getElementById("endRange").max = lessonData.length;
+    document.getElementById("endRange").value = Math.min(10, lessonData.length);
+    updateRange();
+    document.getElementById("dialogueDisplay").innerText = "✅ Bài học đã được tải. Chọn chế độ và nhấn bắt đầu.";
+  }).catch(err => {
+    alert("❌ Không thể tải bài học hoặc mapping.");
+    console.error(err);
+  });
+}
+
+function startRolePlay() {
+  if (lessonData.length === 0) {
+    alert("Vui lòng tải bài học trước!");
+    return;
+  }
+  
+  role = document.querySelector('input[name="role"]:checked').value;
+  currentIndex = startRange - 1;
+  document.getElementById("feedback").innerHTML = "";
+  document.getElementById("promptMessage").innerHTML = "";
+  document.getElementById("vietnamesePrompt").innerHTML = "";
+  togglePrompts();
+  nextDialogue();
+}
+
+function nextDialogue() {
+  updateProgress();
+  
+  if (currentIndex > endRange - 1 || currentIndex >= lessonData.length) {
+    document.getElementById("dialogueDisplay").innerText = `✅ Hoàn tất đoạn hội thoại (${startRange}-${endRange}).`;
+    document.getElementById("translation").innerText = "";
+    document.getElementById("hint").innerText = "";
+    document.getElementById("promptMessage").innerText = "";
+    document.getElementById("vietnamesePrompt").innerText = "";
+    stopMic();
+    return;
+  }
+
+  const item = lessonData[currentIndex];
+  let text, translation, hintText, vietnamesePrompt;
+
+  if (role === "answer") {
+    text = item[0]; 
+    translation = item[2]; 
+    expectedText = item[3];
+    hintText = "👉 Bạn cần trả lời: " + item[5];
+    vietnamesePrompt = "";
+  } else {
+    text = item[3]; 
+    translation = item[5]; 
+    expectedText = item[0];
+    hintText = "";
+    vietnamesePrompt = "💬 Hãy hỏi: " + item[2];
+  }
+
+  document.getElementById("dialogueDisplay").innerText = text;
+  document.getElementById("translation").innerText = role === "answer" ? "💬 " + translation : "";
+  document.getElementById("hint").innerText = hintText;
+  document.getElementById("vietnamesePrompt").innerText = vietnamesePrompt;
+  document.getElementById("userInput").value = "";
+  document.getElementById("userInput").focus();
+
+  if (role === "answer") {
+    isPlayingAudio = true;
+    document.getElementById("promptMessage").innerText = "";
+    playAudio(text, () => {
+      isPlayingAudio = false;
+      if (isMicActive) {
+        startMic();
+      }
+    });
+  } else {
+    isPlayingAudio = false;
+    document.getElementById("promptMessage").innerText = "🔊 Hãy nói bằng tiếng Anh";
+    if (isMicActive) {
+      startMic();
+    }
+  }
+}
+
+function playAudio(text, callback) {
+  const audio = mappingData.find(a => a.text === text);
+  if (!audio) {
+    if (callback) callback();
+    return;
+  }
+  
+  const sound = new Howl({ 
+    src: ["LESSON/" + audio.file], 
+    html5: true,
+    onend: callback
+  });
+  sound.play();
+}
+
+function toggleMic() {
+  if (isMicActive) {
+    stopMic();
+  } else {
+    startMic();
+  }
+}
+
+function startMic() {
+  if (isPlayingAudio) return;
+  
+  if ('webkitSpeechRecognition' in window) {
+    // Dừng recognition hiện tại nếu có
+    if (recognition) {
+      recognition.stop();
+    }
+    
+    recognition = new webkitSpeechRecognition();
+    recognition.continuous = true;
+    recognition.lang = 'en-US';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    
+    recognition.onresult = (event) => {
+      const result = event.results[event.results.length - 1][0].transcript.trim();
+      document.getElementById("userInput").value = result;
+      checkAnswer();
+      micRetryCount = 0; // Reset retry count on successful recognition
+    };
+    
+    recognition.onerror = (event) => {
+      console.log("Speech recognition error", event.error);
+      if (event.error === 'no-speech') {
+        // Tự động khởi động lại nếu không có giọng nói
+        if (micRetryCount < MAX_MIC_RETRY) {
+          micRetryCount++;
+          setTimeout(() => {
+            if (isMicActive) recognition.start();
+          }, 500);
+        } else {
+          document.getElementById("micStatus").innerText = "Microphone: Tạm dừng do không phát hiện giọng nói";
+          isMicActive = false;
+          document.getElementById("micButton").textContent = "🎤 Bật Microphone";
+        }
+      } else {
+        document.getElementById("micStatus").innerText = "Microphone: Lỗi - " + event.error;
+        isMicActive = false;
+        document.getElementById("micButton").textContent = "🎤 Bật Microphone";
+      }
+    };
+    
+    recognition.onend = () => {
+      if (isMicActive && !isPlayingAudio) {
+        // Tự động khởi động lại với delay
+        setTimeout(() => {
+          if (isMicActive) recognition.start();
+        }, 300);
+      }
+    };
+    
+    recognition.start();
+    isMicActive = true;
+    micRetryCount = 0;
+    document.getElementById("micStatus").innerText = "Microphone: Đang hoạt động";
+    document.getElementById("micButton").textContent = "🎤 Tắt Microphone";
+  } else {
+    alert("Trình duyệt của bạn không hỗ trợ nhận dạng giọng nói.");
+  }
+}
+
+function stopMic() {
+  if (recognition) {
+    recognition.onend = null; // Tạm thời vô hiệu hóa sự kiện onend
+    recognition.stop();
+    recognition = null;
+  }
+  isMicActive = false;
+  micRetryCount = 0;
+  document.getElementById("micStatus").innerText = "Microphone: Tắt";
+  document.getElementById("micButton").textContent = "🎤 Bật Microphone";
+}
+
+function skipDialogue() {
+  moveToNextDialogue();
+}
+
+function checkAnswer() {
+  const userInput = document.getElementById("userInput").value.trim();
+  if (!userInput) {
+    alert("Vui lòng nhập hoặc nói câu trả lời!");
+    return;
+  }
+
+  const correct = normalizeText(expectedText);
+  const userAnswer = normalizeText(userInput);
+  const score = compareText(correct, userAnswer);
+  const feedback = document.getElementById("feedback");
+
+  clearTimeout(window.feedbackTimeout);
+  clearTimeout(window.nextDialogueTimeout);
+
+  if (score >= 70) { // Giảm ngưỡng so sánh xuống 70% để linh hoạt hơn
+    feedback.innerHTML = `<div class='correct'>✅ Đúng! (${score}%)</div>`;
+    
+    if (role === "ask") {
+      const answerText = lessonData[currentIndex][3];
+      isPlayingAudio = true;
+      
+      // Tạm dừng microphone trước khi phát âm thanh
+      const wasMicActive = isMicActive;
+      stopMic();
+      
+      playAudio(answerText, () => {
+        isPlayingAudio = false;
+        // Tự động bật lại microphone nếu đang ở trạng thái active
+        if (wasMicActive) {
+          startMic();
+        }
+        
+        window.nextDialogueTimeout = setTimeout(() => {
+          moveToNextDialogue();
+        }, 1000);
+      });
+    } else {
+      window.nextDialogueTimeout = setTimeout(() => {
+        moveToNextDialogue();
+      }, 1000);
+    }
+  } else {
+    feedback.innerHTML = `<div class='wrong'>❌ Chưa chính xác (${score}%)<br>Đáp án đúng: ${expectedText}</div>`;
+    
+    window.feedbackTimeout = setTimeout(() => {
+      feedback.innerHTML = "";
+    }, 3000);
+  }
+}
+
+function moveToNextDialogue() {
+  currentIndex++;
+  document.getElementById("feedback").innerHTML = "";
+  document.getElementById("userInput").value = "";
+  nextDialogue();
+}
+
+function normalizeText(text) {
+  // Chuẩn hóa văn bản để so sánh linh hoạt hơn
+  return text.toLowerCase()
+    .replace(/[.,?!]/g, '') // Bỏ dấu câu
+    .replace(/\s+/g, ' ') // Chuẩn hóa khoảng trắng
+    .replace(/\$(\d+)/g, '$1 dollars') // Chuyển $5 → 5 dollars
+    .replace(/(\d+) dollars?/g, '$1 dollar') // Chuẩn hóa số nhiều
+    .replace(/(\b\d+\b)/g, match => {
+      // Chuyển số thành chữ (đơn giản cho các số nhỏ)
+      const numbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+      const num = parseInt(match);
+      return num >= 0 && num <= 10 ? numbers[num] : match;
+    })
+    .trim();
+}
+
+function switchApp() {
+  const selectedApp = document.getElementById('appSelector').value;
+  window.location.href = selectedApp;
+}
+
+function compareText(a, b) {
+  // Sử dụng thuật toán Levenshtein distance cải tiến
+  a = normalizeText(a);
+  b = normalizeText(b);
+  
+  // Nếu giống nhau hoàn toàn sau khi chuẩn hóa
+  if (a === b) return 100;
+  
+  // Kiểm tra nếu một chuỗi là tập con của chuỗi kia
+  if (a.includes(b) || b.includes(a)) return 90;
+  
+  // Tính điểm similarity dựa trên khoảng cách Levenshtein
+  let matrix = Array(a.length+1).fill(null).map(()=>Array(b.length+1).fill(0));
+  for(let i=0;i<=a.length;i++) matrix[i][0]=i;
+  for(let j=0;j<=b.length;j++) matrix[0][j]=j;
+  for(let i=1;i<=a.length;i++){
+    for(let j=1;j<=b.length;j++){
+      matrix[i][j]=a[i-1]==b[j-1]?matrix[i-1][j-1]:1+Math.min(
+        matrix[i-1][j], 
+        matrix[i][j-1], 
+        matrix[i-1][j-1]
+      );
+    }
+  }
+  const distance = matrix[a.length][b.length];
+  const maxLen = Math.max(a.length, b.length);
+  return Math.round(100 - (distance / maxLen) * 100);
+}
+</script>
+</body>
+</html>
