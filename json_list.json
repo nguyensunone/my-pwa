@@ -19,6 +19,11 @@
             "name": "TQT_read_write.json",
             "mapping": "mapping_TQT_read_write.json",
             "audio": "audio_TQT_read_write"
+        },
+        {
+            "name": "US_Citizenship_Interview_QA.json",
+            "mapping": "mapping_US_Citizenship_Interview_QA.json",
+            "audio": "audio_US_Citizenship_Interview_QA"
         }
     ]
 }
