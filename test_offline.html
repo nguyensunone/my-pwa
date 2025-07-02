@@ -30,7 +30,8 @@
             text-align: center;
         }     
         .term {
-            color: lightgreen;            
+            color: lightgreen;
+            font-weight: bold;
         }    
         .ipa {
             color: yellow;
@@ -229,10 +230,11 @@
 <body>
     <div style="position: fixed; top: 10px; right: 10px; z-index: 1000;">
         <select id="appSelector" onchange="switchApp()" style="padding: 8px; border-radius: 5px; background: #333; color: white;">
-            <option value="ViEnSpeaking.html">Luyện Nói Vi-En</option>
-            <option value="En_Spea_Writ.html">Nói Viết En</option>
-            <option value="test_offline.html" selected>Học Ngoại Ngữ</option>
-            <option value="EnAnswering.html">Trả Lời tiếng Anh</option>
+          <option value="">-- Select App --</option>
+          <option value="ViEnSpeaking.html">Luyện Nói Vi-En</option>
+          <option value="test_offline.html"selected>Học Ngoại Ngữ</option>
+          <option value="speaking_test.html">Kiểm Tra Nói</option>
+          <option value="help.html">Help/Trợ giúp</option>
         </select>
     </div>
 <div style="text-align: center;">
@@ -730,7 +732,8 @@
         const normalizedExpectedText = normalizeText(expectedText.toString().trim().toLowerCase());
 
         if (userAnswer === normalizedExpectedText) {
-            showNotification("\u0110\u00fang!", true);
+            showNotification("Đúng!", true);
+            
             playPronunciation(expectedText);
             if (audio) {
                 audio.once('end', function() {
@@ -751,35 +754,20 @@
                     }
                 }, 4000);
             }
+            
         } else {
             showNotification("Sai!", false);
             playPronunciation(expectedText);
-
-            // Hien thi cau sai mau do dam, to hon
-            document.getElementById('vocabLabel').innerHTML = `
-                <div class="card">
-                    <div style="color: red; font-size: 24px; padding: 10px; border-radius: 8px;">
-                        ${answerInput.value.trim()}
-                    </div>
-                    <span class="term" style="color: ${hiddenElements.term ? '#1c2025' : 'lightgreen'};">${word[0]}</span><br>
-                    <span class="ipa" style="color: ${hiddenElements.ipa ? '#1c2025' : 'yellow'};">${word[1]}</span><br>
-                    <span class="vietnamese" style="color: ${hiddenElements.vietnamese ? '#1c2025' : '#21a1f1'};">${word[2]}</span><br>
-                </div>
-            `;
         }
         answerInput.value = '';
         answerInput.classList.remove('typing', 'checked');
     }
 
-    // --- Trong ham checkAnswerBack() (cho V2)
     function checkAnswerBack() {
-        const writingInput = document.getElementById('writingCheckBack');
-        const userWrongInput = writingInput.value.trim(); // LƯU lại trước khi xóa
-        const userAnswerBack = normalizeText(userWrongInput.toLowerCase());
         const currentExample = normalizeText(vocabList[currentIndex][3].toString().trim().toLowerCase());
-
-        writingInput.value = "";
-        writingInput.classList.remove('typing', 'checked');
+        const userAnswerBack = normalizeText(document.getElementById("writingCheckBack").value.trim().toLowerCase());
+        document.getElementById("writingCheckBack").value = "";
+        document.getElementById("writingCheckBack").classList.remove('typing', 'checked');
 
         if (userAnswerBack === currentExample) {
             showNotification("Đúng!", true);
@@ -790,6 +778,7 @@
                     <span class="example_vi">${vocabList[currentIndex][5]}</span>
                 </div>
             `;
+            
             playPronunciation(vocabList[currentIndex][3]);
             if (audio) {
                 audio.once('end', function() {
@@ -802,20 +791,17 @@
                     nextWord();
                 }, 4000);
             }
+            
         } else {
-            showNotification("Sai!", false);
-            playPronunciation(vocabList[currentIndex][3]);
-
             document.getElementById('vocabLabel').innerHTML = `
                 <div class="card">
-                    <div style="color: red; font-size: 24px; padding: 10px; border-radius: 8px;">
-                        ${userWrongInput}
-                    </div>
                     <span class="example">${vocabList[currentIndex][3]}</span><br>
                     <span class="example_ipa">${vocabList[currentIndex][4]}</span><br>
                     <span class="example_vi">${vocabList[currentIndex][5]}</span>
                 </div>
             `;
+            showNotification("Sai!", false);
+            playPronunciation(vocabList[currentIndex][3]);
         }
     }
 
