@@ -11,6 +11,11 @@
             "audio": "audio_Bài 1"
         },
         {
+            "name": "Bài 10.json",
+            "mapping": "mapping_Bài 10.json",
+            "audio": "audio_Bài 10"
+        },
+        {
             "name": "Bài 2.json",
             "mapping": "mapping_Bài 2.json",
             "audio": "audio_Bài 2"
@@ -29,6 +34,21 @@
             "name": "Bài 6.json",
             "mapping": "mapping_Bài 6.json",
             "audio": "audio_Bài 6"
+        },
+        {
+            "name": "Bài 7.json",
+            "mapping": "mapping_Bài 7.json",
+            "audio": "audio_Bài 7"
+        },
+        {
+            "name": "Bài 8.json",
+            "mapping": "mapping_Bài 8.json",
+            "audio": "audio_Bài 8"
+        },
+        {
+            "name": "Bài 9.json",
+            "mapping": "mapping_Bài 9.json",
+            "audio": "audio_Bài 9"
         }
     ]
 }

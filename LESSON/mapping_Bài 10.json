@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "a_0_female",
+    "text": "曜日",
+    "file": "audio_Bài 10/gtts_female_0.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_0_male",
+    "text": "曜日",
+    "file": "audio_Bài 10/gtts_male_0.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_1_female",
+    "text": "時間",
+    "file": "audio_Bài 10/gtts_female_1.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_1_male",
+    "text": "時間",
+    "file": "audio_Bài 10/gtts_male_1.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_2_female",
+    "text": "費用",
+    "file": "audio_Bài 10/gtts_female_2.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_2_male",
+    "text": "費用",
+    "file": "audio_Bài 10/gtts_male_2.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_3_female",
+    "text": "毎月",
+    "file": "audio_Bài 10/gtts_female_3.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_3_male",
+    "text": "毎月",
+    "file": "audio_Bài 10/gtts_male_3.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_4_female",
+    "text": "第三木曜日",
+    "file": "audio_Bài 10/gtts_female_4.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_4_male",
+    "text": "第三木曜日",
+    "file": "audio_Bài 10/gtts_male_4.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_5_female",
+    "text": "公民館",
+    "file": "audio_Bài 10/gtts_female_5.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_5_male",
+    "text": "公民館",
+    "file": "audio_Bài 10/gtts_male_5.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_6_female",
+    "text": "問い合わせ",
+    "file": "audio_Bài 10/gtts_female_6.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_6_male",
+    "text": "問い合わせ",
+    "file": "audio_Bài 10/gtts_male_6.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_7_female",
+    "text": "十月スタート",
+    "file": "audio_Bài 10/gtts_female_7.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_7_male",
+    "text": "十月スタート",
+    "file": "audio_Bài 10/gtts_male_7.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_8_female",
+    "text": "旬",
+    "file": "audio_Bài 10/gtts_female_8.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_8_male",
+    "text": "旬",
+    "file": "audio_Bài 10/gtts_male_8.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_9_female",
+    "text": "味わう",
+    "file": "audio_Bài 10/gtts_female_9.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_9_male",
+    "text": "味わう",
+    "file": "audio_Bài 10/gtts_male_9.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_10_female",
+    "text": "全四回",
+    "file": "audio_Bài 10/gtts_female_10.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_10_male",
+    "text": "全四回",
+    "file": "audio_Bài 10/gtts_male_10.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_11_female",
+    "text": "調理室",
+    "file": "audio_Bài 10/gtts_female_11.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_11_male",
+    "text": "調理室",
+    "file": "audio_Bài 10/gtts_male_11.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_12_female",
+    "text": "各",
+    "file": "audio_Bài 10/gtts_female_12.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_12_male",
+    "text": "各",
+    "file": "audio_Bài 10/gtts_male_12.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_13_female",
+    "text": "先着",
+    "file": "audio_Bài 10/gtts_female_13.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_13_male",
+    "text": "先着",
+    "file": "audio_Bài 10/gtts_male_13.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_14_female",
+    "text": "書道",
+    "file": "audio_Bài 10/gtts_female_14.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_14_male",
+    "text": "書道",
+    "file": "audio_Bài 10/gtts_male_14.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_15_female",
+    "text": "日にち",
+    "file": "audio_Bài 10/gtts_female_15.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_15_male",
+    "text": "日にち",
+    "file": "audio_Bài 10/gtts_male_15.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_16_female",
+    "text": "テキスト代",
+    "file": "audio_Bài 10/gtts_female_16.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_16_male",
+    "text": "テキスト代",
+    "file": "audio_Bài 10/gtts_male_16.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_17_female",
+    "text": "外国人向け",
+    "file": "audio_Bài 10/gtts_female_17.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_17_male",
+    "text": "外国人向け",
+    "file": "audio_Bài 10/gtts_male_17.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_18_female",
+    "text": "体験教室",
+    "file": "audio_Bài 10/gtts_female_18.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_18_male",
+    "text": "体験教室",
+    "file": "audio_Bài 10/gtts_male_18.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_19_female",
+    "text": "身につける",
+    "file": "audio_Bài 10/gtts_female_19.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_19_male",
+    "text": "身につける",
+    "file": "audio_Bài 10/gtts_male_19.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_20_female",
+    "text": "月",
+    "file": "audio_Bài 10/gtts_female_20.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_20_male",
+    "text": "月",
+    "file": "audio_Bài 10/gtts_male_20.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_21_female",
+    "text": "テキスト",
+    "file": "audio_Bài 10/gtts_female_21.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_21_male",
+    "text": "テキスト",
+    "file": "audio_Bài 10/gtts_male_21.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_22_female",
+    "text": "道具",
+    "file": "audio_Bài 10/gtts_female_22.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_22_male",
+    "text": "道具",
+    "file": "audio_Bài 10/gtts_male_22.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_23_female",
+    "text": "各自",
+    "file": "audio_Bài 10/gtts_female_23.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_23_male",
+    "text": "各自",
+    "file": "audio_Bài 10/gtts_male_23.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_24_female",
+    "text": "見学",
+    "file": "audio_Bài 10/gtts_female_24.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_24_male",
+    "text": "見学",
+    "file": "audio_Bài 10/gtts_male_24.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_25_female",
+    "text": "申し込み",
+    "file": "audio_Bài 10/gtts_female_25.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_25_male",
+    "text": "申し込み",
+    "file": "audio_Bài 10/gtts_male_25.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_26_female",
+    "text": "お持ちください",
+    "file": "audio_Bài 10/gtts_female_26.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_26_male",
+    "text": "お持ちください",
+    "file": "audio_Bài 10/gtts_male_26.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_27_female",
+    "text": "参加されています",
+    "file": "audio_Bài 10/gtts_female_27.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_27_male",
+    "text": "参加されています",
+    "file": "audio_Bài 10/gtts_male_27.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_28_female",
+    "text": "いらしてください",
+    "file": "audio_Bài 10/gtts_female_28.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_28_male",
+    "text": "いらしてください",
+    "file": "audio_Bài 10/gtts_male_28.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_29_female",
+    "text": "かかる",
+    "file": "audio_Bài 10/gtts_female_29.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_29_male",
+    "text": "かかる",
+    "file": "audio_Bài 10/gtts_male_29.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_30_female",
+    "text": "合気道",
+    "file": "audio_Bài 10/gtts_female_30.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_30_male",
+    "text": "合気道",
+    "file": "audio_Bài 10/gtts_male_30.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_31_female",
+    "text": "一回完結",
+    "file": "audio_Bài 10/gtts_female_31.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_31_male",
+    "text": "一回完結",
+    "file": "audio_Bài 10/gtts_male_31.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_32_female",
+    "text": "体育室",
+    "file": "audio_Bài 10/gtts_female_32.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_32_male",
+    "text": "体育室",
+    "file": "audio_Bài 10/gtts_male_32.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_33_female",
+    "text": "動きやすい",
+    "file": "audio_Bài 10/gtts_female_33.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_33_male",
+    "text": "動きやすい",
+    "file": "audio_Bài 10/gtts_male_33.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_34_female",
+    "text": "道着",
+    "file": "audio_Bài 10/gtts_female_34.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_34_male",
+    "text": "道着",
+    "file": "audio_Bài 10/gtts_male_34.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_35_female",
+    "text": "かまいません",
+    "file": "audio_Bài 10/gtts_female_35.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_35_male",
+    "text": "かまいません",
+    "file": "audio_Bài 10/gtts_male_35.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_36_female",
+    "text": "必要ありません",
+    "file": "audio_Bài 10/gtts_female_36.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_36_male",
+    "text": "必要ありません",
+    "file": "audio_Bài 10/gtts_male_36.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_37_female",
+    "text": "参加する",
+    "file": "audio_Bài 10/gtts_female_37.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_37_male",
+    "text": "参加する",
+    "file": "audio_Bài 10/gtts_male_37.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_38_female",
+    "text": "クラス",
+    "file": "audio_Bài 10/gtts_female_38.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_38_male",
+    "text": "クラス",
+    "file": "audio_Bài 10/gtts_male_38.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_39_female",
+    "text": "必要",
+    "file": "audio_Bài 10/gtts_female_39.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_39_male",
+    "text": "必要",
+    "file": "audio_Bài 10/gtts_male_39.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_40_female",
+    "text": "最初",
+    "file": "audio_Bài 10/gtts_female_40.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_40_male",
+    "text": "最初",
+    "file": "audio_Bài 10/gtts_male_40.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_41_female",
+    "text": "あとは",
+    "file": "audio_Bài 10/gtts_female_41.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_41_male",
+    "text": "あとは",
+    "file": "audio_Bài 10/gtts_male_41.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_42_female",
+    "text": "聞く",
+    "file": "audio_Bài 10/gtts_female_42.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_42_male",
+    "text": "聞く",
+    "file": "audio_Bài 10/gtts_male_42.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_43_female",
+    "text": "払う",
+    "file": "audio_Bài 10/gtts_female_43.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_43_male",
+    "text": "払う",
+    "file": "audio_Bài 10/gtts_male_43.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_44_female",
+    "text": "興味がある",
+    "file": "audio_Bài 10/gtts_female_44.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_44_male",
+    "text": "興味がある",
+    "file": "audio_Bài 10/gtts_male_44.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_45_female",
+    "text": "それとも",
+    "file": "audio_Bài 10/gtts_female_45.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_45_male",
+    "text": "それとも",
+    "file": "audio_Bài 10/gtts_male_45.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_46_female",
+    "text": "コース",
+    "file": "audio_Bài 10/gtts_female_46.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_46_male",
+    "text": "コース",
+    "file": "audio_Bài 10/gtts_male_46.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_47_female",
+    "text": "全部",
+    "file": "audio_Bài 10/gtts_female_47.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_47_male",
+    "text": "全部",
+    "file": "audio_Bài 10/gtts_male_47.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_48_female",
+    "text": "用意する",
+    "file": "audio_Bài 10/gtts_female_48.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_48_male",
+    "text": "用意する",
+    "file": "audio_Bài 10/gtts_male_48.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_49_female",
+    "text": "もっと",
+    "file": "audio_Bài 10/gtts_female_49.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_49_male",
+    "text": "もっと",
+    "file": "audio_Bài 10/gtts_male_49.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_50_female",
+    "text": "週",
+    "file": "audio_Bài 10/gtts_female_50.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_50_male",
+    "text": "週",
+    "file": "audio_Bài 10/gtts_male_50.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_51_female",
+    "text": "何回",
+    "file": "audio_Bài 10/gtts_female_51.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_51_male",
+    "text": "何回",
+    "file": "audio_Bài 10/gtts_male_51.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_52_female",
+    "text": "ただ",
+    "file": "audio_Bài 10/gtts_female_52.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_52_male",
+    "text": "ただ",
+    "file": "audio_Bài 10/gtts_male_52.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_53_female",
+    "text": "チラシ",
+    "file": "audio_Bài 10/gtts_female_53.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_53_male",
+    "text": "チラシ",
+    "file": "audio_Bài 10/gtts_male_53.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_54_female",
+    "text": "持って来る",
+    "file": "audio_Bài 10/gtts_female_54.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_54_male",
+    "text": "持って来る",
+    "file": "audio_Bài 10/gtts_male_54.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_55_female",
+    "text": "きびしい",
+    "file": "audio_Bài 10/gtts_female_55.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_55_male",
+    "text": "きびしい",
+    "file": "audio_Bài 10/gtts_male_55.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_56_female",
+    "text": "申し込み書",
+    "file": "audio_Bài 10/gtts_female_56.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_56_male",
+    "text": "申し込み書",
+    "file": "audio_Bài 10/gtts_male_56.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_57_female",
+    "text": "紹介する",
+    "file": "audio_Bài 10/gtts_female_57.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_57_male",
+    "text": "紹介する",
+    "file": "audio_Bài 10/gtts_male_57.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_58_female",
+    "text": "母語",
+    "file": "audio_Bài 10/gtts_female_58.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_58_male",
+    "text": "母語",
+    "file": "audio_Bài 10/gtts_male_58.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_59_female",
+    "text": "どういう",
+    "file": "audio_Bài 10/gtts_female_59.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_59_male",
+    "text": "どういう",
+    "file": "audio_Bài 10/gtts_male_59.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_60_female",
+    "text": "意味",
+    "file": "audio_Bài 10/gtts_female_60.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_60_male",
+    "text": "意味",
+    "file": "audio_Bài 10/gtts_male_60.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_61_female",
+    "text": "使う",
+    "file": "audio_Bài 10/gtts_female_61.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_61_male",
+    "text": "使う",
+    "file": "audio_Bài 10/gtts_male_61.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_62_female",
+    "text": "前に",
+    "file": "audio_Bài 10/gtts_female_62.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_62_male",
+    "text": "前に",
+    "file": "audio_Bài 10/gtts_male_62.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  },
+  {
+    "id": "a_63_female",
+    "text": "どんなこと",
+    "file": "audio_Bài 10/gtts_female_63.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  {
+    "id": "a_63_male",
+    "text": "どんなこと",
+    "file": "audio_Bài 10/gtts_male_63.mp3",
+    "lang": "ja",
+    "type": "a",
+    "engine": "edge-tts",
+    "voice": "ja-JP-KeitaNeural"
+  }
+]
